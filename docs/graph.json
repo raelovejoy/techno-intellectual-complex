@@ -1,0 +1,2533 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "vivarium",
+        "label": "Vivarium SF",
+        "type": "organization",
+        "cluster": "hybrid-tech-culture",
+        "summary": "Semi-public collective of engineers and artists doing self-directed work; home, gathering space, and event venue.",
+        "philosophy": "mutual good; self-directed work",
+        "location": "San Francisco",
+        "sources": "S001"
+      }
+    },
+    {
+      "data": {
+        "id": "prototypesf",
+        "label": "PrototypeSF, LLC",
+        "type": "organization",
+        "cluster": "hybrid-tech-culture",
+        "summary": "Collaborative creative house/community emphasizing engineering, aesthetics, systems thinking, and high agency.",
+        "philosophy": "collaborative creative work; high agency; systems thinking",
+        "location": "San Francisco",
+        "sources": "S001|S002"
+      }
+    },
+    {
+      "data": {
+        "id": "noisebridge",
+        "label": "Noisebridge",
+        "type": "organization",
+        "cluster": "commons-hacker",
+        "summary": "Volunteer-driven hackerspace with explicit anarchist organizational influence.",
+        "philosophy": "anarchist organizational influence; consensus; do-ocracy",
+        "location": "San Francisco",
+        "sources": "S003"
+      }
+    },
+    {
+      "data": {
+        "id": "sudo-room",
+        "label": "Sudo Room",
+        "type": "organization",
+        "cluster": "commons-hacker",
+        "summary": "Open hackerspace linking technology with social justice, resilience, decentralization, sustainability, art, and solidarity.",
+        "philosophy": "horizontal organization; social justice; decentralization; solidarity",
+        "location": "Oakland",
+        "sources": "S004"
+      }
+    },
+    {
+      "data": {
+        "id": "omni-commons",
+        "label": "Omni Commons",
+        "type": "organization",
+        "cluster": "commons-hacker",
+        "summary": "Commons composed of Bay Area collectives, organized around commoning and collective stewardship.",
+        "philosophy": "commoning; collective stewardship; anti-corporate-profit orientation",
+        "location": "Oakland",
+        "sources": "S005"
+      }
+    },
+    {
+      "data": {
+        "id": "counter-culture-labs",
+        "label": "Counter Culture Labs",
+        "type": "organization",
+        "cluster": "open-science",
+        "summary": "Volunteer community biology lab aimed at democratizing biotech and scientific literacy.",
+        "philosophy": "open science; democratization of biotechnology; peer education",
+        "location": "Oakland",
+        "sources": "S006"
+      }
+    },
+    {
+      "data": {
+        "id": "biocurious",
+        "label": "BioCurious",
+        "type": "organization",
+        "cluster": "open-science",
+        "summary": "Community biotech lab offering open, affordable access to biology experimentation.",
+        "philosophy": "citizen science; open biology; access",
+        "location": "Silicon Valley",
+        "sources": "S007"
+      }
+    },
+    {
+      "data": {
+        "id": "humanmade",
+        "label": "Humanmade",
+        "type": "organization",
+        "cluster": "maker-workforce",
+        "summary": "Nonprofit maker and advanced-manufacturing hub combining public membership, workforce development, and startup support.",
+        "philosophy": "making; workforce development; access to manufacturing",
+        "location": "San Francisco",
+        "sources": "S008"
+      }
+    },
+    {
+      "data": {
+        "id": "circuit-launch",
+        "label": "Circuit Launch",
+        "type": "organization",
+        "cluster": "startup-hardware",
+        "summary": "Hardware coworking/prototyping community connecting companies to talent, capital, suppliers, and manufacturing.",
+        "philosophy": "hardware entrepreneurship; industry network",
+        "location": "Oakland / Mountain View",
+        "sources": "S009"
+      }
+    },
+    {
+      "data": {
+        "id": "twc",
+        "label": "Tech Workers Coalition \u2014 Bay Area",
+        "type": "organization",
+        "cluster": "labor-left",
+        "summary": "Tech-labor organizing community focused on worker power, political education, and collective action.",
+        "philosophy": "worker power; collective action; political education",
+        "location": "Bay Area",
+        "sources": "S010"
+      }
+    },
+    {
+      "data": {
+        "id": "techequity",
+        "label": "TechEquity Collaborative",
+        "type": "organization",
+        "cluster": "public-interest-tech",
+        "summary": "Advocacy/research organization working on technology's effects on labor, housing, and economic equity.",
+        "philosophy": "economic justice; anti-racism; systems change; accountable technology",
+        "location": "California",
+        "sources": "S011"
+      }
+    },
+    {
+      "data": {
+        "id": "gray-area",
+        "label": "Gray Area",
+        "type": "organization",
+        "cluster": "art-tech-counterculture",
+        "summary": "Cultural incubator integrating art, technology, science, and humanities toward equitable and regenerative futures.",
+        "philosophy": "antidisciplinary practice; equity; social transformation",
+        "location": "San Francisco",
+        "sources": "S012"
+      }
+    },
+    {
+      "data": {
+        "id": "eff",
+        "label": "Electronic Frontier Foundation",
+        "type": "organization",
+        "cluster": "digital-rights",
+        "summary": "Digital civil-liberties nonprofit focused on privacy, free expression, security research, and user rights.",
+        "philosophy": "civil liberties; privacy; free expression; encryption",
+        "location": "San Francisco",
+        "sources": "S013"
+      }
+    },
+    {
+      "data": {
+        "id": "cht",
+        "label": "Center for Humane Technology",
+        "type": "organization",
+        "cluster": "public-interest-tech",
+        "summary": "Nonprofit seeking to change incentives around consequential technology so it better serves society.",
+        "philosophy": "humane technology; public good; incentive reform",
+        "location": "San Francisco",
+        "sources": "S015"
+      }
+    },
+    {
+      "data": {
+        "id": "pai",
+        "label": "Partnership on AI",
+        "type": "organization",
+        "cluster": "responsible-ai",
+        "summary": "Multi-stakeholder nonprofit working on responsible AI practice and governance.",
+        "philosophy": "responsible AI; multi-stakeholder governance",
+        "location": "Global / Bay Area ties",
+        "sources": "S016"
+      }
+    },
+    {
+      "data": {
+        "id": "cltc",
+        "label": "UC Berkeley CLTC \u2014 AI Security Initiative",
+        "type": "organization",
+        "cluster": "public-interest-ai",
+        "summary": "AI risk-management program integrating technical security, ethics, law, cyber risk, and socioeconomic impacts.",
+        "philosophy": "public-interest AI safety; governance; security",
+        "location": "Berkeley",
+        "sources": "S042"
+      }
+    },
+    {
+      "data": {
+        "id": "dair",
+        "label": "Distributed AI Research Institute (DAIR)",
+        "type": "organization",
+        "cluster": "critical-ai",
+        "summary": "Independent community-rooted AI research institute; includes worker-centered AI/automation work.",
+        "philosophy": "community-rooted AI research; accountability",
+        "location": "Distributed",
+        "sources": "S043"
+      }
+    },
+    {
+      "data": {
+        "id": "luddite-lab",
+        "label": "Luddite Lab",
+        "type": "project",
+        "cluster": "labor-left",
+        "summary": "DAIR project for worker-led governance and oversight of AI and automation at work.",
+        "philosophy": "worker-led technology governance; labor power",
+        "location": "Distributed",
+        "sources": "S043"
+      }
+    },
+    {
+      "data": {
+        "id": "stop-ai-bay",
+        "label": "Stop AI Bay Area",
+        "type": "organization",
+        "cluster": "ai-opposition",
+        "summary": "Local organizing group opposing or seeking to halt advanced AI development; included as a contrast node.",
+        "philosophy": "AI opposition / precaution",
+        "location": "Bay Area",
+        "sources": "S085"
+      }
+    },
+    {
+      "data": {
+        "id": "long-now",
+        "label": "Long Now Foundation",
+        "type": "organization",
+        "cluster": "futures",
+        "summary": "Foundation promoting long-term thinking and responsibility over a 10,000-year horizon.",
+        "philosophy": "long-term thinking; responsibility",
+        "location": "San Francisco",
+        "sources": "S014|S088"
+      }
+    },
+    {
+      "data": {
+        "id": "iftf",
+        "label": "Institute for the Future",
+        "type": "organization",
+        "cluster": "futures",
+        "summary": "Long-running nonprofit futures research and foresight-training organization.",
+        "philosophy": "strategic foresight; futures thinking",
+        "location": "Palo Alto",
+        "sources": "S019"
+      }
+    },
+    {
+      "data": {
+        "id": "dweb",
+        "label": "DWeb",
+        "type": "network",
+        "cluster": "decentralization",
+        "summary": "Network connecting people, projects, and protocols working toward a private, resilient, open, decentralized web.",
+        "philosophy": "decentralization; privacy; openness; distributed infrastructure",
+        "location": "Global / SF node",
+        "sources": "S017"
+      }
+    },
+    {
+      "data": {
+        "id": "burning-man",
+        "label": "Burning Man Project",
+        "type": "organization",
+        "cluster": "counterculture",
+        "summary": "Nonprofit hub of the Burning Man cultural network and participatory community principles.",
+        "philosophy": "participation; gifting; radical self-expression; civic engagement",
+        "location": "San Francisco / Nevada",
+        "sources": "S018"
+      }
+    },
+    {
+      "data": {
+        "id": "embassy",
+        "label": "The Embassy",
+        "type": "community",
+        "cluster": "commons-intentional",
+        "summary": "Intentional community/commune explicitly exploring commons, commoning, shared surplus, and prefigurative projects.",
+        "philosophy": "commoning; prefigurative politics; shared life",
+        "location": "San Francisco",
+        "sources": "S055"
+      }
+    },
+    {
+      "data": {
+        "id": "the-commons",
+        "label": "The SF Commons",
+        "type": "organization",
+        "cluster": "meaning-community",
+        "summary": "A 'fourth place' and social movement for meaning-making, self/collective exploration, and community-created programming.",
+        "philosophy": "inner/outer transformation; abundance mindset; playful agency",
+        "location": "San Francisco",
+        "sources": "S053|S054"
+      }
+    },
+    {
+      "data": {
+        "id": "the-muse",
+        "label": "The Muse",
+        "type": "community",
+        "cluster": "intentional-community",
+        "summary": "Intentional community blending embodiment, social impact, optimistic future-building, and technology-adjacent interests.",
+        "philosophy": "intentional community; embodiment; social impact; optimism",
+        "location": "San Francisco",
+        "sources": "S099"
+      }
+    },
+    {
+      "data": {
+        "id": "foresight",
+        "label": "Foresight Institute",
+        "type": "organization",
+        "cluster": "frontier-progress",
+        "summary": "Frontier science/technology nonprofit active in secure AI, neurotech, longevity, nanotech, space, and existential hope.",
+        "philosophy": "frontier technology; existential hope; human flourishing",
+        "location": "San Francisco",
+        "sources": "S020|S068"
+      }
+    },
+    {
+      "data": {
+        "id": "roots-progress",
+        "label": "Roots of Progress Institute",
+        "type": "organization",
+        "cluster": "progress-studies",
+        "summary": "Nonprofit building an intellectual and social progress movement around material and technological progress.",
+        "philosophy": "progress studies; techno-humanism",
+        "location": "US / Bay Area network",
+        "sources": "S022|S023"
+      }
+    },
+    {
+      "data": {
+        "id": "astera",
+        "label": "Astera",
+        "type": "organization",
+        "cluster": "science-philanthropy",
+        "summary": "Privately funded science/philanthropy organization experimenting with new institutional models for research and funding.",
+        "philosophy": "institutional experimentation; accelerating progress; high-leverage science",
+        "location": "Bay Area",
+        "sources": "S024"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-city",
+        "label": "Edge City",
+        "type": "organization",
+        "cluster": "popup-society",
+        "summary": "Popup-village 'society incubator' for experiments across tech, science, governance, culture, crypto, biotech, and philosophy.",
+        "philosophy": "human flourishing; governance experimentation; techno-optimism",
+        "location": "Global / Northern California",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "california-forever",
+        "label": "California Forever",
+        "type": "company",
+        "cluster": "new-city",
+        "summary": "Private company developing a new-city and industrial development project north of San Francisco.",
+        "philosophy": "building/abundance rhetoric; new-city development",
+        "location": "Solano County",
+        "sources": "S025|S026"
+      }
+    },
+    {
+      "data": {
+        "id": "a16z",
+        "label": "Andreessen Horowitz (a16z)",
+        "type": "organization",
+        "cluster": "venture-capital",
+        "summary": "Venture-capital firm with an unusually explicit public ideological program around technology, abundance, competition, and growth.",
+        "philosophy": "techno-optimism; abundance; competition; growth",
+        "location": "Bay Area",
+        "sources": "S044"
+      }
+    },
+    {
+      "data": {
+        "id": "frontier-tower",
+        "label": "Frontier Tower",
+        "type": "organization",
+        "cluster": "vertical-village",
+        "summary": "16-floor frontier-tech community marketed as a self-governed vertical village spanning AI, biotech, robotics, art, longevity, and other themes.",
+        "philosophy": "cypherpunk tech; self-governance; network society; frontier tech",
+        "location": "San Francisco",
+        "sources": "S045|S046|S047"
+      }
+    },
+    {
+      "data": {
+        "id": "spc",
+        "label": "South Park Commons",
+        "type": "organization",
+        "cluster": "founder-network",
+        "summary": "Technical community and venture fund for founders, researchers, and technologists in an exploratory '-1 to 0' stage.",
+        "philosophy": "talent density; exploration; founder/researcher development",
+        "location": "San Francisco",
+        "sources": "S048|S080"
+      }
+    },
+    {
+      "data": {
+        "id": "cerebral-valley",
+        "label": "Cerebral Valley",
+        "type": "organization",
+        "cluster": "ai-industry-network",
+        "summary": "AI ecosystem builder offering events, recruiting, ecosystem development, market research, and compute brokering.",
+        "philosophy": "AI industry ecosystem-building; frontier builder network",
+        "location": "San Francisco / global",
+        "sources": "S049|S050"
+      }
+    },
+    {
+      "data": {
+        "id": "house-edge-node",
+        "label": "The House by Edge & Node",
+        "type": "organization",
+        "cluster": "crypto-ai-hub",
+        "summary": "Curated AI/crypto builder hub in the Presidio run by Edge & Node.",
+        "philosophy": "AI/crypto building; network density; emerging tech",
+        "location": "San Francisco",
+        "sources": "S059"
+      }
+    },
+    {
+      "data": {
+        "id": "agi-house",
+        "label": "AGI House",
+        "type": "organization",
+        "cluster": "ai-builder-network",
+        "summary": "AI builder/research community and event network.",
+        "philosophy": "AI building; founder/researcher community",
+        "location": "Bay Area",
+        "sources": "S027"
+      }
+    },
+    {
+      "data": {
+        "id": "ai-house",
+        "label": "The AI House",
+        "type": "organization",
+        "cluster": "ai-builder-network",
+        "summary": "Curated residency for AI founders, researchers, and creators with coworking, cohorts, hackathons, and fundraising support.",
+        "philosophy": "AI building; founder acceleration",
+        "location": "San Francisco",
+        "sources": "S061"
+      }
+    },
+    {
+      "data": {
+        "id": "sf-parc",
+        "label": "SF Parc",
+        "type": "community",
+        "cluster": "hacker-house",
+        "summary": "Creative-technologist hacker house in The Residency network, blending engineers, researchers, artists, and startup-building.",
+        "philosophy": "creative technology; human collaboration; ambitious building",
+        "location": "San Francisco",
+        "sources": "S056"
+      }
+    },
+    {
+      "data": {
+        "id": "mission-control",
+        "label": "Mission Control",
+        "type": "community",
+        "cluster": "hacker-house",
+        "summary": "Long-running founder/hacker house started by Thiel Fellows; community governance by resident voting is reported.",
+        "philosophy": "builder culture; communal governance",
+        "location": "San Francisco",
+        "sources": "S057|S058"
+      }
+    },
+    {
+      "data": {
+        "id": "vibe-house",
+        "label": "Vibe House SF",
+        "type": "community",
+        "cluster": "hacker-house",
+        "summary": "Curated space for exited/technical founders focused on 'vibe coding', performance, and builder culture.",
+        "philosophy": "founder elitism/selection; performance optimization; AI building",
+        "location": "San Francisco",
+        "sources": "S100"
+      }
+    },
+    {
+      "data": {
+        "id": "foundry",
+        "label": "The Foundry",
+        "type": "company",
+        "cluster": "coliving",
+        "summary": "Multi-house coliving network serving people seeking deep work and community.",
+        "philosophy": "deep work; community",
+        "location": "San Francisco",
+        "sources": "S101"
+      }
+    },
+    {
+      "data": {
+        "id": "shack15",
+        "label": "SHACK15",
+        "type": "organization",
+        "cluster": "social-club-tech",
+        "summary": "Private social/work club in the Ferry Building frequently used for startup and AI ecosystem events.",
+        "philosophy": "professional network / social club",
+        "location": "San Francisco",
+        "sources": "S081|S090"
+      }
+    },
+    {
+      "data": {
+        "id": "effective-altruism",
+        "label": "Effective Altruism",
+        "type": "movement",
+        "cluster": "ea",
+        "summary": "Philosophy and movement using reason and evidence to identify highly effective ways to help others.",
+        "philosophy": "cause prioritization; effectiveness; evidence and reason",
+        "location": "Global",
+        "sources": "S031"
+      }
+    },
+    {
+      "data": {
+        "id": "coefficient",
+        "label": "Coefficient Giving (formerly Open Philanthropy)",
+        "type": "organization",
+        "cluster": "ea-philanthropy",
+        "summary": "Large philanthropic funder using cause prioritization and cost-effectiveness across multiple cause areas including advanced AI risk.",
+        "philosophy": "high-impact philanthropy; cause prioritization; cost-effectiveness",
+        "location": "US / global",
+        "sources": "S032"
+      }
+    },
+    {
+      "data": {
+        "id": "80000-hours",
+        "label": "80,000 Hours",
+        "type": "organization",
+        "cluster": "ea-field-building",
+        "summary": "Career-research and advising organization focused on high-impact work, with major emphasis on advanced AI.",
+        "philosophy": "high-impact careers; EA; advanced-AI risk",
+        "location": "Global",
+        "sources": "S033"
+      }
+    },
+    {
+      "data": {
+        "id": "bluedot",
+        "label": "BlueDot Impact",
+        "type": "organization",
+        "cluster": "ai-safety-field-building",
+        "summary": "AI safety talent accelerator running courses, grants, recruitment/placement, incubator programs, and field-building.",
+        "philosophy": "advanced-AI risk; AI safety; talent field-building",
+        "location": "San Francisco / London",
+        "sources": "S034"
+      }
+    },
+    {
+      "data": {
+        "id": "mats",
+        "label": "MATS",
+        "type": "organization",
+        "cluster": "ai-safety-field-building",
+        "summary": "Seminar and mentorship program connecting emerging researchers with AI alignment, transparency, and security mentors.",
+        "philosophy": "AI alignment; transparency; security",
+        "location": "Berkeley / London",
+        "sources": "S035"
+      }
+    },
+    {
+      "data": {
+        "id": "constellation",
+        "label": "Constellation Institute",
+        "type": "organization",
+        "cluster": "ai-safety-field-building",
+        "summary": "Research center and field-building institution for transformative-AI safety, incubation, fellowships, and convening.",
+        "philosophy": "transformative-AI safety; catastrophic-risk mitigation",
+        "location": "Berkeley",
+        "sources": "S036"
+      }
+    },
+    {
+      "data": {
+        "id": "cais",
+        "label": "Center for AI Safety (CAIS)",
+        "type": "organization",
+        "cluster": "ai-safety-research",
+        "summary": "Research and field-building nonprofit focused on societal-scale risks from advanced AI.",
+        "philosophy": "societal-scale AI risk; technical safety; field-building",
+        "location": "San Francisco",
+        "sources": "S037"
+      }
+    },
+    {
+      "data": {
+        "id": "chai",
+        "label": "Center for Human-Compatible AI (CHAI)",
+        "type": "organization",
+        "cluster": "academic-ai-safety",
+        "summary": "Academic research center on provably beneficial and human-compatible AI.",
+        "philosophy": "beneficial AI; AI control; human compatibility",
+        "location": "Berkeley",
+        "sources": "S038"
+      }
+    },
+    {
+      "data": {
+        "id": "metr",
+        "label": "METR",
+        "type": "organization",
+        "cluster": "ai-evaluations",
+        "summary": "Nonprofit evaluating frontier-model autonomy and catastrophic-risk capabilities.",
+        "philosophy": "AI evaluations; catastrophic-risk measurement; governance",
+        "location": "Berkeley / Bay Area",
+        "sources": "S039"
+      }
+    },
+    {
+      "data": {
+        "id": "redwood",
+        "label": "Redwood Research",
+        "type": "organization",
+        "cluster": "ai-safety-research",
+        "summary": "Research nonprofit focused on catastrophic AI risks, AI control, and strategic deception.",
+        "philosophy": "AI control; misalignment; catastrophic-risk mitigation",
+        "location": "Berkeley",
+        "sources": "S040"
+      }
+    },
+    {
+      "data": {
+        "id": "far-ai",
+        "label": "FAR.AI",
+        "type": "organization",
+        "cluster": "ai-safety-research",
+        "summary": "AI-safety research nonprofit combining technical research, grants, events, and coworking.",
+        "philosophy": "advanced-AI safety; technical research; field-building",
+        "location": "Berkeley",
+        "sources": "S041"
+      }
+    },
+    {
+      "data": {
+        "id": "lightcone",
+        "label": "Lightcone Infrastructure",
+        "type": "organization",
+        "cluster": "rationalist-infrastructure",
+        "summary": "501(c)(3) operating LessWrong and Lighthaven and building infrastructure for long-term intellectual progress.",
+        "philosophy": "rationality infrastructure; long-term future",
+        "location": "Berkeley",
+        "sources": "S028|S029"
+      }
+    },
+    {
+      "data": {
+        "id": "lighthaven",
+        "label": "Lighthaven",
+        "type": "place",
+        "cluster": "rationalist-venue",
+        "summary": "Berkeley campus/event venue operated by Lightcone, hosting AI safety, rationalist, progress, longevity, and adjacent events.",
+        "philosophy": "intellectual progress; long-term trajectory",
+        "location": "Berkeley",
+        "sources": "S029"
+      }
+    },
+    {
+      "data": {
+        "id": "lesswrong",
+        "label": "LessWrong",
+        "type": "organization",
+        "cluster": "rationalist",
+        "summary": "Online community focused on rationality, reasoning, decision-making, and historically/currently AI alignment.",
+        "philosophy": "rationality; Bayesian reasoning; AI alignment",
+        "location": "Online / Bay Area",
+        "sources": "S030"
+      }
+    },
+    {
+      "data": {
+        "id": "miri",
+        "label": "Machine Intelligence Research Institute (MIRI)",
+        "type": "organization",
+        "cluster": "rationalist-ai-safety",
+        "summary": "Long-running AI alignment research organization with strong historical ties to the rationalist/AI-risk ecosystem.",
+        "philosophy": "AI alignment; existential risk",
+        "location": "Berkeley / Bay Area",
+        "sources": "S096"
+      }
+    },
+    {
+      "data": {
+        "id": "mox",
+        "label": "Mox",
+        "type": "organization",
+        "cluster": "ea-ai-safety-space",
+        "summary": "Community space/incubator describing itself as a gathering place for EAs, AI/AI-safety labs, independent researchers, builders, writers, and artists.",
+        "philosophy": "Effective Altruism community; AI safety field-building",
+        "location": "San Francisco",
+        "sources": "S051|S052"
+      }
+    },
+    {
+      "data": {
+        "id": "catalyze-impact",
+        "label": "Catalyze Impact",
+        "type": "organization",
+        "cluster": "ai-safety-field-building",
+        "summary": "Nonprofit incubator for new AI safety and security organizations.",
+        "philosophy": "AI safety entrepreneurship; security; field-building",
+        "location": "Bay Area / networked",
+        "sources": "S075|S094"
+      }
+    },
+    {
+      "data": {
+        "id": "timaeus",
+        "label": "Timaeus",
+        "type": "organization",
+        "cluster": "ai-safety-research",
+        "summary": "AI safety research organization appearing in Lighthaven entrepreneurship programming.",
+        "philosophy": "AI safety / interpretability",
+        "location": "Networked",
+        "sources": "S075|S095"
+      }
+    },
+    {
+      "data": {
+        "id": "ai-salon",
+        "label": "AI Salon",
+        "type": "community",
+        "cluster": "philosophy-ai",
+        "summary": "Community founded in San Francisco for intimate discussions about the sociological, economic, cultural, and philosophical meaning of AI.",
+        "philosophy": "pluralist AI discourse; sociotechnical reflection",
+        "location": "San Francisco / global",
+        "sources": "S070|S084"
+      }
+    },
+    {
+      "data": {
+        "id": "sf-intellectuals",
+        "label": "SF Intellectuals",
+        "type": "community",
+        "cluster": "philosophy-salon",
+        "summary": "Discussion group focused on earnest inquiry across philosophy, culture, and technology.",
+        "philosophy": "philosophical inquiry; culture; technology",
+        "location": "San Francisco",
+        "sources": "S070"
+      }
+    },
+    {
+      "data": {
+        "id": "superhuman-society",
+        "label": "SuperHuman Society",
+        "type": "community",
+        "cluster": "humanist-tech",
+        "summary": "Community promoting technology designed to expand human dignity, capability, connection, and flourishing.",
+        "philosophy": "superhumanism; human dignity; humane futures",
+        "location": "San Francisco",
+        "sources": "S071|S072"
+      }
+    },
+    {
+      "data": {
+        "id": "vitalist-bay",
+        "label": "Vitalist Bay",
+        "type": "community",
+        "cluster": "longevity",
+        "summary": "Immersive longevity zone/conference ecosystem spanning longevity science, AI\u00d7bio, cryonics/biostasis, and investing.",
+        "philosophy": "radical longevity; healthspan extension; vitalism",
+        "location": "Berkeley",
+        "sources": "S077|S092"
+      }
+    },
+    {
+      "data": {
+        "id": "a4li",
+        "label": "Alliance for Longevity Initiatives",
+        "type": "organization",
+        "cluster": "longevity-policy",
+        "summary": "Policy advocacy organization focused on extending healthy human lifespan.",
+        "philosophy": "longevity policy; healthspan extension",
+        "location": "US / Bay Area events",
+        "sources": "S093"
+      }
+    },
+    {
+      "data": {
+        "id": "manifest",
+        "label": "Manifest",
+        "type": "event-series",
+        "cluster": "forecasting-markets",
+        "summary": "Conference/community centered on prediction markets, forecasting, and adjacent rationalist/market-design culture.",
+        "philosophy": "forecasting; prediction markets",
+        "location": "Berkeley / Bay Area",
+        "sources": "S091"
+      }
+    },
+    {
+      "data": {
+        "id": "anarchism",
+        "label": "Anarchism",
+        "type": "movement",
+        "cluster": "political philosophy",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "anti-hierarchy; voluntary association",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "commons-horizontalism",
+        "label": "Commons / Horizontalism",
+        "type": "movement",
+        "cluster": "organizational philosophy",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "commoning; shared stewardship; horizontal governance",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "digital-civil-libertarianism",
+        "label": "Digital Civil Libertarianism",
+        "type": "movement",
+        "cluster": "political-technical current",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "privacy; free expression; encryption; user autonomy",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "public-interest-ai",
+        "label": "Public-Interest / Sociotechnical AI",
+        "type": "movement",
+        "cluster": "research/policy field",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "accountability; labor; civil rights; institutions; affected communities",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "advanced-ai-xrisk",
+        "label": "Advanced-AI / X-Risk Safety",
+        "type": "movement",
+        "cluster": "research field",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "catastrophic risk; alignment; control; evaluations",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "rationalism",
+        "label": "Rationalist Movement",
+        "type": "movement",
+        "cluster": "intellectual movement",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "Bayesian rationality; epistemics; decision theory",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "effective-altruism-movement",
+        "label": "Effective Altruism (movement node)",
+        "type": "movement",
+        "cluster": "intellectual/philanthropic movement",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "cause prioritization; effectiveness",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "progress-studies",
+        "label": "Progress Studies / Progress Movement",
+        "type": "movement",
+        "cluster": "intellectual movement",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "material progress; technological development",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "techno-optimism",
+        "label": "Techno-Optimism",
+        "type": "movement",
+        "cluster": "intellectual current",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "technology; abundance; growth",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "decentralization",
+        "label": "Decentralization / DWeb",
+        "type": "movement",
+        "cluster": "technical-political current",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "distributed infrastructure; privacy; open protocols",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "cypherpunk",
+        "label": "Cypherpunk",
+        "type": "movement",
+        "cluster": "technical-political current",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "cryptography; censorship resistance; privacy; permissionless systems",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "transhumanism",
+        "label": "Transhumanism / Human Enhancement",
+        "type": "movement",
+        "cluster": "intellectual movement",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "human enhancement; longevity; neurotechnology",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "longevity-vitalism",
+        "label": "Longevity / Vitalism",
+        "type": "movement",
+        "cluster": "movement",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "radical life extension; healthspan; anti-aging",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "counterculture-tech",
+        "label": "Tech-Counterculture",
+        "type": "movement",
+        "cluster": "cultural current",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "art-tech hybridity; experimentation; alternative social forms",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "founderism",
+        "label": "Founder / Startup Meritocracy",
+        "type": "movement",
+        "cluster": "institutional-cultural current",
+        "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
+        "philosophy": "selection for ambition; founder agency; venture-backed scaling",
+        "location": "",
+        "sources": ""
+      }
+    },
+    {
+      "data": {
+        "id": "allison-duettmann",
+        "label": "Allison Duettmann",
+        "type": "person",
+        "cluster": "frontier-progress",
+        "summary": "President/CEO of Foresight Institute.",
+        "philosophy": "frontier technology; existential hope",
+        "location": "San Francisco",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "christine-peterson",
+        "label": "Christine Peterson",
+        "type": "person",
+        "cluster": "frontier-progress",
+        "summary": "Co-founder of Foresight Institute.",
+        "philosophy": "nanotechnology; frontier technology",
+        "location": "Bay Area",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "eric-drexler",
+        "label": "Eric Drexler",
+        "type": "person",
+        "cluster": "frontier-progress",
+        "summary": "Co-founder of Foresight Institute; molecular nanotechnology figure.",
+        "philosophy": "nanotechnology",
+        "location": "Bay Area",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "jason-crawford",
+        "label": "Jason Crawford",
+        "type": "person",
+        "cluster": "progress-studies",
+        "summary": "Founder/president of Roots of Progress Institute.",
+        "philosophy": "progress studies; techno-humanism",
+        "location": "Bay Area / US",
+        "sources": "S022|S023|S080"
+      }
+    },
+    {
+      "data": {
+        "id": "patrick-collison",
+        "label": "Patrick Collison",
+        "type": "person",
+        "cluster": "tech-founder",
+        "summary": "Stripe co-founder; advisor to Roots of Progress and investor in California Forever.",
+        "philosophy": "",
+        "location": "Bay Area",
+        "sources": "S022|S026"
+      }
+    },
+    {
+      "data": {
+        "id": "tyler-cowen",
+        "label": "Tyler Cowen",
+        "type": "person",
+        "cluster": "progress-studies",
+        "summary": "Economist/writer; advisor to Roots of Progress.",
+        "philosophy": "",
+        "location": "US",
+        "sources": "S022"
+      }
+    },
+    {
+      "data": {
+        "id": "vitalik-buterin",
+        "label": "Vitalik Buterin",
+        "type": "person",
+        "cluster": "crypto-futurism",
+        "summary": "Ethereum co-founder; recurring participant in popup-society/decentralization ecosystems.",
+        "philosophy": "",
+        "location": "Global / Bay Area events",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "janine-leger",
+        "label": "Janine Leger",
+        "type": "person",
+        "cluster": "popup-society",
+        "summary": "Co-founder of Edge City; public-goods/community organizer.",
+        "philosophy": "community experimentation; public goods",
+        "location": "Global",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "timour-kosters",
+        "label": "Timour Kosters",
+        "type": "person",
+        "cluster": "popup-society",
+        "summary": "Co-founder of Edge City; startup/investor/community organizer.",
+        "philosophy": "community experimentation",
+        "location": "Global",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "jed-mccaleb",
+        "label": "Jed McCaleb",
+        "type": "person",
+        "cluster": "science-philanthropy",
+        "summary": "Co-founder/funder of Astera.",
+        "philosophy": "accelerating progress",
+        "location": "Bay Area",
+        "sources": "S024"
+      }
+    },
+    {
+      "data": {
+        "id": "seemay-chou",
+        "label": "Seemay Chou",
+        "type": "person",
+        "cluster": "science-philanthropy",
+        "summary": "Co-founder of Astera; scientist/institution builder.",
+        "philosophy": "science institutional reform",
+        "location": "Bay Area",
+        "sources": "S024"
+      }
+    },
+    {
+      "data": {
+        "id": "jan-sramek",
+        "label": "Jan Sramek",
+        "type": "person",
+        "cluster": "new-city",
+        "summary": "Founder and CEO of California Forever.",
+        "philosophy": "",
+        "location": "Solano County",
+        "sources": "S025"
+      }
+    },
+    {
+      "data": {
+        "id": "tristan-harris",
+        "label": "Tristan Harris",
+        "type": "person",
+        "cluster": "public-interest-tech",
+        "summary": "Co-founder and president of Center for Humane Technology.",
+        "philosophy": "humane technology",
+        "location": "San Francisco",
+        "sources": "S015"
+      }
+    },
+    {
+      "data": {
+        "id": "aza-raskin",
+        "label": "Aza Raskin",
+        "type": "person",
+        "cluster": "public-interest-tech",
+        "summary": "Co-founder of Center for Humane Technology.",
+        "philosophy": "humane technology",
+        "location": "San Francisco",
+        "sources": "S015"
+      }
+    },
+    {
+      "data": {
+        "id": "josette-melchor",
+        "label": "Josette Melchor",
+        "type": "person",
+        "cluster": "art-tech-counterculture",
+        "summary": "Founding executive director of Gray Area.",
+        "philosophy": "art-tech social transformation",
+        "location": "San Francisco",
+        "sources": "S012"
+      }
+    },
+    {
+      "data": {
+        "id": "catherine-bracy",
+        "label": "Catherine Bracy",
+        "type": "person",
+        "cluster": "public-interest-tech",
+        "summary": "Founder/CEO of TechEquity Collaborative.",
+        "philosophy": "economic equity; accountable tech",
+        "location": "California",
+        "sources": "S011"
+      }
+    },
+    {
+      "data": {
+        "id": "eliezer-yudkowsky",
+        "label": "Eliezer Yudkowsky",
+        "type": "person",
+        "cluster": "rationalist-ai-safety",
+        "summary": "Founder/early central writer of LessWrong and historical AI-risk/alignment figure.",
+        "philosophy": "rationality; AI alignment",
+        "location": "Bay Area / online",
+        "sources": "S030|S096"
+      }
+    },
+    {
+      "data": {
+        "id": "dan-hendrycks",
+        "label": "Dan Hendrycks",
+        "type": "person",
+        "cluster": "ai-safety",
+        "summary": "Executive/research director of Center for AI Safety.",
+        "philosophy": "societal-scale AI safety",
+        "location": "San Francisco",
+        "sources": "S037"
+      }
+    },
+    {
+      "data": {
+        "id": "buck-shlegeris",
+        "label": "Buck Shlegeris",
+        "type": "person",
+        "cluster": "ai-safety",
+        "summary": "CEO/board member of Redwood Research.",
+        "philosophy": "AI control; catastrophic AI risk",
+        "location": "Berkeley",
+        "sources": "S040"
+      }
+    },
+    {
+      "data": {
+        "id": "ryan-greenblatt",
+        "label": "Ryan Greenblatt",
+        "type": "person",
+        "cluster": "ai-safety",
+        "summary": "Chief scientist at Redwood Research.",
+        "philosophy": "AI control; catastrophic AI risk",
+        "location": "Berkeley",
+        "sources": "S040"
+      }
+    },
+    {
+      "data": {
+        "id": "adam-gleave",
+        "label": "Adam Gleave",
+        "type": "person",
+        "cluster": "ai-safety",
+        "summary": "Co-founder of FAR.AI and advisor/board member at METR.",
+        "philosophy": "AI safety",
+        "location": "Berkeley",
+        "sources": "S039|S041"
+      }
+    },
+    {
+      "data": {
+        "id": "jeremy-nixon",
+        "label": "Jeremy Nixon",
+        "type": "person",
+        "cluster": "ai-builder-network",
+        "summary": "Publicly associated with AGI House SF in hacker-house directories/reporting.",
+        "philosophy": "AI research community",
+        "location": "San Francisco",
+        "sources": "S060|S103"
+      }
+    },
+    {
+      "data": {
+        "id": "rachel-shu",
+        "label": "Rachel Shu",
+        "type": "person",
+        "cluster": "ea-ai-safety-space",
+        "summary": "Director/organizer associated with Mox's community and fundraising.",
+        "philosophy": "EA community; AI safety infrastructure",
+        "location": "San Francisco",
+        "sources": "S052"
+      }
+    },
+    {
+      "data": {
+        "id": "ian-eisenberg",
+        "label": "Ian Eisenberg",
+        "type": "person",
+        "cluster": "philosophy-ai",
+        "summary": "Organizer associated with AI Salon and The SF Commons.",
+        "philosophy": "AI/social philosophy; community",
+        "location": "San Francisco",
+        "sources": "S053|S070"
+      }
+    },
+    {
+      "data": {
+        "id": "banu-kellner",
+        "label": "Banu Kellner",
+        "type": "person",
+        "cluster": "humanist-tech",
+        "summary": "Founder of SuperHuman Society and author of a 'Superhumanist Manifesto'.",
+        "philosophy": "human dignity; human-centered technological development",
+        "location": "San Francisco",
+        "sources": "S071|S072"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "E001",
+        "source": "vivarium",
+        "target": "prototypesf",
+        "relationship": "OPERATED_BY",
+        "confidence": "confirmed",
+        "basis": "Vivarium states it is operated by PrototypeSF, LLC.",
+        "sources": "S001"
+      }
+    },
+    {
+      "data": {
+        "id": "E002",
+        "source": "noisebridge",
+        "target": "anarchism",
+        "relationship": "EXPLICITLY_INFLUENCED_BY",
+        "confidence": "confirmed",
+        "basis": "Noisebridge identifies anarchist organizational philosophy as a major influence.",
+        "sources": "S003"
+      }
+    },
+    {
+      "data": {
+        "id": "E003",
+        "source": "sudo-room",
+        "target": "commons-horizontalism",
+        "relationship": "EXPLICITLY_PRACTICES",
+        "confidence": "confirmed",
+        "basis": "Sudo Room describes horizontal, transparent organizing and solidarity/social-justice goals.",
+        "sources": "S004"
+      }
+    },
+    {
+      "data": {
+        "id": "E004",
+        "source": "omni-commons",
+        "target": "commons-horizontalism",
+        "relationship": "EXPLICITLY_PRACTICES",
+        "confidence": "confirmed",
+        "basis": "Omni explicitly centers commoning and collective stewardship.",
+        "sources": "S005"
+      }
+    },
+    {
+      "data": {
+        "id": "E005",
+        "source": "sudo-room",
+        "target": "omni-commons",
+        "relationship": "COLOCATED_WITH",
+        "confidence": "confirmed",
+        "basis": "Sudo Room is part of the Omni Commons ecosystem.",
+        "sources": "S004|S005"
+      }
+    },
+    {
+      "data": {
+        "id": "E006",
+        "source": "counter-culture-labs",
+        "target": "omni-commons",
+        "relationship": "LOCATED_AT",
+        "confidence": "confirmed",
+        "basis": "CCL describes its move into Omni Commons.",
+        "sources": "S006"
+      }
+    },
+    {
+      "data": {
+        "id": "E007",
+        "source": "counter-culture-labs",
+        "target": "sudo-room",
+        "relationship": "HISTORICALLY_CONNECTED_TO",
+        "confidence": "confirmed",
+        "basis": "CCL describes early meetings at Sudo Room.",
+        "sources": "S006"
+      }
+    },
+    {
+      "data": {
+        "id": "E008",
+        "source": "counter-culture-labs",
+        "target": "biocurious",
+        "relationship": "SISTER_LAB",
+        "confidence": "confirmed",
+        "basis": "CCL publicly calls BioCurious its sister lab.",
+        "sources": "S006"
+      }
+    },
+    {
+      "data": {
+        "id": "E009",
+        "source": "eff",
+        "target": "digital-civil-libertarianism",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "strong",
+        "basis": "EFF's mission centers civil liberties, privacy, expression, encryption and user rights.",
+        "sources": "S013"
+      }
+    },
+    {
+      "data": {
+        "id": "E010",
+        "source": "dweb",
+        "target": "decentralization",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "DWeb explicitly advocates decentralized, open, private infrastructure.",
+        "sources": "S017"
+      }
+    },
+    {
+      "data": {
+        "id": "E011",
+        "source": "embassy",
+        "target": "commons-horizontalism",
+        "relationship": "EXPLICITLY_PRACTICES",
+        "confidence": "confirmed",
+        "basis": "The Embassy describes its mission as building a commons and exploring commoning.",
+        "sources": "S055"
+      }
+    },
+    {
+      "data": {
+        "id": "E012",
+        "source": "twc",
+        "target": "public-interest-ai",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "Tech labor organizing is relevant to sociotechnical AI governance; not every TWC activity is AI-specific.",
+        "sources": "S010"
+      }
+    },
+    {
+      "data": {
+        "id": "E013",
+        "source": "techequity",
+        "target": "public-interest-ai",
+        "relationship": "EXPLICITLY_OVERLAPS_WITH",
+        "confidence": "strong",
+        "basis": "TechEquity centers structural economic impacts and accountable technology.",
+        "sources": "S011"
+      }
+    },
+    {
+      "data": {
+        "id": "E014",
+        "source": "cltc",
+        "target": "public-interest-ai",
+        "relationship": "EXPLICITLY_OVERLAPS_WITH",
+        "confidence": "confirmed",
+        "basis": "CLTC frames AI security/risk as public-interest, legal, ethical, cyber and socioeconomic.",
+        "sources": "S042"
+      }
+    },
+    {
+      "data": {
+        "id": "E015",
+        "source": "dair",
+        "target": "public-interest-ai",
+        "relationship": "EXPLICITLY_OVERLAPS_WITH",
+        "confidence": "strong",
+        "basis": "DAIR's worker/community-rooted work fits the sociotechnical/public-interest cluster.",
+        "sources": "S043"
+      }
+    },
+    {
+      "data": {
+        "id": "E016",
+        "source": "dair",
+        "target": "luddite-lab",
+        "relationship": "OPERATES",
+        "confidence": "confirmed",
+        "basis": "Luddite Lab is a DAIR project.",
+        "sources": "S043"
+      }
+    },
+    {
+      "data": {
+        "id": "E017",
+        "source": "luddite-lab",
+        "target": "twc",
+        "relationship": "IDEOLOGICALLY_ADJACENT",
+        "confidence": "inferred",
+        "basis": "Both center worker power over technology; no direct organizational tie asserted.",
+        "sources": "S010|S043"
+      }
+    },
+    {
+      "data": {
+        "id": "E018",
+        "source": "gray-area",
+        "target": "counterculture-tech",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "strong",
+        "basis": "Gray Area integrates art, technology, culture and social transformation.",
+        "sources": "S012"
+      }
+    },
+    {
+      "data": {
+        "id": "E019",
+        "source": "burning-man",
+        "target": "counterculture-tech",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "Burning Man is a major Bay Area countercultural network with extensive tech overlap; this edge is cultural, not ideological uniformity.",
+        "sources": "S018"
+      }
+    },
+    {
+      "data": {
+        "id": "E020",
+        "source": "long-now",
+        "target": "progress-studies",
+        "relationship": "DISTINCT_BUT_ADJACENT",
+        "confidence": "contextual",
+        "basis": "Both foreground the future and progress, but Long Now has a distinct intellectual lineage.",
+        "sources": "S014|S022"
+      }
+    },
+    {
+      "data": {
+        "id": "E021",
+        "source": "roots-progress",
+        "target": "progress-studies",
+        "relationship": "EXPLICITLY_BUILDS",
+        "confidence": "confirmed",
+        "basis": "Roots of Progress explicitly says it is building the progress movement.",
+        "sources": "S022"
+      }
+    },
+    {
+      "data": {
+        "id": "E022",
+        "source": "roots-progress",
+        "target": "techno-optimism",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "Its techno-humanist manifesto strongly favors technological progress while differing from other techno-optimist variants.",
+        "sources": "S023"
+      }
+    },
+    {
+      "data": {
+        "id": "E023",
+        "source": "a16z",
+        "target": "techno-optimism",
+        "relationship": "EXPLICITLY_ADVOCATES",
+        "confidence": "confirmed",
+        "basis": "a16z published an explicit Techno-Optimist Manifesto.",
+        "sources": "S044"
+      }
+    },
+    {
+      "data": {
+        "id": "E024",
+        "source": "frontier-tower",
+        "target": "cypherpunk",
+        "relationship": "EXPLICITLY_INFLUENCED_BY",
+        "confidence": "confirmed",
+        "basis": "Frontier Tower's founders explicitly describe a growing interest in a cypherpunk world.",
+        "sources": "S045"
+      }
+    },
+    {
+      "data": {
+        "id": "E025",
+        "source": "frontier-tower",
+        "target": "decentralization",
+        "relationship": "EXPLICITLY_ADVOCATES",
+        "confidence": "confirmed",
+        "basis": "Frontier Tower describes self-governance and Ethereum-L2-based governance ambitions.",
+        "sources": "S045"
+      }
+    },
+    {
+      "data": {
+        "id": "E026",
+        "source": "frontier-tower",
+        "target": "techno-optimism",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "Frontier Tower frames frontier technology and urban experimentation positively; exact ideology is broader than a16z-style techno-optimism.",
+        "sources": "S045|S046"
+      }
+    },
+    {
+      "data": {
+        "id": "E027",
+        "source": "california-forever",
+        "target": "a16z",
+        "relationship": "INVESTED_IN_BY",
+        "confidence": "confirmed",
+        "basis": "California Forever lists Andreessen Horowitz among investors.",
+        "sources": "S026"
+      }
+    },
+    {
+      "data": {
+        "id": "E028",
+        "source": "california-forever",
+        "target": "patrick-collison",
+        "relationship": "INVESTED_IN_BY",
+        "confidence": "confirmed",
+        "basis": "California Forever lists Patrick Collison among investors.",
+        "sources": "S026"
+      }
+    },
+    {
+      "data": {
+        "id": "E029",
+        "source": "roots-progress",
+        "target": "patrick-collison",
+        "relationship": "ADVISED_BY",
+        "confidence": "confirmed",
+        "basis": "Roots of Progress lists Patrick Collison as an advisor.",
+        "sources": "S022"
+      }
+    },
+    {
+      "data": {
+        "id": "E030",
+        "source": "roots-progress",
+        "target": "tyler-cowen",
+        "relationship": "ADVISED_BY",
+        "confidence": "confirmed",
+        "basis": "Roots of Progress lists Tyler Cowen as an advisor.",
+        "sources": "S022"
+      }
+    },
+    {
+      "data": {
+        "id": "E031",
+        "source": "roots-progress",
+        "target": "jason-crawford",
+        "relationship": "FOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Jason Crawford is founder/president.",
+        "sources": "S022"
+      }
+    },
+    {
+      "data": {
+        "id": "E032",
+        "source": "foresight",
+        "target": "allison-duettmann",
+        "relationship": "LED_BY",
+        "confidence": "confirmed",
+        "basis": "Foresight identifies Allison Duettmann as CEO.",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "E033",
+        "source": "foresight",
+        "target": "christine-peterson",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Foresight identifies Christine Peterson as co-founder.",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "E034",
+        "source": "foresight",
+        "target": "eric-drexler",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Foresight identifies Eric Drexler as co-founder.",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "E035",
+        "source": "astera",
+        "target": "jed-mccaleb",
+        "relationship": "COFOUNDED_FUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Astera identifies Jed McCaleb as co-founder/funder.",
+        "sources": "S024"
+      }
+    },
+    {
+      "data": {
+        "id": "E036",
+        "source": "astera",
+        "target": "seemay-chou",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Astera identifies Seemay Chou as co-founder.",
+        "sources": "S024"
+      }
+    },
+    {
+      "data": {
+        "id": "E037",
+        "source": "california-forever",
+        "target": "jan-sramek",
+        "relationship": "FOUNDED_LED_BY",
+        "confidence": "confirmed",
+        "basis": "California Forever identifies Jan Sramek as founder/CEO.",
+        "sources": "S025"
+      }
+    },
+    {
+      "data": {
+        "id": "E038",
+        "source": "edge-city",
+        "target": "janine-leger",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Edge City identifies Janine Leger as co-founder.",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "E039",
+        "source": "edge-city",
+        "target": "timour-kosters",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Edge City identifies Timour Kosters as co-founder.",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "E040",
+        "source": "edge-city",
+        "target": "vitalik-buterin",
+        "relationship": "PUBLIC_PARTICIPANT",
+        "confidence": "confirmed",
+        "basis": "Edge City lists/quotes Vitalik Buterin in its public ecosystem.",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "E041",
+        "source": "edge-city",
+        "target": "decentralization",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "Edge City's Zuzalu/crypto/governance ecosystem overlaps decentralization experiments.",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "E042",
+        "source": "spc",
+        "target": "jason-crawford",
+        "relationship": "HOSTED_SPEAKER",
+        "confidence": "confirmed",
+        "basis": "SPC hosted Crawford on human agency/progress in the intelligence age.",
+        "sources": "S080"
+      }
+    },
+    {
+      "data": {
+        "id": "E043",
+        "source": "mission-control",
+        "target": "founderism",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "Mission Control selects ambitious builders and has a venture-fund ecosystem, while retaining communal resident governance.",
+        "sources": "S057|S058"
+      }
+    },
+    {
+      "data": {
+        "id": "E044",
+        "source": "sf-parc",
+        "target": "founderism",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "SF Parc explicitly selects ambitious creative technologists and ties into The Residency.",
+        "sources": "S056"
+      }
+    },
+    {
+      "data": {
+        "id": "E045",
+        "source": "cerebral-valley",
+        "target": "founderism",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "strong",
+        "basis": "Cerebral Valley sells ecosystem-building, technical recruiting, and access to top AI builders/founders.",
+        "sources": "S049"
+      }
+    },
+    {
+      "data": {
+        "id": "E046",
+        "source": "house-edge-node",
+        "target": "decentralization",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "The House is run by Edge & Node / The Graph ecosystem and combines AI with crypto.",
+        "sources": "S059"
+      }
+    },
+    {
+      "data": {
+        "id": "E047",
+        "source": "house-edge-node",
+        "target": "founderism",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "strong",
+        "basis": "The House describes a curated builder/founder network where deals, hires, and companies are made.",
+        "sources": "S059"
+      }
+    },
+    {
+      "data": {
+        "id": "E048",
+        "source": "shack15",
+        "target": "cerebral-valley",
+        "relationship": "HOSTS_RECURRING_EVENTS_FOR",
+        "confidence": "confirmed",
+        "basis": "Cerebral Valley/open-source AI events are repeatedly held at SHACK15.",
+        "sources": "S081"
+      }
+    },
+    {
+      "data": {
+        "id": "E049",
+        "source": "agi-house",
+        "target": "founderism",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "AGI House is a curated AI builder/research community with startup/founder overlap.",
+        "sources": "S027"
+      }
+    },
+    {
+      "data": {
+        "id": "E050",
+        "source": "effective-altruism",
+        "target": "effective-altruism-movement",
+        "relationship": "IS",
+        "confidence": "confirmed",
+        "basis": "Movement/entity identity alias for graph organization.",
+        "sources": "S031"
+      }
+    },
+    {
+      "data": {
+        "id": "E051",
+        "source": "80000-hours",
+        "target": "effective-altruism-movement",
+        "relationship": "EXPLICITLY_PART_OF",
+        "confidence": "confirmed",
+        "basis": "80,000 Hours describes itself as part of the EA community.",
+        "sources": "S033"
+      }
+    },
+    {
+      "data": {
+        "id": "E052",
+        "source": "80000-hours",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_PART_OF",
+        "confidence": "confirmed",
+        "basis": "80,000 Hours also describes itself as part of the AI-safety community and focuses heavily on advanced AI.",
+        "sources": "S033"
+      }
+    },
+    {
+      "data": {
+        "id": "E053",
+        "source": "bluedot",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "BlueDot is an AI safety talent accelerator focused on advanced AI risk.",
+        "sources": "S034"
+      }
+    },
+    {
+      "data": {
+        "id": "E054",
+        "source": "mats",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "MATS trains researchers in alignment/transparency/security.",
+        "sources": "S035"
+      }
+    },
+    {
+      "data": {
+        "id": "E055",
+        "source": "constellation",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "Constellation focuses on transformative-AI safety and catastrophic-risk mitigation.",
+        "sources": "S036"
+      }
+    },
+    {
+      "data": {
+        "id": "E056",
+        "source": "cais",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "CAIS focuses on societal-scale risks from advanced AI.",
+        "sources": "S037"
+      }
+    },
+    {
+      "data": {
+        "id": "E057",
+        "source": "chai",
+        "target": "advanced-ai-xrisk",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "strong",
+        "basis": "CHAI addresses control/beneficial advanced AI, though its academic framing is broader than EA.",
+        "sources": "S038"
+      }
+    },
+    {
+      "data": {
+        "id": "E058",
+        "source": "metr",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "METR evaluates catastrophic-risk-relevant capabilities.",
+        "sources": "S039"
+      }
+    },
+    {
+      "data": {
+        "id": "E059",
+        "source": "redwood",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "Redwood focuses on catastrophic AI risk and control.",
+        "sources": "S040"
+      }
+    },
+    {
+      "data": {
+        "id": "E060",
+        "source": "far-ai",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "FAR.AI is an AI safety research/field-building organization.",
+        "sources": "S041"
+      }
+    },
+    {
+      "data": {
+        "id": "E061",
+        "source": "lesswrong",
+        "target": "rationalism",
+        "relationship": "EXPLICITLY_CENTRAL_TO",
+        "confidence": "confirmed",
+        "basis": "LessWrong is a central rationality community platform.",
+        "sources": "S030"
+      }
+    },
+    {
+      "data": {
+        "id": "E062",
+        "source": "lightcone",
+        "target": "lesswrong",
+        "relationship": "OPERATES",
+        "confidence": "confirmed",
+        "basis": "Lightcone operates LessWrong.",
+        "sources": "S028"
+      }
+    },
+    {
+      "data": {
+        "id": "E063",
+        "source": "lightcone",
+        "target": "lighthaven",
+        "relationship": "OPERATES",
+        "confidence": "confirmed",
+        "basis": "Lightcone operates Lighthaven.",
+        "sources": "S028|S029"
+      }
+    },
+    {
+      "data": {
+        "id": "E064",
+        "source": "miri",
+        "target": "rationalism",
+        "relationship": "HISTORICALLY_INTERTWINED_WITH",
+        "confidence": "strong",
+        "basis": "MIRI and LessWrong/rationalist AI-risk communities share an explicit historical lineage.",
+        "sources": "S030|S096"
+      }
+    },
+    {
+      "data": {
+        "id": "E065",
+        "source": "miri",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "MIRI is a long-running AI alignment/x-risk organization.",
+        "sources": "S096"
+      }
+    },
+    {
+      "data": {
+        "id": "E066",
+        "source": "lesswrong",
+        "target": "advanced-ai-xrisk",
+        "relationship": "MAJOR_DISCUSSION_HUB_FOR",
+        "confidence": "strong",
+        "basis": "LessWrong has long hosted extensive AI alignment/safety discourse.",
+        "sources": "S030"
+      }
+    },
+    {
+      "data": {
+        "id": "E067",
+        "source": "mox",
+        "target": "effective-altruism-movement",
+        "relationship": "EXPLICIT_COMMUNITY_SPACE_FOR",
+        "confidence": "confirmed",
+        "basis": "Mox describes itself as an EA community space.",
+        "sources": "S051|S052"
+      }
+    },
+    {
+      "data": {
+        "id": "E068",
+        "source": "mox",
+        "target": "advanced-ai-xrisk",
+        "relationship": "EXPLICIT_COMMUNITY_SPACE_FOR",
+        "confidence": "confirmed",
+        "basis": "Mox describes itself as a primary AI safety community/incubator space.",
+        "sources": "S051|S052"
+      }
+    },
+    {
+      "data": {
+        "id": "E069",
+        "source": "mox",
+        "target": "cais",
+        "relationship": "HOSTED_EVENT_FOR",
+        "confidence": "confirmed",
+        "basis": "CAIS Remote Labor Index presentation was hosted at Mox.",
+        "sources": "S074"
+      }
+    },
+    {
+      "data": {
+        "id": "E070",
+        "source": "lighthaven",
+        "target": "mats",
+        "relationship": "HOSTS_EVENTS_FOR",
+        "confidence": "confirmed",
+        "basis": "MATS participates in programming/events at Lighthaven.",
+        "sources": "S075"
+      }
+    },
+    {
+      "data": {
+        "id": "E071",
+        "source": "lighthaven",
+        "target": "catalyze-impact",
+        "relationship": "HOSTED_EVENT_FOR",
+        "confidence": "confirmed",
+        "basis": "Catalyze Impact hosted an AI safety entrepreneurship event at Lighthaven.",
+        "sources": "S075"
+      }
+    },
+    {
+      "data": {
+        "id": "E072",
+        "source": "catalyze-impact",
+        "target": "mats",
+        "relationship": "FEATURED_ORG_LEADER",
+        "confidence": "confirmed",
+        "basis": "Catalyze event featured MATS co-leadership.",
+        "sources": "S075"
+      }
+    },
+    {
+      "data": {
+        "id": "E073",
+        "source": "catalyze-impact",
+        "target": "timaeus",
+        "relationship": "FEATURED_ORG_LEADER",
+        "confidence": "confirmed",
+        "basis": "Catalyze event featured Timaeus co-founder/executive director.",
+        "sources": "S075"
+      }
+    },
+    {
+      "data": {
+        "id": "E074",
+        "source": "lighthaven",
+        "target": "vitalist-bay",
+        "relationship": "HOSTS_EVENTS_FOR",
+        "confidence": "confirmed",
+        "basis": "Vitalist Bay programming is hosted at Lighthaven.",
+        "sources": "S077"
+      }
+    },
+    {
+      "data": {
+        "id": "E075",
+        "source": "lighthaven",
+        "target": "manifest",
+        "relationship": "HOSTS_OR_ADJACENT_TO",
+        "confidence": "contextual",
+        "basis": "Lighthaven has hosted forecasting/prediction-market-adjacent programming; dedicated Manifest sourcing should be expanded.",
+        "sources": "S091"
+      }
+    },
+    {
+      "data": {
+        "id": "E076",
+        "source": "lighthaven",
+        "target": "roots-progress",
+        "relationship": "HOSTED_PROGRESS_EVENT",
+        "confidence": "confirmed",
+        "basis": "Progress Conference programming has been held at Lighthaven.",
+        "sources": "S079"
+      }
+    },
+    {
+      "data": {
+        "id": "E077",
+        "source": "foresight",
+        "target": "roots-progress",
+        "relationship": "EVENT_ECOSYSTEM_OVERLAP",
+        "confidence": "confirmed",
+        "basis": "Foresight's Paths to Progress event featured Jason Crawford / Roots of Progress.",
+        "sources": "S078"
+      }
+    },
+    {
+      "data": {
+        "id": "E078",
+        "source": "foresight",
+        "target": "far-ai",
+        "relationship": "EVENT_ECOSYSTEM_OVERLAP",
+        "confidence": "confirmed",
+        "basis": "Foresight event programming included FAR AI Labs representatives.",
+        "sources": "S078"
+      }
+    },
+    {
+      "data": {
+        "id": "E079",
+        "source": "ai-salon",
+        "target": "sf-intellectuals",
+        "relationship": "COHOSTED_WITH",
+        "confidence": "confirmed",
+        "basis": "The two groups co-hosted a public event.",
+        "sources": "S070"
+      }
+    },
+    {
+      "data": {
+        "id": "E080",
+        "source": "ai-salon",
+        "target": "superhuman-society",
+        "relationship": "COHOSTED_WITH",
+        "confidence": "confirmed",
+        "basis": "Multiple AI Salon events were co-hosted with SuperHuman Society.",
+        "sources": "S071|S072"
+      }
+    },
+    {
+      "data": {
+        "id": "E081",
+        "source": "superhuman-society",
+        "target": "the-commons",
+        "relationship": "COHOSTED_AT",
+        "confidence": "confirmed",
+        "basis": "Progress vs Flourishing event was hosted with/at The SF Commons.",
+        "sources": "S072"
+      }
+    },
+    {
+      "data": {
+        "id": "E082",
+        "source": "ai-salon",
+        "target": "the-commons",
+        "relationship": "COHOSTED_AT",
+        "confidence": "confirmed",
+        "basis": "AI Salon programming has appeared at The SF Commons.",
+        "sources": "S072"
+      }
+    },
+    {
+      "data": {
+        "id": "E083",
+        "source": "ai-salon",
+        "target": "public-interest-ai",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "AI Salon explicitly discusses sociological/economic/cultural impacts, but it is pluralist rather than a single political program.",
+        "sources": "S070|S084"
+      }
+    },
+    {
+      "data": {
+        "id": "E084",
+        "source": "superhuman-society",
+        "target": "transhumanism",
+        "relationship": "DISTINCT_BUT_ADJACENT",
+        "confidence": "contextual",
+        "basis": "SuperHuman Society uses 'superhumanist' language and human enhancement/dignity themes; do not equate automatically with classic transhumanism.",
+        "sources": "S071"
+      }
+    },
+    {
+      "data": {
+        "id": "E085",
+        "source": "vitalist-bay",
+        "target": "longevity-vitalism",
+        "relationship": "EXPLICITLY_ALIGNED_WITH",
+        "confidence": "confirmed",
+        "basis": "Vitalist Bay is an explicit longevity/vitalist gathering.",
+        "sources": "S077"
+      }
+    },
+    {
+      "data": {
+        "id": "E086",
+        "source": "foresight",
+        "target": "longevity-vitalism",
+        "relationship": "PROGRAMMATIC_FOCUS",
+        "confidence": "confirmed",
+        "basis": "Longevity biotechnology is one of Foresight's stated focus areas.",
+        "sources": "S020|S087"
+      }
+    },
+    {
+      "data": {
+        "id": "E087",
+        "source": "foresight",
+        "target": "transhumanism",
+        "relationship": "HISTORICALLY_ADJACENT",
+        "confidence": "contextual",
+        "basis": "Foresight's nanotech/longevity/human-enhancement ecosystem overlaps transhumanist currents; classify carefully.",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "E088",
+        "source": "the-commons",
+        "target": "counterculture-tech",
+        "relationship": "OVERLAPS_WITH",
+        "confidence": "contextual",
+        "basis": "The Commons hosts tech/art/philosophy programming in a community/meaning-making frame.",
+        "sources": "S053|S098"
+      }
+    },
+    {
+      "data": {
+        "id": "E089",
+        "source": "frontier-tower",
+        "target": "ai-salon",
+        "relationship": "HOSTS_SALON_STYLE_EVENTS",
+        "confidence": "contextual",
+        "basis": "Frontier Tower hosts intellectual salons; not necessarily AI Salon-branded.",
+        "sources": "S083"
+      }
+    },
+    {
+      "data": {
+        "id": "E090",
+        "source": "foresight",
+        "target": "allison-duettmann",
+        "relationship": "LED_BY",
+        "confidence": "confirmed",
+        "basis": "Public leadership role.",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "E091",
+        "source": "foresight",
+        "target": "christine-peterson",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder role.",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "E092",
+        "source": "foresight",
+        "target": "eric-drexler",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder role.",
+        "sources": "S020"
+      }
+    },
+    {
+      "data": {
+        "id": "E093",
+        "source": "roots-progress",
+        "target": "jason-crawford",
+        "relationship": "FOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder role.",
+        "sources": "S022"
+      }
+    },
+    {
+      "data": {
+        "id": "E094",
+        "source": "cht",
+        "target": "tristan-harris",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder role.",
+        "sources": "S015"
+      }
+    },
+    {
+      "data": {
+        "id": "E095",
+        "source": "cht",
+        "target": "aza-raskin",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder role.",
+        "sources": "S015"
+      }
+    },
+    {
+      "data": {
+        "id": "E096",
+        "source": "gray-area",
+        "target": "josette-melchor",
+        "relationship": "FOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder/executive role.",
+        "sources": "S012"
+      }
+    },
+    {
+      "data": {
+        "id": "E097",
+        "source": "techequity",
+        "target": "catherine-bracy",
+        "relationship": "FOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder/executive role.",
+        "sources": "S011"
+      }
+    },
+    {
+      "data": {
+        "id": "E098",
+        "source": "cais",
+        "target": "dan-hendrycks",
+        "relationship": "LED_BY",
+        "confidence": "confirmed",
+        "basis": "Public leadership role.",
+        "sources": "S037"
+      }
+    },
+    {
+      "data": {
+        "id": "E099",
+        "source": "redwood",
+        "target": "buck-shlegeris",
+        "relationship": "LED_BY",
+        "confidence": "confirmed",
+        "basis": "Public leadership role.",
+        "sources": "S040"
+      }
+    },
+    {
+      "data": {
+        "id": "E100",
+        "source": "redwood",
+        "target": "ryan-greenblatt",
+        "relationship": "RESEARCH_LEADERSHIP",
+        "confidence": "confirmed",
+        "basis": "Public leadership role.",
+        "sources": "S040"
+      }
+    },
+    {
+      "data": {
+        "id": "E101",
+        "source": "far-ai",
+        "target": "adam-gleave",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Public founder role.",
+        "sources": "S041"
+      }
+    },
+    {
+      "data": {
+        "id": "E102",
+        "source": "metr",
+        "target": "adam-gleave",
+        "relationship": "ADVISED_BY",
+        "confidence": "confirmed",
+        "basis": "Public advisor/board relationship.",
+        "sources": "S039"
+      }
+    },
+    {
+      "data": {
+        "id": "E103",
+        "source": "mox",
+        "target": "rachel-shu",
+        "relationship": "LED_ORGANIZED_BY",
+        "confidence": "confirmed",
+        "basis": "Mox fundraising identifies Rachel Shu as director.",
+        "sources": "S052"
+      }
+    },
+    {
+      "data": {
+        "id": "E104",
+        "source": "ai-salon",
+        "target": "ian-eisenberg",
+        "relationship": "ORGANIZED_BY",
+        "confidence": "confirmed",
+        "basis": "Public event host/organizer role.",
+        "sources": "S070"
+      }
+    },
+    {
+      "data": {
+        "id": "E105",
+        "source": "the-commons",
+        "target": "ian-eisenberg",
+        "relationship": "PUBLIC_TEAM_ORGANIZER",
+        "confidence": "strong",
+        "basis": "The Commons about page publicly features Ian Eisenberg.",
+        "sources": "S053"
+      }
+    },
+    {
+      "data": {
+        "id": "E106",
+        "source": "superhuman-society",
+        "target": "banu-kellner",
+        "relationship": "FOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "Event description identifies Kellner as founder.",
+        "sources": "S071"
+      }
+    },
+    {
+      "data": {
+        "id": "E107",
+        "source": "lesswrong",
+        "target": "eliezer-yudkowsky",
+        "relationship": "FOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "LessWrong history identifies Yudkowsky as founder/early central writer.",
+        "sources": "S030"
+      }
+    },
+    {
+      "data": {
+        "id": "E108",
+        "source": "miri",
+        "target": "eliezer-yudkowsky",
+        "relationship": "HISTORICALLY_LED_BY",
+        "confidence": "strong",
+        "basis": "Yudkowsky is a central historical MIRI figure; exact present governance should be checked before current-title claims.",
+        "sources": "S096"
+      }
+    },
+    {
+      "data": {
+        "id": "E109",
+        "source": "agi-house",
+        "target": "jeremy-nixon",
+        "relationship": "PUBLICLY_ASSOCIATED_WITH",
+        "confidence": "strong",
+        "basis": "Public directories/reporting associate Jeremy Nixon with AGI House SF.",
+        "sources": "S060|S103"
+      }
+    },
+    {
+      "data": {
+        "id": "E110",
+        "source": "edge-city",
+        "target": "vitalik-buterin",
+        "relationship": "PUBLIC_ECOSYSTEM_PARTICIPANT",
+        "confidence": "confirmed",
+        "basis": "Public Edge City material lists/quotes Buterin.",
+        "sources": "S021"
+      }
+    },
+    {
+      "data": {
+        "id": "E111",
+        "source": "california-forever",
+        "target": "patrick-collison",
+        "relationship": "INVESTOR",
+        "confidence": "confirmed",
+        "basis": "Public investor disclosure.",
+        "sources": "S026"
+      }
+    },
+    {
+      "data": {
+        "id": "E112",
+        "source": "roots-progress",
+        "target": "patrick-collison",
+        "relationship": "ADVISOR",
+        "confidence": "confirmed",
+        "basis": "Public advisor listing.",
+        "sources": "S022"
+      }
+    },
+    {
+      "data": {
+        "id": "E113",
+        "source": "roots-progress",
+        "target": "tyler-cowen",
+        "relationship": "ADVISOR",
+        "confidence": "confirmed",
+        "basis": "Public advisor listing.",
+        "sources": "S022"
+      }
+    }
+  ]
+}

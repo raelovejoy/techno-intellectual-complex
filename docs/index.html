@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Techno-Intellectual Complex</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="kicker">PUBLIC-INTEREST OSINT / SAN FRANCISCO BAY AREA</div>
+      <h1>The Techno-Intellectual Complex</h1>
+      <p>Mapping the people, institutions, money, spaces, events, and ideas shaping technology — and the future around it.</p>
+    </div>
+    <div class="warning">
+      <strong>Association ≠ endorsement.</strong><br>
+      Attendance, employment, funding, and ideological agreement are different relationships.
+    </div>
+  </header>
+
+  <main>
+    <aside>
+      <input id="search" placeholder="Search nodes…" autocomplete="off">
+      <label>Cluster</label>
+      <select id="cluster"><option value="">All clusters</option></select>
+      <label>Confidence</label>
+      <select id="confidence">
+        <option value="">All edges</option>
+        <option value="confirmed">Confirmed</option>
+        <option value="strong">Strong</option>
+        <option value="contextual">Contextual</option>
+        <option value="inferred">Inferred</option>
+      </select>
+      <button id="reset">Reset view</button>
+      <div class="legend">
+        <h3>How to read this</h3>
+        <p><b>Nodes</b> are entities, people, movements, spaces, or projects.</p>
+        <p><b>Edges</b> are typed relationships. Click anything for details.</p>
+        <p>v0.1 is intentionally broad and incomplete.</p>
+      </div>
+    </aside>
+
+    <section id="graph-wrap">
+      <div id="cy"></div>
+      <div id="detail">
+        <div class="kicker">SELECT A NODE OR EDGE</div>
+        <h2>Start with the network.</h2>
+        <p>The map is evidence-first: direct relationships, funding, leadership, events, venues, and explicit philosophical ties are distinguished from contextual or inferred relationships.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

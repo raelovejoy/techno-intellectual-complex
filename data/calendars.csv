@@ -1,0 +1,16 @@
+id,name,url,category,scope,source_id
+C001,Luma — San Francisco,https://luma.com/sf,broad,"SF events across tech, design, culture",S062
+C002,Luma — SF Tech,https://luma.com/discover/sf/tech,tech,Tech/startup/developer events,S063
+C003,AI Events — San Francisco (Superscout),https://luma.com/ai-sf,ai/startup,AI and startup events,S064
+C004,TechWeek.dev Calendar,https://www.techweek.dev/calendar,tech,Curated SF/Bay Area tech events,S065
+C005,AI Week SF,https://aiweeksf.com/,ai,Distributed AI event week / host discovery,S066
+C006,Bay Rationality Guide,https://www.bayrationality.com/,rationality/EA,"Community guide pointing to Bay rationality, EA, AI-safety spaces and events",S067
+C007,Foresight Institute Calendar,https://luma.com/foresightinstitute,frontier tech,"Secure AI, longevity, neurotech, nanotech, science funding",S068
+C008,Mox Calendar,https://luma.com/mox,EA/AI safety,"AI safety, EA, research, salon, community events",S051
+C009,Gray Area Events,https://grayarea.org/visit/events/,art-tech,Art/technology/counterculture events,S069
+C010,Long Now Events,https://longnow.org/events/,futures,Long-term thinking and intellectual events,S088
+C011,The SF Commons Events,https://www.thesfcommons.com/events,salon/community,"Philosophy, community, AI, art, wellness",S054
+C012,Hacker Houses Directory,https://hackerhouses.org/,hacker houses,Discovery of SF/Bay Area hacker houses and residency networks,S060
+C013,Cerebral Valley,https://cerebralvalley.ai/about,AI industry,AI builder/industry event and ecosystem discovery,S049
+C014,Frontier Tower event listings (via Luma),https://luma.com/user/frontiertower,frontier tech,"Tower-hosted public/community events; URL may change, search by presenter if needed",S082
+C015,SF Bay Area EA,https://luma.com/sf-bay-area-ea,EA,Local EA public events; verify current calendar slug before automation,S097
