@@ -29,3 +29,20 @@ Example:
 - `criticism`: what credible critics argue.
 
 Do not silently turn criticism into fact.
+
+## Documentation coherence
+
+When a canonical entity model, relationship type, methodology, architecture, workflow, or project relationship changes, check whether the change should propagate to the documents that help people discover and correctly understand it.
+
+As applicable, check:
+
+- the nearest README/index;
+- the root README;
+- current-state/status documentation;
+- roadmap/planning documentation;
+- architecture or decision records;
+- cross-project/ecosystem references.
+
+Do not update files mechanically or repeat the same explanation everywhere. The goal is **coherence without duplication**: important changes should be discoverable from the right entry points, while detailed material remains canonical in the most appropriate place.
+
+Pull requests should briefly state what changed, why, what was verified, which documentation surfaces were checked, and any unresolved questions.
