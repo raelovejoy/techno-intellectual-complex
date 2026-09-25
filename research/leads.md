@@ -86,3 +86,7 @@ These are **leads, not claims**.
 ## Rule
 
 A lead enters the canonical graph only after a sourced relationship is established.
+
+## Bay Area rationalist / EA / AI-safety audit queue (2026-09-25)
+
+The [first bounded seed](bay-area-rationalist-ai-safety-seed.md) records the sourced institutional history, the Lightcone–Plan A website collaboration, and their limits. Next: reconcile Lightcone/CFAR legal descriptions with dated records; verify completed rather than merely recommended grants; check current CFAR board roles against filings; identify LessWrong's legal transfer history; and audit earlier broad “overlap” edges against specific claims. Map the named Plan A production contributors as public professional roles only after deciding which specific roles and dates are useful. Keep event-host relationships separate from participant affiliations. Do not promote allegations or fringe groups into the graph from social proximity alone.

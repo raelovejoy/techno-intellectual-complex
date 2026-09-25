@@ -1,0 +1,27 @@
+# Bay Area rationalist / EA / AI-safety seed
+
+Checked 2026-09-25 (UTC). This is a **bounded institutional map**, not a characterization of everyone who attends an event, reads a site, works in AI safety, or participates in Effective Altruism. The underlying graph includes contrasting traditions, and this cluster is not representative of the entire field.
+
+## What the first audit establishes
+
+| Question | Narrow evidence | Graph rows |
+| --- | --- | --- |
+| Where did this discussion platform come from? | LessWrong's [2019 FAQ](https://www.lesswrong.com/posts/2rWKkWuPrgTMpLRbp/lesswrong-faq-1) describes Eliezer Yudkowsky as its 2009 founder and says the site was originally MIRI property when MIRI was called SIAI. [MIRI's own history](https://intelligence.org/about/) names Yudkowsky, Brian Atkins, and Sabine Atkins as its 2000 founders. This establishes historical institutional lineage, not current ownership or the views of site users. | E107, E108, E120 |
+| Who runs the forum and venue today? | [Lightcone lists](https://www.lightconeinfrastructure.com/) LessWrong and Lighthaven as its infrastructure. [Lighthaven says](https://lighthaven.space/) Lightcone runs the Berkeley venue. This does not establish the venue's property owner or the affiliations of its guests. | E062, E063 |
+| What is CFAR's connection to a public MIRI role? | [CFAR's mission page](https://www.rationality.org/about/mission) names Anna Salamon among its 2012 founders. [MIRI's team page](https://intelligence.org/team/) lists Salamon on its board at the check date. The dates of her MIRI board service were not determined. | E114, E115 |
+| Is there documented movement of people into grantmaking? | [Coefficient Giving's bio](https://coefficientgiving.org/team/luke-muehlhauser/) says Luke Muehlhauser was previously MIRI's executive director and joined the funder in 2015. It lists a current managing director role. This is public career history, not evidence that he made any specific grant decision. | E116, E117 |
+| What does the funding source actually say? | In a [2017 account of 2016 work](https://coefficientgiving.org/research/our-progress-in-2016-and-plans-for-2017/), Open Philanthropy (now Coefficient Giving) reported **grant recommendations** of $500,000 to MIRI and a combined $1.4 million for CFAR and SPARC. Its footnote says a recommendation could precede agreements, due diligence, and donor approval. This dataset does not assign the combined amount to CFAR alone or mark either payment as complete. | E118, E119 |
+| Who worked on the Plan A site? | [AI Futures Project says](https://ai-2040.com/about) that Plan A is its release and that it created the website in collaboration with Lightcone. It credits Raymond Arnold, Oliver Habryka, and Joanna Bregan of Lightcone with building and designing the site and giving content feedback. [Lightcone lists](https://www.lightconeinfrastructure.com/) AI 2040 among its design work. These statements establish a project collaboration, not policy authorship, shared governance, or funding. | E121, E122 |
+
+All rows above are marked `institutional_statement`. Each source can document what its publisher said; its underlying account may still need filings, grant records, independent reporting, or direct corrections. The graph's older rationalist/AI-safety rows remain `legacy_unreviewed` unless individually tagged `audited`.
+
+## Open questions before a wider graph
+
+1. **Legal structure:** [Lightcone's site](https://www.lightconeinfrastructure.com/) calls it a registered 501(c)(3) with its own EIN, while its [jobs page](https://www.lightconeinfrastructure.com/jobs.html) says it is a project by CFAR. CFAR's [sponsored-projects page](https://www.rationality.org/about/sponsored-projects) names SPARC but not Lightcone. These pages do not establish a consistent current relationship. Review dated filings and ask for clarification before encoding a CFAR–Lightcone edge.
+2. **Grant completion and influence:** Locate final grant records and terms before changing recommendation edges to completed funding. Funding alone does not show control of a recipient's research or policy positions.
+3. **Current roles:** The undated [CFAR staff page](https://www.rationality.org/about/staff) visibly includes old entries alongside current ones. Check filings or dated announcements before encoding current CFAR board titles from that page.
+4. **Ideas and policy:** Trace specific publications, citations, staff moves, and policy drafts before claiming that one community caused a particular idea or government policy. Include rival lineages and independent evidence.
+5. **Events and fringe offshoots:** Work from named public organizers and dated event records. Do not infer ideology from attendance or treat violent fringe actors as representative of a broader scene. Any allegations require their own attribution and review, outside this initial seed.
+6. **Plan A production and ideas:** The three named Lightcone contributors are leads for public professional roles, but separate their site work from authorship. Trace specific drafts and acknowledgments before making a claim about which ideas traveled between Lightcone and AI Futures Project.
+
+For a correction, cite the [edge ID and source location in an issue](https://github.com/raelovejoy/techno-intellectual-complex/issues/new/choose). See [Methodology](../METHODOLOGY.md) for the evidence and privacy rules.
