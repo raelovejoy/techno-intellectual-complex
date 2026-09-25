@@ -93,8 +93,33 @@
     const n=byId.get(id);
     if(!n){main.innerHTML=heading('Entity not found','This record may have moved. Browse the directory to find it.');return;}
     const related=edges.filter(e=>e.source===id||e.target===id).sort((a,b)=>(b.review_status==='audited')-(a.review_status==='audited'));
+    const other=e=>e.source===id?e.target:e.source;
+    const directIds=new Set(related.map(other));
+    const groups=[['People','person'],['Organizations','organization'],['Events','event'],['Projects, places & ideas','other']];
+    const groupsHtml=groups.map(([label,type])=>{
+      const rows=related.filter(e=>type==='other'?!['person','organization','event'].includes(byId.get(other(e)).type):byId.get(other(e)).type===type);
+      return rows.length?'<section><h2>'+label+' <span class="muted">'+new Set(rows.map(other)).size+'</span></h2>'+rows.map(e=>edgeRecord(e)).join('')+'</section>':'';
+    }).join('');
+    // These are paths through two explicit records, never invented direct associations.
+    const paths=new Map();
+    for(const first of related){
+      const via=other(first);
+      for(const second of edges){
+        if(second.source!==via&&second.target!==via)continue;
+        const end=second.source===via?second.target:second.source;
+        if(end===id||directIds.has(end))continue;
+        if(!paths.has(end))paths.set(end,[]);
+        const list=paths.get(end);
+        if(!list.some(p=>p.first.id===first.id&&p.second.id===second.id))list.push({via,first,second});
+      }
+    }
+    const contextual=[...paths.entries()].sort(([a],[b])=>byId.get(a).label.localeCompare(byId.get(b).label));
+    const contextHtml=contextual.length?'<section><h2>Connected through an intermediary <span class="muted">'+contextual.length+'</span></h2><p class="small muted">Two recorded relationships, not a direct affiliation. Event roles remain event-specific; other paths may include contextual or unreviewed claims.</p>'+contextual.map(([end,links])=>'<article class="relationship"><h3>'+entityLink(end)+'</h3><div class="meta">'+esc(human(byId.get(end).type))+'</div>'+links.map(p=>'<details><summary>Via '+esc(byId.get(p.via).label)+' · '+esc(human(p.second.relationship))+' · '+(p.first.review_status==='audited'&&p.second.review_status==='audited'?'both records audited':'includes review-pending record')+'</summary>'+edgeRecord(p.first)+edgeRecord(p.second)+'</details>').join('')+'</article>').join('')+'</section>':'';
+    const eventRows=(graph.events||[]).filter(e=>[e.venue_node_id,...e.host_node_ids.split('|'),...e.participant_org_ids.split('|')].includes(id));
+    const eventHtml=eventRows.length?'<section><h2>Event records <span class="muted">'+eventRows.length+'</span></h2>'+eventRows.map(e=>'<article class="relationship"><h3>'+esc(e.name)+'</h3><div class="meta">'+esc(e.date)+' · '+esc(e.city)+' · '+(e.review_status==='audited'?'listing reviewed '+esc(e.last_verified):'legacy record / review pending')+'</div><p>'+esc(e.topic)+'</p>'+(e.event_node_id?'<p>'+entityLink(e.event_node_id)+' — full listed roster</p>':'')+'<dl><dt>Recorded venue</dt><dd>'+(e.venue_node_id?entityLink(e.venue_node_id):'Not recorded')+'</dd><dt>Recorded hosts</dt><dd>'+e.host_node_ids.split('|').filter(Boolean).map(entityLink).join(', ')+'</dd><dt>Other listed organizations</dt><dd>'+(e.participant_org_ids.split('|').filter(Boolean).map(entityLink).join(', ')||'Not recorded')+'</dd></dl><details><summary>Event source and notes</summary><p>'+esc(e.notes)+'</p>'+sourceLinks(e.source_id)+'</details></article>').join('')+'</section>':'';
+    const peopleCount=new Set(related.filter(e=>byId.get(other(e)).type==='person').map(other)).size;
     document.title=n.label+' · Techno-Intellectual Atlas';
-    main.innerHTML=`<p><a href="${esc(url('directory'))}">← Directory</a></p>`+heading(n.label,human(n.type)+' / '+human(n.cluster))+`<div class="profile"><section><p>${esc(n.summary)}</p><div class="connection-links"><a href="${esc('#map?focus='+encodeURIComponent(id))}">View neighborhood map →</a></div><h2>Connections <span class="muted">${related.length}</span></h2><p class="small muted">Complete dossier: connections here include all review levels, regardless of browse filters.</p>${related.map(e=>edgeRecord(e)).join('')||'<p>No connections recorded.</p>'}</section><aside class="profile-side"><h2>Profile notes</h2><dl><dt>Location</dt><dd>${esc(n.location||'Not recorded')}</dd><dt>Philosophy note · not separately audited</dt><dd>${esc(n.philosophy||'Not recorded')}</dd><dt>Research notes</dt><dd>${esc(n.notes||'No additional notes')}</dd></dl><h2>Profile sources</h2>${sourceLinks(n.sources)}</aside></div>`;
+    main.innerHTML=`<p><a href="${esc(url('directory'))}">← Directory</a></p>`+heading(n.label,human(n.type)+' / '+human(n.cluster))+`<div class="profile"><section><p>${esc(n.summary)}</p><div class="connection-links"><a href="${esc('#map?focus='+encodeURIComponent(id)+'&depth=2')}">View expanded connections map →</a></div><p class="notice">Partial research coverage: ${directIds.size} directly connected entities · ${contextual.length} through an intermediary. Missing records do not mean no relationship exists.</p>${!peopleCount&&n.type==='organization'?'<p class="small muted">No direct person-role records captured yet. Any people shown through events or other organizations are not being presented as staff or members.</p>':''}<h2>Recorded direct relationships <span class="muted">${related.length}</span></h2><p class="small muted">All recorded relationships are shown, regardless of browse filters. Expand a record to inspect its sources and limits.</p>${groupsHtml||'<p>No direct relationships recorded.</p>'}${contextHtml}${eventHtml}</section><aside class="profile-side"><h2>Profile notes</h2><dl><dt>Location</dt><dd>${esc(n.location||'Not recorded')}</dd><dt>Philosophy note · not separately audited</dt><dd>${esc(n.philosophy||'Not recorded')}</dd><dt>Research notes</dt><dd>${esc(n.notes||'No additional notes')}</dd></dl><h2>Profile sources</h2>${sourceLinks(n.sources)}<h2>Coverage still needed</h2><p class="small muted">${n.type==='organization'?'Founders, current and former staff, board, funders, collaborators, and governance need systematic source review.':n.type==='person'?'Current and former roles, collaborations, publications, and publicly stated positions need systematic source review.':'Additional participants, dates, and relationship context may be missing.'} This is not a complete roster.</p></aside></div>`;
   }
   function relationshipView(selected,funding=false) {
     const rows=selected.edges.filter(e=>!funding || /FUND|GRANT|DONAT|SPONSOR|INVEST/.test(e.relationship));
@@ -102,10 +127,12 @@
   }
   function map(selected,focus) {
     const focal=byId.get(focus);
-    const mapEdges=focal?edges.filter(e=>matchesReview(e)&&(e.source===focus||e.target===focus)):selected.edges;
+    let mapEdges=focal?edges.filter(e=>matchesReview(e)&&(e.source===focus||e.target===focus)):selected.edges;
+    const expanded=state().query.get('depth')==='2';
+    if(focal&&expanded){const nearby=new Set(mapEdges.flatMap(e=>[e.source,e.target]));mapEdges=edges.filter(e=>matchesReview(e)&&(nearby.has(e.source)||nearby.has(e.target)));}
     const ids=new Set(mapEdges.flatMap(e=>[e.source,e.target]));
     if(focal)ids.add(focus);else selected.nodes.forEach(n=>ids.add(n.id));
-    main.innerHTML=heading(focal?focal.label+' / neighborhood':'Relationship map','Select a node for its dossier or a line for evidence. Search reveals matching entities and their neighbors.',ids.size+' entities')+'<div class="toolbar"><button id="fit-map">Fit map</button><button id="zoom-in" aria-label="Zoom in">Zoom +</button><button id="zoom-out" aria-label="Zoom out">Zoom −</button>'+(focal?'<a href="#map">Whole network</a>':'')+'</div><div class="map-legend"><span>Audited relationship</span><span>Review pending</span></div><div id="cy" role="img" aria-label="Interactive relationship network. All connections are also available in the accessible list below."></div><section class="map-detail" id="map-detail" aria-live="polite"><p class="muted">Select an entity or relationship to inspect it.</p></section><details><summary>Browse these connections as text ('+mapEdges.length+')</summary>'+mapEdges.map(e=>edgeRecord(e)).join('')+(mapEdges.length?'':'<p>No matching connections.</p>')+'</details>';
+    main.innerHTML=heading(focal?focal.label+' / neighborhood':'Relationship map','Select a node for its dossier or a line for evidence. Search reveals matching entities and their neighbors.',ids.size+' entities')+'<div class="toolbar"><button id="fit-map">Fit map</button><button id="zoom-in" aria-label="Zoom in">Zoom +</button><button id="zoom-out" aria-label="Zoom out">Zoom −</button>'+(focal?'<a href="'+esc(url('map',{focus,depth:expanded?'1':'2'}))+'">'+(expanded?'Direct neighbors only':'Include people and groups one step further')+'</a><a href="#map">Whole network</a>':'')+'</div><div class="map-legend"><span>Audited relationship</span><span>Review pending</span></div><div id="cy" role="img" aria-label="Interactive relationship network. All connections are also available in the accessible list below."></div><section class="map-detail" id="map-detail" aria-live="polite"><p class="muted">Select an entity or relationship to inspect it.</p></section><details><summary>Browse these connections as text ('+mapEdges.length+')</summary>'+mapEdges.map(e=>edgeRecord(e)).join('')+(mapEdges.length?'':'<p>No matching connections.</p>')+'</details>';
     if(typeof cytoscape==='undefined'){document.getElementById('cy').innerHTML='<p class="notice">The map library could not load. Use the connection list below or the directory.</p>';return;}
     const css=getComputedStyle(document.documentElement), color=v=>css.getPropertyValue(v).trim();
     cy=cytoscape({container:document.getElementById('cy'),elements:[...nodes.filter(n=>ids.has(n.id)).map(n=>({data:n})),...mapEdges.map(e=>({data:e}))],style:[
@@ -147,7 +174,7 @@
   function readRoute() {
     const s=state();fields.forEach(k=>controls[k].value=s.query.get(k)||'');page=0;render();
   }
-  fields.forEach(k=>controls[k].addEventListener(k==='search'?'input':'change',()=>{page=0;const s=state();history.replaceState(null,'',url(s.path,{focus:s.query.get('focus')}));render();}));
+  fields.forEach(k=>controls[k].addEventListener(k==='search'?'input':'change',()=>{page=0;const s=state();history.replaceState(null,'',url(s.path,{focus:s.query.get('focus'),depth:s.query.get('depth')}));render();}));
   document.getElementById('reset').onclick=()=>{fields.forEach(k=>controls[k].value='');page=0;history.replaceState(null,'',url(state().path));render();};
   main.addEventListener('click',event=>{const layoutButton=event.target.closest('[data-layout]'),pageButton=event.target.closest('[data-page]');if(layoutButton){layout=layoutButton.dataset.layout;render();}if(pageButton&&!pageButton.disabled){page=Number(pageButton.dataset.page);render();main.focus();main.scrollIntoView({block:'start'});}});
   window.addEventListener('hashchange',readRoute);

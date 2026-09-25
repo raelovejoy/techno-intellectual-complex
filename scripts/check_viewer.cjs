@@ -20,22 +20,24 @@ const context={document,location,history:{replaceState:(_,__,hash)=>{location.ha
 function route(hash){location.hash=hash;listeners.hashchange();}
 (async()=>{
   await vm.runInNewContext(fs.readFileSync('docs/app.js','utf8'),context);
-  assert.match(elements.content.innerHTML,/112 entities/);
+  assert.match(elements.content.innerHTML,/132 entities/);
   elements.search.value='Lightcone';elements.search.listeners.input();
   assert.match(elements.content.innerHTML,/Lightcone/);
   assert.ok(!elements.content.innerHTML.includes('Vivarium SF'));
   assert.match(location.hash,/search=Lightcone/);
-  route('#entity/lightcone');assert.match(elements.content.innerHTML,/Connections/);assert.match(elements.content.innerHTML,/Source|sources/);
-  for(const n of graph.nodes){route('#entity/'+encodeURIComponent(n.data.id));assert.ok(elements.content.innerHTML.includes('Complete dossier'));}
+  route('#entity/lightcone');assert.match(elements.content.innerHTML,/Recorded direct relationships/);assert.match(elements.content.innerHTML,/Source|sources/);
+  for(const n of graph.nodes){route('#entity/'+encodeURIComponent(n.data.id));assert.ok(elements.content.innerHTML.includes('Partial research coverage'));}
+  route('#entity/vivarium');assert.match(elements.content.innerHTML,/Esben Kran/);assert.match(elements.content.innerHTML,/Halcyon Futures/);assert.match(elements.content.innerHTML,/Connected through an intermediary/);assert.ok(!elements.content.innerHTML.includes('Complete dossier'));
   route('#entity/unknown');assert.match(elements.content.innerHTML,/Entity not found/);
   route('#entity/%ZZ');assert.match(elements.content.innerHTML,/Entity not found/);
   route('#map?focus=lightcone');assert.ok(mapElements.some(x=>x.data.id==='lightcone'));assert.ok(mapElements.some(x=>x.data.id==='ai-2040-plan-a'));
-  route('#relationships?review=audited');assert.match(elements.content.innerHTML,/13 records/);assert.ok(!elements.content.innerHTML.includes('Review pending'));
+  route('#map?focus=vivarium&depth=2');assert.ok(mapElements.some(x=>x.data.id==='esben-kran'));assert.ok(mapElements.some(x=>x.data.id==='halcyon-futures'));
+  route('#relationships?review=audited');assert.match(elements.content.innerHTML,/37 records/);assert.ok(!elements.content.innerHTML.includes('Review pending'));
   route('#funding?review=audited');assert.match(elements.content.innerHTML,/500,000/);assert.match(elements.content.innerHTML,/not confirmed payments/);assert.match(elements.content.innerHTML,/Not recorded/);
   route('#sources');assert.match(elements.content.innerHTML,/113 sources/);
-  route('#method');assert.match(elements.content.innerHTML,/109 relationships/);
+  route('#method');assert.match(elements.content.innerHTML,/108 relationships/);
   route('#directory?search=zzzzzzzz');assert.match(elements.content.innerHTML,/No records match/);
-  elements.reset.onclick();assert.match(elements.content.innerHTML,/112 entities/);
+  elements.reset.onclick();assert.match(elements.content.innerHTML,/132 entities/);
   elements.content.listeners.click({target:{closest:s=>s==='[data-layout]'?{dataset:{layout:'table'}}:null}});assert.match(elements.content.innerHTML,/<table>/);
   elements.content.listeners.click({target:{closest:s=>s==='[data-page]'?{dataset:{page:'1'},disabled:false}:null}});assert.match(elements.content.innerHTML,/Page 2/);
   elements.theme.listeners.click();assert.equal(document.documentElement.dataset.theme,'light');

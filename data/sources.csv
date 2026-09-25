@@ -1,5 +1,5 @@
 id,title,url,source_type,notes,published_date,last_checked
-S001,Vivarium — About,https://vivariumsf.com/about,primary,Vivarium self-description and operator.,,
+S001,Vivarium — About,https://vivariumsf.com/about,primary,Vivarium self-description and operator.,,2026-09-25
 S002,PrototypeSF — Home,https://www.prototypesf.org/,primary,PrototypeSF philosophy/community.,,
 S003,Noisebridge — Anarchy,https://www.noisebridge.net/wiki/Anarchy,primary/community,Explicit anarchist organizational influence.,,
 S004,Sudo Room — About,https://sudoroom.org/mediawiki/index.php?title=About,primary/community,Horizontal hackerspace/social justice framing.,,
@@ -102,7 +102,7 @@ S100,Vibe House SF,https://www.sfvibehouse.com/,primary,Exited-founder/vibe-codi
 S101,The Foundry — Home,https://foundry.today/,primary,SF coliving/hacker-house network.,,
 S102,SF Chronicle — SF tech dorms,https://www.sfchronicle.com/sf/article/tech-dorms-ai-boom-20242138.php,secondary,Coliving resurgence in AI/startup scene.,,
 S103,Business Insider — top SF hacker houses 2025,https://www.businessinsider.com/the-top-hacker-houses-in-san-francisco-for-2025-2025-4,secondary,Hacker-house landscape.,,
-S104,DEF/ACC Hackathon at Vivarium SF,https://luma.com/def-acc-hack-sf,event,BlueDot-presented defensive AI safety/security hackathon hosted at Vivarium.,,
+S104,DEF/ACC Hackathon at Vivarium SF,https://luma.com/def-acc-hack-sf,event,BlueDot-presented defensive AI safety/security hackathon hosted at Vivarium.,,2026-09-25
 S105,CFAR — Mission,https://www.rationality.org/about/mission,primary,"Mission, 2012 founding, institutional home statement.",,2026-09-25
 S106,MIRI — About and History,https://intelligence.org/about/,primary,"Founding and subsequent research/advocacy changes, in MIRI's own account.",,2026-09-25
 S107,Open Philanthropy (now Coefficient Giving) — 2016 Progress,https://coefficientgiving.org/research/our-progress-in-2016-and-plans-for-2017/,primary,"Grant recommendations, not necessarily completed grants; see footnote 1.",2017-03-14,2026-09-25

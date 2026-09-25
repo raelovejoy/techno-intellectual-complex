@@ -62,6 +62,21 @@ def build():
     node_index = indexed(nodes, "nodes")
     indexed(edges, "edges")
     sources = indexed(source_rows, "sources")
+    events = read_csv("events.csv")
+    indexed(events, "events")
+    for event in events:
+        source_ids(event["source_id"], event["id"], sources)
+        if event["review_status"] not in REVIEW_STATUSES:
+            raise ValueError(f"{event['id']}: invalid event review status")
+        check_date(event["last_verified"], event["id"], "last_verified", full=True)
+        if event["event_node_id"] and event["event_node_id"] not in node_index:
+            raise ValueError(f"{event['id']}: unknown event node")
+        if event["review_status"] == "audited" and not event["last_verified"]:
+            raise ValueError(f"{event['id']}: audited event needs a review date")
+        for field in ("venue_node_id", "host_node_ids", "participant_org_ids"):
+            for endpoint in filter(None, event[field].split("|")):
+                if endpoint not in node_index:
+                    raise ValueError(f"{event['id']}: unknown event endpoint {endpoint}")
 
     for source in source_rows:
         if not source["url"].startswith("https://"):
@@ -116,6 +131,7 @@ def build():
         }}
 
     graph = {
+        "events": events,
         "nodes": [node_element(row) for row in nodes],
         "edges": [edge_element(row) for row in edges],
         "sources": {row["id"]: {
