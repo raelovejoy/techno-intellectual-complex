@@ -30,7 +30,7 @@ function route(hash){location.hash=hash;listeners.hashchange();}
   route('#entity/vivarium');assert.match(elements.content.innerHTML,/Esben Kran/);assert.match(elements.content.innerHTML,/Halcyon Futures/);assert.match(elements.content.innerHTML,/Connected through an intermediary/);assert.ok(!elements.content.innerHTML.includes('Complete dossier'));
   route('#entity/unknown');assert.match(elements.content.innerHTML,/Entity not found/);
   route('#entity/%ZZ');assert.match(elements.content.innerHTML,/Entity not found/);
-  route('#map');assert.match(elements.content.innerHTML,/Vivarium SF \/ connection outline/);assert.ok(!elements.content.innerHTML.includes('<canvas'));
+  route('#map');assert.match(elements.content.innerHTML,/Network index/);assert.ok(!elements.content.innerHTML.includes('Open Vivarium outline'));assert.ok(!elements.content.innerHTML.includes(' selected'));
   route('#map?overview=1');assert.match(elements.content.innerHTML,/132 entities/);assert.match(elements.content.innerHTML,/Network index/);
   route('#map?focus=lightcone');assert.match(elements.content.innerHTML,/AI 2040/);
   route('#map?focus=vivarium&depth=2');assert.match(elements.content.innerHTML,/Esben Kran/);assert.match(elements.content.innerHTML,/Halcyon Futures/);assert.match(elements.content.innerHTML,/<details open>/);

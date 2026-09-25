@@ -126,8 +126,8 @@
     main.innerHTML=heading(funding?'Funding & investment':'Relationship ledger',funding?'Recorded financial ties, with the original direction and relationship type preserved.':'Every connection is a claim with its own evidence and review status.',rows.length+' records')+(funding?'<p class="notice funding-note">Grant recommendations are not confirmed payments. Missing amounts remain unknown; these records are not a complete funding history.</p>':'')+(rows.length?(funding?'<div class="table-wrap"><table><thead><tr><th>Relationship</th><th>Period</th><th>Amount (USD)</th><th>Evidence</th></tr></thead><tbody>'+rows.slice(page*size,(page+1)*size).map(e=>`<tr><td>${edgeTitle(e)}</td><td>${esc(e.date_start||'Not recorded')}${e.date_end?' – '+esc(e.date_end):''}</td><td class="amount">${e.amount_usd?'$'+Number(e.amount_usd).toLocaleString('en-US'):'Not recorded'}</td><td><details><summary>${badge(e)}</summary>${evidence(e)}</details></td></tr>`).join('')+'</tbody></table></div>':rows.slice(page*size,(page+1)*size).map(e=>edgeRecord(e)).join('')):empty)+pagination(rows.length);
   }
   function map(selected,focus) {
-    const query=state().query,overview=query.get('overview')==='1';
-    const focal=overview?null:(byId.get(focus)||selected.nodes.find(n=>n.id==='vivarium')||selected.nodes[0]);
+    const query=state().query,overview=query.get('overview')==='1'||!byId.has(focus);
+    const focal=overview?null:byId.get(focus);
     focus=focal?.id;
     const expanded=query.get('depth')==='2';
     const direct=focal?edges.filter(e=>matchesReview(e)&&(e.source===focus||e.target===focus)):[];
@@ -144,7 +144,7 @@
       return html;
     }).join('');
     main.innerHTML=heading(overview?'Network index':focal?focal.label+' / connection outline':'No matching entity',overview?'Choose an entity to follow its connections.':'Follow linked names or expand a branch. Each relationship keeps its direction, role, and source.',overview?selected.nodes.length+' entities':neighbors.length+' direct neighbors')+
-      '<label for="map-focus">Start with<select id="map-focus"><option value="">Choose an entity…</option>'+selected.nodes.map(n=>'<option value="'+esc(n.id)+'" '+(n.id===focus?'selected':'')+'>'+esc(n.label)+'</option>').join('')+'</select></label><div class="toolbar">'+(overview?'<a href="'+esc(url('map',{focus:'vivarium'}))+'">[Open Vivarium outline]</a>':'<a href="'+esc(url('map',{overview:'1'}))+'">[All entities]</a> <a href="'+esc(url('map',{focus,depth:expanded?'1':'2'}))+'">['+(expanded?'Collapse further connections':'Expand one step further')+']</a>')+'</div>'+
+      '<label for="map-focus">Start with<select id="map-focus"><option value="">Choose an entity…</option>'+selected.nodes.map(n=>'<option value="'+esc(n.id)+'" '+(n.id===focus?'selected':'')+'>'+esc(n.label)+'</option>').join('')+'</select></label><div class="toolbar">'+(overview?'':'<a href="'+esc(url('map',{overview:'1'}))+'">[All entities]</a> <a href="'+esc(url('map',{focus,depth:expanded?'1':'2'}))+'">['+(expanded?'Collapse further connections':'Expand one step further')+']</a>')+'</div>'+
       (overview?'<ul class="index-list">'+selected.nodes.map(n=>'<li><a href="'+esc(url('map',{focus:n.id}))+'">'+esc(n.label)+'</a> <span class="meta">'+esc(human(n.type))+'</span></li>').join('')+'</ul>':focal?'<section class="text-map" aria-label="Connection outline"><h2>'+entityLink(focus)+'</h2><ul class="outline">'+(branches||'<li>No matching relationships recorded.</li>')+'</ul></section>':empty);
     document.getElementById('map-focus').onchange=event=>{if(event.target.value)location.hash=url('map',{focus:event.target.value});};
   }
