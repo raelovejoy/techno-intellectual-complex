@@ -74,7 +74,11 @@ This is **not an exhaustive list**. New nodes should normally enter the graph be
 
 ## Website
 
-The prototype in `docs/` is designed to work as a GitHub Pages site.
+The atlas in `docs/` provides a card/table directory, linked entity dossiers, an interactive relationship map, a relationship ledger, funding records, and a source library. Each view reads the same generated `docs/graph.json`. Filters are included in the URL; dossier URLs can be bookmarked.
+
+Run locally with `python3 -m http.server 8000 --directory docs`, then open `http://localhost:8000`. Validate with `python3 scripts/build_graph.py --check`, `node --check docs/app.js`, and `node scripts/check_viewer.cjs`. The smoke checks cover navigation and data behavior, not visual layout.
+
+The static site can also be hosted on GitHub Pages:
 
 After pushing the repo:
 

@@ -1,65 +1,32 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>The Techno-Intellectual Complex</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An evidence-led atlas of people, institutions, ideas, and funding shaping technology. Explore dossiers, relationships, and their sources.">
+<title>Techno-Intellectual Atlas</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23131b20'/%3E%3Cpath d='M8 9L24 16L10 25Z' fill='none' stroke='%2394e2bd' stroke-width='2'/%3E%3Cg fill='%2394e2bd'%3E%3Ccircle cx='8' cy='9' r='3'/%3E%3Ccircle cx='24' cy='16' r='3'/%3E%3Ccircle cx='10' cy='25' r='3'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+<script defer src="app.js"></script>
 </head>
 <body>
-  <header>
-    <div>
-      <div class="kicker">PUBLIC-INTEREST OSINT / SAN FRANCISCO BAY AREA</div>
-      <h1>The Techno-Intellectual Complex</h1>
-      <p>Mapping the people, institutions, money, spaces, events, and ideas shaping technology — and the future around it.</p>
-    </div>
-    <div class="warning">
-      <strong>Association ≠ endorsement.</strong><br>
-      Attendance, employment, funding, and ideological agreement are different relationships.
-    </div>
-  </header>
-
-  <main>
-    <aside>
-      <label for="search">Search nodes</label>
-      <input id="search" placeholder="Search nodes…" autocomplete="off">
-      <label for="cluster">Cluster</label>
-      <select id="cluster"><option value="">All clusters</option></select>
-      <label for="confidence">Confidence</label>
-      <select id="confidence">
-        <option value="">All edges</option>
-        <option value="confirmed">Confirmed</option>
-        <option value="strong">Strong</option>
-        <option value="contextual">Contextual</option>
-        <option value="inferred">Inferred</option>
-      </select>
-      <label for="review">Evidence review</label>
-      <select id="review">
-        <option value="">All edges</option>
-        <option value="audited">Audited only</option>
-        <option value="legacy_unreviewed">Legacy review pending</option>
-      </select>
-      <button id="reset">Reset view</button>
-      <div class="legend">
-        <h3>How to read this</h3>
-        <p><b>Nodes</b> are entities, people, movements, spaces, or projects.</p>
-        <p><b>Edges</b> are typed relationships. Click anything for details.</p>
-        <p>Most legacy edges still need a claim-level audit. Green edges have source locations, review dates, and limits. Click an edge for links.</p>
-        <p><a href="https://github.com/raelovejoy/techno-intellectual-complex/blob/main/METHODOLOGY.md">Method and corrections</a> · <a href="https://github.com/raelovejoy/techno-intellectual-complex/issues/new/choose">Suggest a correction</a></p>
-      </div>
-    </aside>
-
-    <section id="graph-wrap">
-      <div id="cy"></div>
-      <div id="detail" aria-live="polite">
-        <div class="kicker">SELECT A NODE OR EDGE</div>
-        <h2>Start with the network.</h2>
-        <p>The map is evidence-first: direct relationships, funding, leadership, events, venues, and explicit philosophical ties are distinguished from contextual or inferred relationships.</p>
-      </div>
-    </section>
-  </main>
-
-  <script src="app.js"></script>
-</body>
-</html>
+<a class="skip" href="#content">Skip to results</a>
+<header class="masthead"><a class="brand" href="#directory"><span class="brand-mark" aria-hidden="true">T / I</span><span>Techno-Intellectual<span class="brand-sub">Atlas / working research</span></span></a><button id="theme" aria-label="Switch color theme">Theme: dark</button></header>
+<nav class="views" aria-label="Atlas views"><a href="#directory">Directory</a><a href="#map">Map</a><a href="#relationships">Relationships</a><a href="#funding">Funding</a><a href="#sources">Sources</a><a href="#method">Method</a></nav>
+<div class="workspace">
+<aside class="filters" aria-label="Search and filters">
+<p class="eyebrow">Explore the atlas</p>
+<label for="search">Search</label><input id="search" type="search" placeholder="People, groups, ideas…" autocomplete="off">
+<label for="cluster">Research cluster</label><select id="cluster"><option value="">All clusters</option></select>
+<label for="type">Entity type</label><select id="type"><option value="">All types</option></select>
+<label for="review">Relationship review</label><select id="review"><option value="">All records</option><option value="audited">Audited</option><option value="legacy_unreviewed">Review pending</option></select>
+<label for="confidence">Recorded confidence</label><select id="confidence"><option value="">All confidence levels</option><option value="confirmed">Confirmed</option><option value="strong">Strong</option><option value="contextual">Contextual</option><option value="inferred">Inferred</option></select>
+<button id="reset">Clear filters</button>
+<p class="small muted">Confidence labels are separate from source review. Association does not establish agreement.</p>
+<a class="small" href="https://github.com/raelovejoy/techno-intellectual-complex" target="_blank" rel="noopener">Research repository ↗</a>
+</aside>
+<main id="content" tabindex="-1"><p role="status">Loading research records…</p></main>
+</div>
+<footer><span id="dataset-status">Loading dataset</span><a href="https://github.com/raelovejoy/techno-intellectual-complex/issues/new/choose" target="_blank" rel="noopener">Suggest a correction ↗</a></footer>
+<noscript>This atlas needs JavaScript. Read the CSV data and research notes in <a href="https://github.com/raelovejoy/techno-intellectual-complex/tree/main/data">the repository</a>.</noscript>
+</body></html>
