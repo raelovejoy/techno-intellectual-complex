@@ -5,7 +5,7 @@
   const controls = Object.fromEntries(fields.map(id => [id,document.getElementById(id)]));
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const human = value => String(value || '').replace(/[_-]/g,' ').toLowerCase();
-  let graph, cy, layout = 'cards', page = 0;
+  let graph, layout = 'table', page = 0;
   const size = 24;
   const themeButton = document.getElementById('theme');
   function setTheme(value) {
@@ -15,7 +15,7 @@
   }
   let initialTheme;
   try { initialTheme = localStorage.getItem('atlas-theme'); } catch {}
-  setTheme(initialTheme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'));
+  setTheme(initialTheme || 'light');
   themeButton.addEventListener('click', () => {setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'); render();});
   try {
     const response = await fetch('graph.json');
@@ -84,7 +84,7 @@
   const empty = '<p class="empty">No records match these filters. Try a broader search or clear the filters.</p>';
   function directory(selected) {
     const rows=selected.nodes.slice(page*size,(page+1)*size);
-    main.innerHTML=heading('People, institutions & ideas','Open a dossier to follow its relationships and inspect the evidence.',selected.nodes.length+' entities')+`<div class="toolbar" aria-label="Directory layout"><button data-layout="cards" aria-pressed="${layout==='cards'}">Cards</button><button data-layout="table" aria-pressed="${layout==='table'}">Table</button></div>`+(rows.length?(layout==='cards'?'<div class="grid">'+rows.map(n=>{
+    main.innerHTML=heading('People, institutions & ideas','Open a dossier to follow its relationships and inspect the evidence.',selected.nodes.length+' entities')+`<div class="toolbar" aria-label="Directory layout"><button data-layout="cards" aria-pressed="${layout==='cards'}">List</button><button data-layout="table" aria-pressed="${layout==='table'}">Table</button></div>`+(rows.length?(layout==='cards'?'<div class="grid">'+rows.map(n=>{
       const count=edges.filter(e=>e.source===n.id||e.target===n.id).length;
       return `<a class="card" href="${esc(url('entity/'+encodeURIComponent(n.id)))}"><div class="meta">${esc(human(n.type))} / ${esc(human(n.cluster))}</div><h2 style="margin:0 0 12px">${esc(n.label)}</h2><p>${esc(n.summary)}</p><span class="meta">${count} connections · Open dossier →</span></a>`;
     }).join('')+'</div>':'<div class="table-wrap"><table><thead><tr><th>Entity</th><th>Type / cluster</th><th>Summary</th></tr></thead><tbody>'+rows.map(n=>`<tr><td>${entityLink(n.id)}</td><td>${esc(human(n.type))}<br><span class="meta">${esc(human(n.cluster))}</span></td><td>${esc(n.summary)}</td></tr>`).join('')+'</tbody></table></div>'):empty)+pagination(selected.nodes.length);
@@ -119,33 +119,34 @@
     const eventHtml=eventRows.length?'<section><h2>Event records <span class="muted">'+eventRows.length+'</span></h2>'+eventRows.map(e=>'<article class="relationship"><h3>'+esc(e.name)+'</h3><div class="meta">'+esc(e.date)+' · '+esc(e.city)+' · '+(e.review_status==='audited'?'listing reviewed '+esc(e.last_verified):'legacy record / review pending')+'</div><p>'+esc(e.topic)+'</p>'+(e.event_node_id?'<p>'+entityLink(e.event_node_id)+' — full listed roster</p>':'')+'<dl><dt>Recorded venue</dt><dd>'+(e.venue_node_id?entityLink(e.venue_node_id):'Not recorded')+'</dd><dt>Recorded hosts</dt><dd>'+e.host_node_ids.split('|').filter(Boolean).map(entityLink).join(', ')+'</dd><dt>Other listed organizations</dt><dd>'+(e.participant_org_ids.split('|').filter(Boolean).map(entityLink).join(', ')||'Not recorded')+'</dd></dl><details><summary>Event source and notes</summary><p>'+esc(e.notes)+'</p>'+sourceLinks(e.source_id)+'</details></article>').join('')+'</section>':'';
     const peopleCount=new Set(related.filter(e=>byId.get(other(e)).type==='person').map(other)).size;
     document.title=n.label+' · Techno-Intellectual Atlas';
-    main.innerHTML=`<p><a href="${esc(url('directory'))}">← Directory</a></p>`+heading(n.label,human(n.type)+' / '+human(n.cluster))+`<div class="profile"><section><p>${esc(n.summary)}</p><div class="connection-links"><a href="${esc('#map?focus='+encodeURIComponent(id)+'&depth=2')}">View expanded connections map →</a></div><p class="notice">Partial research coverage: ${directIds.size} directly connected entities · ${contextual.length} through an intermediary. Missing records do not mean no relationship exists.</p>${!peopleCount&&n.type==='organization'?'<p class="small muted">No direct person-role records captured yet. Any people shown through events or other organizations are not being presented as staff or members.</p>':''}<h2>Recorded direct relationships <span class="muted">${related.length}</span></h2><p class="small muted">All recorded relationships are shown, regardless of browse filters. Expand a record to inspect its sources and limits.</p>${groupsHtml||'<p>No direct relationships recorded.</p>'}${contextHtml}${eventHtml}</section><aside class="profile-side"><h2>Profile notes</h2><dl><dt>Location</dt><dd>${esc(n.location||'Not recorded')}</dd><dt>Philosophy note · not separately audited</dt><dd>${esc(n.philosophy||'Not recorded')}</dd><dt>Research notes</dt><dd>${esc(n.notes||'No additional notes')}</dd></dl><h2>Profile sources</h2>${sourceLinks(n.sources)}<h2>Coverage still needed</h2><p class="small muted">${n.type==='organization'?'Founders, current and former staff, board, funders, collaborators, and governance need systematic source review.':n.type==='person'?'Current and former roles, collaborations, publications, and publicly stated positions need systematic source review.':'Additional participants, dates, and relationship context may be missing.'} This is not a complete roster.</p></aside></div>`;
+    main.innerHTML=`<p><a href="${esc(url('directory'))}">← Directory</a></p>`+heading(n.label,human(n.type)+' / '+human(n.cluster))+`<div class="profile"><section><p>${esc(n.summary)}</p><div class="connection-links"><a href="${esc('#map?focus='+encodeURIComponent(id))}">Explore connections →</a></div><p class="notice">Partial research coverage: ${directIds.size} directly connected entities · ${contextual.length} through an intermediary. Missing records do not mean no relationship exists.</p>${!peopleCount&&n.type==='organization'?'<p class="small muted">No direct person-role records captured yet. Any people shown through events or other organizations are not being presented as staff or members.</p>':''}<h2>Recorded direct relationships <span class="muted">${related.length}</span></h2><p class="small muted">All recorded relationships are shown, regardless of browse filters. Expand a record to inspect its sources and limits.</p>${groupsHtml||'<p>No direct relationships recorded.</p>'}${contextHtml}${eventHtml}</section><aside class="profile-side"><h2>Profile notes</h2><dl><dt>Location</dt><dd>${esc(n.location||'Not recorded')}</dd><dt>Philosophy note · not separately audited</dt><dd>${esc(n.philosophy||'Not recorded')}</dd><dt>Research notes</dt><dd>${esc(n.notes||'No additional notes')}</dd></dl><h2>Profile sources</h2>${sourceLinks(n.sources)}<h2>Coverage still needed</h2><p class="small muted">${n.type==='organization'?'Founders, current and former staff, board, funders, collaborators, and governance need systematic source review.':n.type==='person'?'Current and former roles, collaborations, publications, and publicly stated positions need systematic source review.':'Additional participants, dates, and relationship context may be missing.'} This is not a complete roster.</p></aside></div>`;
   }
   function relationshipView(selected,funding=false) {
     const rows=selected.edges.filter(e=>!funding || /FUND|GRANT|DONAT|SPONSOR|INVEST/.test(e.relationship));
     main.innerHTML=heading(funding?'Funding & investment':'Relationship ledger',funding?'Recorded financial ties, with the original direction and relationship type preserved.':'Every connection is a claim with its own evidence and review status.',rows.length+' records')+(funding?'<p class="notice funding-note">Grant recommendations are not confirmed payments. Missing amounts remain unknown; these records are not a complete funding history.</p>':'')+(rows.length?(funding?'<div class="table-wrap"><table><thead><tr><th>Relationship</th><th>Period</th><th>Amount (USD)</th><th>Evidence</th></tr></thead><tbody>'+rows.slice(page*size,(page+1)*size).map(e=>`<tr><td>${edgeTitle(e)}</td><td>${esc(e.date_start||'Not recorded')}${e.date_end?' – '+esc(e.date_end):''}</td><td class="amount">${e.amount_usd?'$'+Number(e.amount_usd).toLocaleString('en-US'):'Not recorded'}</td><td><details><summary>${badge(e)}</summary>${evidence(e)}</details></td></tr>`).join('')+'</tbody></table></div>':rows.slice(page*size,(page+1)*size).map(e=>edgeRecord(e)).join('')):empty)+pagination(rows.length);
   }
   function map(selected,focus) {
-    const focal=byId.get(focus);
-    let mapEdges=focal?edges.filter(e=>matchesReview(e)&&(e.source===focus||e.target===focus)):selected.edges;
-    const expanded=state().query.get('depth')==='2';
-    if(focal&&expanded){const nearby=new Set(mapEdges.flatMap(e=>[e.source,e.target]));mapEdges=edges.filter(e=>matchesReview(e)&&(nearby.has(e.source)||nearby.has(e.target)));}
-    const ids=new Set(mapEdges.flatMap(e=>[e.source,e.target]));
-    if(focal)ids.add(focus);else selected.nodes.forEach(n=>ids.add(n.id));
-    main.innerHTML=heading(focal?focal.label+' / neighborhood':'Relationship map','Select a node for its dossier or a line for evidence. Search reveals matching entities and their neighbors.',ids.size+' entities')+'<div class="toolbar"><button id="fit-map">Fit map</button><button id="zoom-in" aria-label="Zoom in">Zoom +</button><button id="zoom-out" aria-label="Zoom out">Zoom −</button>'+(focal?'<a href="'+esc(url('map',{focus,depth:expanded?'1':'2'}))+'">'+(expanded?'Direct neighbors only':'Include people and groups one step further')+'</a><a href="#map">Whole network</a>':'')+'</div><div class="map-legend"><span>Audited relationship</span><span>Review pending</span></div><div id="cy" role="img" aria-label="Interactive relationship network. All connections are also available in the accessible list below."></div><section class="map-detail" id="map-detail" aria-live="polite"><p class="muted">Select an entity or relationship to inspect it.</p></section><details><summary>Browse these connections as text ('+mapEdges.length+')</summary>'+mapEdges.map(e=>edgeRecord(e)).join('')+(mapEdges.length?'':'<p>No matching connections.</p>')+'</details>';
-    if(typeof cytoscape==='undefined'){document.getElementById('cy').innerHTML='<p class="notice">The map library could not load. Use the connection list below or the directory.</p>';return;}
-    const css=getComputedStyle(document.documentElement), color=v=>css.getPropertyValue(v).trim();
-    cy=cytoscape({container:document.getElementById('cy'),elements:[...nodes.filter(n=>ids.has(n.id)).map(n=>({data:n})),...mapEdges.map(e=>({data:e}))],style:[
-      {selector:'node',style:{label:'data(label)','background-color':color('--accent'),color:color('--text'),'font-size':13,'text-wrap':'wrap','text-max-width':120,'text-valign':'bottom','text-margin-y':8,width:24,height:24}},
-      {selector:'node[type="person"]',style:{shape:'diamond'}},
-      {selector:'edge',style:{width:1.5,'line-color':color('--pending'),'target-arrow-color':color('--pending'),'target-arrow-shape':'triangle','curve-style':'bezier','line-style':'dashed',opacity:.65}},
-      {selector:'edge[review_status="audited"]',style:{'line-color':color('--accent'),'target-arrow-color':color('--accent'),'line-style':'solid',width:2}},
-      {selector:':selected',style:{'border-width':3,'border-color':color('--text'),'line-color':color('--text'),'target-arrow-color':color('--text')}}
-    ],layout:{name:'cose',animate:false,nodeRepulsion:16000,idealEdgeLength:150,gravity:.15,padding:40},minZoom:.15,maxZoom:3,wheelSensitivity:.2});
-    cy.on('tap','node, edge',event=>{const el=event.target,d=el.data();document.getElementById('map-detail').innerHTML=el.isNode()?'<h2>'+entityLink(d.id)+'</h2><p>'+esc(d.summary)+'</p><a href="'+esc(url('entity/'+encodeURIComponent(d.id)))+'">Open full dossier →</a>':edgeRecord(d,true);});
-    document.getElementById('fit-map').onclick=()=>cy.fit(undefined,40);
-    document.getElementById('zoom-in').onclick=()=>cy.zoom({level:cy.zoom()*1.3,renderedPosition:{x:cy.width()/2,y:cy.height()/2}});
-    document.getElementById('zoom-out').onclick=()=>cy.zoom({level:cy.zoom()/1.3,renderedPosition:{x:cy.width()/2,y:cy.height()/2}});
+    const query=state().query,overview=query.get('overview')==='1';
+    const focal=overview?null:(byId.get(focus)||selected.nodes.find(n=>n.id==='vivarium')||selected.nodes[0]);
+    focus=focal?.id;
+    const expanded=query.get('depth')==='2';
+    const direct=focal?edges.filter(e=>matchesReview(e)&&(e.source===focus||e.target===focus)):[];
+    const neighbors=[...new Set(direct.map(e=>e.source===focus?e.target:e.source))].sort((a,b)=>byId.get(a).label.localeCompare(byId.get(b).label));
+    function branch(id,relations){
+      return '<li><div class="outline-name">'+entityLink(id)+' <span class="meta">['+esc(human(byId.get(id).type))+']</span> <a href="'+esc(url('map',{focus:id}))+'">[focus]</a></div>'+relations.map(e=>'<div class="outline-relation">'+edgeTitle(e)+'<details><summary>'+badge(e)+' · source</summary>'+evidence(e)+'</details></div>').join('')+'</li>';
+    }
+    const branches=neighbors.map(id=>{
+      const relations=direct.filter(e=>e.source===id||e.target===id);
+      const further=edges.filter(e=>matchesReview(e)&&(e.source===id||e.target===id)&&e.source!==focus&&e.target!==focus);
+      const more=[...new Set(further.map(e=>e.source===id?e.target:e.source))].sort((a,b)=>byId.get(a).label.localeCompare(byId.get(b).label));
+      let html=branch(id,relations);
+      if(more.length)html=html.slice(0,-5)+'<details'+(expanded?' open':'')+'><summary>'+more.length+' further connections through '+esc(byId.get(id).label)+'</summary><p class="small muted">These are connections to '+esc(byId.get(id).label)+', not direct affiliations with '+esc(focal.label)+'.</p><ul class="outline">'+more.map(end=>branch(end,further.filter(e=>e.source===end||e.target===end))).join('')+'</ul></details></li>';
+      return html;
+    }).join('');
+    main.innerHTML=heading(overview?'Network index':focal?focal.label+' / connection outline':'No matching entity',overview?'Choose an entity to follow its connections.':'Follow linked names or expand a branch. Each relationship keeps its direction, role, and source.',overview?selected.nodes.length+' entities':neighbors.length+' direct neighbors')+
+      '<label for="map-focus">Start with<select id="map-focus"><option value="">Choose an entity…</option>'+selected.nodes.map(n=>'<option value="'+esc(n.id)+'" '+(n.id===focus?'selected':'')+'>'+esc(n.label)+'</option>').join('')+'</select></label><div class="toolbar">'+(overview?'<a href="'+esc(url('map',{focus:'vivarium'}))+'">[Open Vivarium outline]</a>':'<a href="'+esc(url('map',{overview:'1'}))+'">[All entities]</a> <a href="'+esc(url('map',{focus,depth:expanded?'1':'2'}))+'">['+(expanded?'Collapse further connections':'Expand one step further')+']</a>')+'</div>'+
+      (overview?'<ul class="index-list">'+selected.nodes.map(n=>'<li><a href="'+esc(url('map',{focus:n.id}))+'">'+esc(n.label)+'</a> <span class="meta">'+esc(human(n.type))+'</span></li>').join('')+'</ul>':focal?'<section class="text-map" aria-label="Connection outline"><h2>'+entityLink(focus)+'</h2><ul class="outline">'+(branches||'<li>No matching relationships recorded.</li>')+'</ul></section>':empty);
+    document.getElementById('map-focus').onchange=event=>{if(event.target.value)location.hash=url('map',{focus:event.target.value});};
   }
   function sourcesView(selected) {
     const q=controls.search.value.toLowerCase();
@@ -158,7 +159,6 @@
     main.innerHTML=heading('How to read this atlas','A working research collection with visible evidence and limits.')+`<div class="prose"><h2>Different views, one dataset</h2><p>The directory, dossiers, map, relationship ledger, and funding view all use the same entity and relationship records. Changes belong in the repository’s canonical data files.</p><h2>What “audited” means</h2><p>A relationship’s wording has been checked against its cited source, with a source location, check date, and limits. This is not necessarily independent corroboration: many sources are institutions describing themselves.</p><h2>What still needs review</h2><p>${edges.length-audited} relationships retain older confidence labels and await claim-level review. Entity summaries and philosophy notes have not received the same separate audit. Use them as research leads.</p><h2>Read the relationship type</h2><p>Employment, funding, attendance, website work, and ideological agreement are different claims. One connection does not establish another. A grant recommendation is not a completed payment. Missing amounts and dates mean “not recorded,” not zero or ongoing.</p><h2>Scope and gaps</h2><p>This is a partial collection, not a census or a ranking of influence. Clusters are research navigation categories. Network position reflects what has been collected, and may reflect uneven coverage.</p><h2>Sources and corrections</h2><p>Each dossier and relationship links to its sources. Source check dates describe a review date, not the date a relationship began.</p><p><a href="https://github.com/raelovejoy/techno-intellectual-complex/blob/main/METHODOLOGY.md" target="_blank" rel="noopener">Full research method ↗</a> · <a href="https://github.com/raelovejoy/techno-intellectual-complex/issues/new/choose" target="_blank" rel="noopener">Suggest a correction ↗</a></p><h2>Download the current snapshot</h2><p><a href="graph.json" download>Graph data (JSON)</a> · <a href="https://github.com/raelovejoy/techno-intellectual-complex/tree/main/data" target="_blank" rel="noopener">Canonical CSV files ↗</a></p></div>`;
   }
   function render() {
-    if(cy){cy.destroy();cy=null;}
     const s=state(), view=s.path.split('/')[0];
     document.title='Techno-Intellectual Atlas';
     document.querySelectorAll('.views a').forEach(a=>{const key=a.getAttribute('href').slice(1).split('?')[0];a.href=url(key);if(key===view||(view==='entity'&&key==='directory'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
@@ -174,7 +174,7 @@
   function readRoute() {
     const s=state();fields.forEach(k=>controls[k].value=s.query.get(k)||'');page=0;render();
   }
-  fields.forEach(k=>controls[k].addEventListener(k==='search'?'input':'change',()=>{page=0;const s=state();history.replaceState(null,'',url(s.path,{focus:s.query.get('focus'),depth:s.query.get('depth')}));render();}));
+  fields.forEach(k=>controls[k].addEventListener(k==='search'?'input':'change',()=>{page=0;const s=state();history.replaceState(null,'',url(s.path,{focus:s.query.get('focus'),depth:s.query.get('depth'),overview:s.query.get('overview')}));render();}));
   document.getElementById('reset').onclick=()=>{fields.forEach(k=>controls[k].value='');page=0;history.replaceState(null,'',url(state().path));render();};
   main.addEventListener('click',event=>{const layoutButton=event.target.closest('[data-layout]'),pageButton=event.target.closest('[data-page]');if(layoutButton){layout=layoutButton.dataset.layout;render();}if(pageButton&&!pageButton.disabled){page=Number(pageButton.dataset.page);render();main.focus();main.scrollIntoView({block:'start'});}});
   window.addEventListener('hashchange',readRoute);

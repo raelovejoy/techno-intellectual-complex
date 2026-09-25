@@ -4,7 +4,7 @@ Reviewed 2026-09-25 UTC. This is a bounded expansion, not a complete roster.
 
 ## Reader-facing changes
 
-Dossiers now include all recorded direct links, grouped by the other entity's type; named people and organizations reachable through one intermediary; and the existing event records. Two-step paths show both underlying claims and their review statuses. They are not converted into direct membership, employment, ideological, or funding claims. Profile pages explicitly describe partial coverage. The map supports an expanded two-step neighborhood.
+Dossiers now include all recorded direct links, grouped by the other entity's type; named people and organizations reachable through one intermediary; and the existing event records. Two-step paths show both underlying claims and their review statuses. They are not converted into direct membership, employment, ideological, or funding claims. Profile pages explicitly describe partial coverage. The connection outline supports expandable two-step paths. The former graphical map was replaced with a text outline after readability feedback.
 
 ## Vivarium / DEF/ACC event
 
