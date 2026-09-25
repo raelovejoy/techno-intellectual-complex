@@ -1,4 +1,306 @@
 {
+  "events": [
+    {
+      "id": "EV001",
+      "name": "DEF/ACC Hackathon at Vivarium SF",
+      "date": "2025-11-22",
+      "city": "San Francisco",
+      "venue_node_id": "vivarium",
+      "host_node_ids": "bluedot",
+      "participant_org_ids": "halcyon-futures|mats|prime-intellect|spar|apart-research|workshop-labs",
+      "topic": "AI safety/security/defensive acceleration",
+      "source_id": "S104",
+      "notes": "Reviewed 2026-09-25. Listed sponsors replace the unsupported FAR.AI seed association. Event node def-acc-vivarium-2025 records separate advertised host, sponsor, judge, and venue roles.",
+      "event_node_id": "def-acc-vivarium-2025",
+      "review_status": "audited",
+      "last_verified": "2026-09-25"
+    },
+    {
+      "id": "EV002",
+      "name": "AI Safety Coworking Day @ Mox",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "mox",
+      "host_node_ids": "mox",
+      "participant_org_ids": "80000-hours",
+      "topic": "AI safety coworking / field networking",
+      "source_id": "S073",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV003",
+      "name": "CAIS Remote Labor Index @ Mox",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "mox",
+      "host_node_ids": "mox",
+      "participant_org_ids": "cais",
+      "topic": "AI capability evaluation / labor automation",
+      "source_id": "S074",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV004",
+      "name": "AI Safety Entrepreneurship Fireside",
+      "date": "2026",
+      "city": "Berkeley",
+      "venue_node_id": "lighthaven",
+      "host_node_ids": "catalyze-impact",
+      "participant_org_ids": "mats|timaeus",
+      "topic": "AI safety organization-building",
+      "source_id": "S075",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV005",
+      "name": "MC0001 Machine Consciousness Conference",
+      "date": "2026-05-29/31",
+      "city": "Berkeley",
+      "venue_node_id": "lighthaven",
+      "host_node_ids": "",
+      "participant_org_ids": "",
+      "topic": "machine consciousness; philosophy; AI research",
+      "source_id": "S076",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV006",
+      "name": "Vitalist Bay 2026",
+      "date": "2026-05",
+      "city": "Berkeley",
+      "venue_node_id": "lighthaven",
+      "host_node_ids": "vitalist-bay",
+      "participant_org_ids": "a4li",
+      "topic": "longevity; cryonics; AI×bio; investing",
+      "source_id": "S077",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV007",
+      "name": "Paths to Progress / Foresight Vision Weekend programming",
+      "date": "2025/2026",
+      "city": "San Francisco",
+      "venue_node_id": "",
+      "host_node_ids": "foresight",
+      "participant_org_ids": "roots-progress|far-ai",
+      "topic": "frontier tech; progress; funding; policy",
+      "source_id": "S078",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV008",
+      "name": "Progress Conference Welcome @ Lighthaven",
+      "date": "2025",
+      "city": "Berkeley",
+      "venue_node_id": "lighthaven",
+      "host_node_ids": "",
+      "participant_org_ids": "roots-progress",
+      "topic": "progress studies / abundance / technology",
+      "source_id": "S079",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV009",
+      "name": "Human Agency in the Intelligence Age",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "spc",
+      "host_node_ids": "spc",
+      "participant_org_ids": "roots-progress",
+      "topic": "automation; human agency; philosophy of progress",
+      "source_id": "S080",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV010",
+      "name": "Local & Open-Source AI Developer Meetup",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "shack15",
+      "host_node_ids": "cerebral-valley",
+      "participant_org_ids": "",
+      "topic": "open-source AI; developer ecosystem",
+      "source_id": "S081",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV011",
+      "name": "Frontier Tower AI Floor Member Meetup",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "frontier-tower",
+      "host_node_ids": "frontier-tower",
+      "participant_org_ids": "",
+      "topic": "AI floor community / internal organizing",
+      "source_id": "S082",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV012",
+      "name": "Intellectual Salon @ Frontier Tower",
+      "date": "2026-04-27",
+      "city": "San Francisco",
+      "venue_node_id": "frontier-tower",
+      "host_node_ids": "frontier-tower",
+      "participant_org_ids": "",
+      "topic": "philosophy; science; technology; metaphysics; creativity",
+      "source_id": "S083",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV013",
+      "name": "AI Salon: Labor",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "",
+      "host_node_ids": "ai-salon",
+      "participant_org_ids": "",
+      "topic": "AI; labor; techno-feudalism; migration; politics",
+      "source_id": "S084",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV014",
+      "name": "Stop AI / LaborFest: AI in Education",
+      "date": "2026-07-21",
+      "city": "San Francisco",
+      "venue_node_id": "",
+      "host_node_ids": "stop-ai-bay",
+      "participant_org_ids": "",
+      "topic": "AI opposition; education; labor/community discussion",
+      "source_id": "S085",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV015",
+      "name": "Human+Tech Week Summit",
+      "date": "2026-05-11/15",
+      "city": "San Francisco",
+      "venue_node_id": "",
+      "host_node_ids": "",
+      "participant_org_ids": "",
+      "topic": "human-centered AI; work; health; cities",
+      "source_id": "S086",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV016",
+      "name": "Foresight Salon: Redesigning the Human Lifespan",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "",
+      "host_node_ids": "foresight",
+      "participant_org_ids": "",
+      "topic": "longevity; ethics; economics; lifespan",
+      "source_id": "S087",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV017",
+      "name": "AI Salon & SF Intellectuals",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "",
+      "host_node_ids": "ai-salon|sf-intellectuals",
+      "participant_org_ids": "",
+      "topic": "AI philosophy; culture; sociology",
+      "source_id": "S070",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV018",
+      "name": "AI Philosophy Nights: Invention of Tomorrow",
+      "date": "2026-02-12",
+      "city": "San Francisco",
+      "venue_node_id": "",
+      "host_node_ids": "superhuman-society",
+      "participant_org_ids": "",
+      "topic": "philosophy; AI; human dignity; future",
+      "source_id": "S071",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV019",
+      "name": "AI Salon: Progress vs Flourishing",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "the-commons",
+      "host_node_ids": "ai-salon|superhuman-society|the-commons",
+      "participant_org_ids": "",
+      "topic": "progress; flourishing; metamodernism",
+      "source_id": "S072",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    },
+    {
+      "id": "EV020",
+      "name": "Resonance Salon: AI & Consciousness",
+      "date": "2026",
+      "city": "San Francisco",
+      "venue_node_id": "the-commons",
+      "host_node_ids": "the-commons",
+      "participant_org_ids": "",
+      "topic": "AI; consciousness; identity; art; care",
+      "source_id": "S098",
+      "notes": "",
+      "event_node_id": "",
+      "review_status": "legacy_unreviewed",
+      "last_verified": ""
+    }
+  ],
   "nodes": [
     {
       "data": {
@@ -1455,6 +1757,266 @@
         "notes": "Presented by its authors as primarily a recommendation rather than a prediction.",
         "sources": "S112|S113"
       }
+    },
+    {
+      "data": {
+        "id": "def-acc-vivarium-2025",
+        "label": "DEF/ACC Hackathon at Vivarium (2025)",
+        "type": "event",
+        "cluster": "hybrid-tech-culture",
+        "summary": "Defensive technology hackathon listed for 22 November 2025. Public listing identifies its venue, hosts, sponsors, and proposed judges.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "esben-kran",
+        "label": "Esben Kran",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "luke-drago",
+        "label": "Luke Drago",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "aditya-mehta-defacc",
+        "label": "Aditya Mehta",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "alex-denuzzo",
+        "label": "Alex DeNuzzo",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "akshyae-singh",
+        "label": "Akshyae Singh",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "jared-m-defacc",
+        "label": "Jared M. (event profile)",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "luka-defacc",
+        "label": "Luka (event profile)",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "vie-mccoy",
+        "label": "Vie McCoy",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "ryan-kidd",
+        "label": "Ryan Kidd",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "gideon-futerman",
+        "label": "Gideon Futerman",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "samuel-hammond",
+        "label": "Samuel Hammond",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "kristian-ronn",
+        "label": "Kristian Rönn",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "danylo-tymoshenko",
+        "label": "Danylo Tymoshenko",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "celeste-jessin",
+        "label": "Celeste Jessin",
+        "type": "person",
+        "cluster": "event-linked",
+        "summary": "Publicly named in the DEF/ACC Hackathon event listing. See the recorded event role and source below.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "halcyon-futures",
+        "label": "Halcyon Futures",
+        "type": "organization",
+        "cluster": "event-linked",
+        "summary": "Named sponsor of the DEF/ACC Hackathon at Vivarium in the event listing. Sponsorship amount and form are not disclosed there.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "prime-intellect",
+        "label": "Prime Intellect",
+        "type": "organization",
+        "cluster": "event-linked",
+        "summary": "Named sponsor of the DEF/ACC Hackathon at Vivarium in the event listing. Sponsorship amount and form are not disclosed there.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "spar",
+        "label": "SPAR",
+        "type": "organization",
+        "cluster": "event-linked",
+        "summary": "Named sponsor of the DEF/ACC Hackathon at Vivarium in the event listing. Sponsorship amount and form are not disclosed there.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "apart-research",
+        "label": "Apart Research",
+        "type": "organization",
+        "cluster": "event-linked",
+        "summary": "Named sponsor of the DEF/ACC Hackathon at Vivarium in the event listing. Sponsorship amount and form are not disclosed there.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
+    },
+    {
+      "data": {
+        "id": "workshop-labs",
+        "label": "Workshop Labs",
+        "type": "organization",
+        "cluster": "event-linked",
+        "summary": "Named sponsor of the DEF/ACC Hackathon at Vivarium in the event listing. Sponsorship amount and form are not disclosed there.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Event-specific listing; broader affiliations and current roles have not been established.",
+        "sources": "S104"
+      }
     }
   ],
   "edges": [
@@ -1467,14 +2029,14 @@
         "confidence": "confirmed",
         "basis": "Vivarium states it is operated by PrototypeSF, LLC.",
         "sources": "S001",
-        "claim_kind": "",
-        "review_status": "legacy_unreviewed",
-        "source_locator": "",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "About Us, final paragraph",
         "date_start": "",
         "date_end": "",
         "amount_usd": "",
-        "last_verified": "",
-        "caveat": ""
+        "last_verified": "2026-09-25",
+        "caveat": "Identifies the operator, not owners, staff, funders, or individual members."
       }
     },
     {
@@ -3775,6 +4337,443 @@
         "last_verified": "2026-09-25",
         "caveat": "Website work and editorial feedback do not establish authorship of the policy plan, shared governance, or project funding."
       }
+    },
+    {
+      "data": {
+        "id": "E123",
+        "source": "def-acc-vivarium-2025",
+        "target": "vivarium",
+        "relationship": "LISTED_VENUE",
+        "confidence": "confirmed",
+        "basis": "The event listing identifies Vivarium SF as the venue.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "About Event: date and location",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised venue does not establish staff membership, ideological agreement, or ongoing partnership."
+      }
+    },
+    {
+      "data": {
+        "id": "E124",
+        "source": "bluedot",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "BlueDot Impact is listed as presenter and host.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Presented by; Hosted By; Hosted by footer",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Event-specific listing, not proof of attendance or an ongoing relationship with the venue."
+      }
+    },
+    {
+      "data": {
+        "id": "E125",
+        "source": "halcyon-futures",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_SPONSOR",
+        "confidence": "confirmed",
+        "basis": "Halcyon Futures is named as an event sponsor.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Sponsored by; Also sponsored by; footer",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "No amount or payment is verified. Sponsorship concerns this event, not funding of Vivarium as an organization."
+      }
+    },
+    {
+      "data": {
+        "id": "E126",
+        "source": "mats",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_SPONSOR",
+        "confidence": "confirmed",
+        "basis": "MATS is named as an event sponsor.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Sponsored by; Also sponsored by; footer",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "No amount or payment is verified. Sponsorship concerns this event, not funding of Vivarium as an organization."
+      }
+    },
+    {
+      "data": {
+        "id": "E127",
+        "source": "prime-intellect",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_SPONSOR",
+        "confidence": "confirmed",
+        "basis": "Prime Intellect is named as an event sponsor.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Sponsored by; Also sponsored by; footer",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "No amount or payment is verified. Sponsorship concerns this event, not funding of Vivarium as an organization."
+      }
+    },
+    {
+      "data": {
+        "id": "E128",
+        "source": "spar",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_SPONSOR",
+        "confidence": "confirmed",
+        "basis": "SPAR is named as an event sponsor.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Sponsored by; Also sponsored by; footer",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "No amount or payment is verified. Sponsorship concerns this event, not funding of Vivarium as an organization."
+      }
+    },
+    {
+      "data": {
+        "id": "E129",
+        "source": "apart-research",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_SPONSOR",
+        "confidence": "confirmed",
+        "basis": "Apart Research is named as an event sponsor.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Sponsored by; Also sponsored by; footer",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "No amount or payment is verified. Sponsorship concerns this event, not funding of Vivarium as an organization."
+      }
+    },
+    {
+      "data": {
+        "id": "E130",
+        "source": "workshop-labs",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_SPONSOR",
+        "confidence": "confirmed",
+        "basis": "Workshop Labs is named as an event sponsor.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Sponsored by; Also sponsored by; footer",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "No amount or payment is verified. Sponsorship concerns this event, not funding of Vivarium as an organization."
+      }
+    },
+    {
+      "data": {
+        "id": "E131",
+        "source": "esben-kran",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "Esben Kran appears in the public Hosted By list.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Hosted By list",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Profile identity is retained as published. This does not establish employment, membership, attendance, or a founder role at Vivarium."
+      }
+    },
+    {
+      "data": {
+        "id": "E132",
+        "source": "luke-drago",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "Luke Drago appears in the public Hosted By list.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Hosted By list",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Profile identity is retained as published. This does not establish employment, membership, attendance, or a founder role at Vivarium."
+      }
+    },
+    {
+      "data": {
+        "id": "E133",
+        "source": "aditya-mehta-defacc",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "Aditya Mehta appears in the public Hosted By list.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Hosted By list",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Profile identity is retained as published. This does not establish employment, membership, attendance, or a founder role at Vivarium."
+      }
+    },
+    {
+      "data": {
+        "id": "E134",
+        "source": "alex-denuzzo",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "Alex DeNuzzo appears in the public Hosted By list.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Hosted By list",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Profile identity is retained as published. This does not establish employment, membership, attendance, or a founder role at Vivarium."
+      }
+    },
+    {
+      "data": {
+        "id": "E135",
+        "source": "akshyae-singh",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "Akshyae Singh appears in the public Hosted By list.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Hosted By list",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Profile identity is retained as published. This does not establish employment, membership, attendance, or a founder role at Vivarium."
+      }
+    },
+    {
+      "data": {
+        "id": "E136",
+        "source": "jared-m-defacc",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "Jared M. (event profile) appears in the public Hosted By list.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Hosted By list",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Profile identity is retained as published. This does not establish employment, membership, attendance, or a founder role at Vivarium."
+      }
+    },
+    {
+      "data": {
+        "id": "E137",
+        "source": "luka-defacc",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_HOST",
+        "confidence": "confirmed",
+        "basis": "Luka (event profile) appears in the public Hosted By list.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Hosted By list",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Profile identity is retained as published. This does not establish employment, membership, attendance, or a founder role at Vivarium."
+      }
+    },
+    {
+      "data": {
+        "id": "E138",
+        "source": "vie-mccoy",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Vie McCoy appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E139",
+        "source": "ryan-kidd",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Ryan Kidd appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E140",
+        "source": "gideon-futerman",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Gideon Futerman appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E141",
+        "source": "samuel-hammond",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Samuel Hammond appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E142",
+        "source": "esben-kran",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Esben Kran appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E143",
+        "source": "kristian-ronn",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Kristian Rönn appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E144",
+        "source": "danylo-tymoshenko",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Danylo Tymoshenko appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E145",
+        "source": "celeste-jessin",
+        "target": "def-acc-vivarium-2025",
+        "relationship": "LISTED_JUDGE",
+        "confidence": "confirmed",
+        "basis": "Celeste Jessin appears in the advertised judging lineup.",
+        "sources": "S104",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "Judges Include section",
+        "date_start": "2025-11-22",
+        "date_end": "2025-11-22",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "An advertised judging role is not verified attendance. The listed employer or title is not independently established here."
+      }
     }
   ],
   "sources": {
@@ -3783,7 +4782,7 @@
       "url": "https://vivariumsf.com/about",
       "source_type": "primary",
       "published_date": "",
-      "last_checked": ""
+      "last_checked": "2026-09-25"
     },
     "S002": {
       "title": "PrototypeSF — Home",
@@ -4504,7 +5503,7 @@
       "url": "https://luma.com/def-acc-hack-sf",
       "source_type": "event",
       "published_date": "",
-      "last_checked": ""
+      "last_checked": "2026-09-25"
     },
     "S105": {
       "title": "CFAR — Mission",

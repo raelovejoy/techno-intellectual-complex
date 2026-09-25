@@ -74,7 +74,11 @@ This is **not an exhaustive list**. New nodes should normally enter the graph be
 
 ## Website
 
-The prototype in `docs/` is designed to work as a GitHub Pages site.
+The atlas in `docs/` provides a list/table directory, linked entity dossiers, an expandable text connection outline, a relationship ledger, funding records, and a source library. Each view reads the same generated `docs/graph.json`. Filters are included in the URL; dossier URLs can be bookmarked.
+
+Run locally with `python3 -m http.server 8000 --directory docs`, then open `http://localhost:8000`. Validate with `python3 scripts/build_graph.py --check`, `node --check docs/app.js`, and `node scripts/check_viewer.cjs`. The smoke checks cover navigation and data behavior, not visual layout.
+
+The static site can also be hosted on GitHub Pages:
 
 After pushing the repo:
 
@@ -92,3 +96,7 @@ Early research prototype. Expect corrections. Primary sources are preferred, but
 The [Bay Area rationalist / EA / AI-safety seed](research/bay-area-rationalist-ai-safety-seed.md) audits a small set of public institutional relationships and documents unresolved leads. The graph remains broad: most earlier edges are marked **legacy review pending**, even where their old confidence label says “confirmed.” An audited edge means its wording was checked against the linked source on the recorded date; it is not an independent endorsement of that source's interpretation.
 
 The viewer now links to sources and shows claim kind, source location, dates, and what an audited edge does **not** establish. See [Methodology](METHODOLOGY.md) for how to challenge an edge. To rebuild the viewer from the canonical CSVs, run `python3 scripts/build_graph.py`; `python3 scripts/build_graph.py --check` validates the generated files.
+
+### Text-first presentation
+
+The website uses an early-web monospace style, standard links, simple tables, and optional light/dark colors. Connections open on one entity; expand branches to follow further relationships. The network index lists every matching entity without overlapping graphical labels. No graph CDN is required.
