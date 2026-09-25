@@ -158,6 +158,8 @@ An `audited` edge requires a specific source location, the date checked, a claim
 
 Claim kinds distinguish an `institutional_statement` (including a funder's account of its own recommendations), `public_record`, `external_report`, `analysis`, and `allegation`. An allegation needs attribution and must not be converted into an organizational or personal fact by assigning high confidence. A critique belongs in analysis with a stated argument, not as a person's inferred ideology.
 
+The older `nodes.csv` field `stated_philosophy` mixes self-descriptions and mapped notes. It is a discovery aid, **not yet an audited ideological claim**. Future ideology work should use narrowly worded, dated, source-located edges (or a dedicated claims layer) that distinguish self-identification, advocacy, criticism, and researcher inference. Do not assign a person's views from employment, a grant, an event, or site production.
+
 Funding verbs must be exact. A **recommended** grant is not a completed transfer. A venue host is not an event sponsor, and a board member's role does not establish their agreement with every publication or action of the organization.
 
 To request a correction, [open a research/correction issue](https://github.com/raelovejoy/techno-intellectual-complex/issues/new/choose) with the edge ID, exact wording at issue, source URL and location, and any date or counterevidence. The maintainer should update or remove the canonical CSV row, record the decision, then regenerate the viewer. Sensitive personal information should not be posted in issues; use a minimal private report to the maintainer instead.

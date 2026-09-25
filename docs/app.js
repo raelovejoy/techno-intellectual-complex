@@ -67,7 +67,7 @@
         <div class="kicker">${esc(d.type || 'node')} · ${esc(d.cluster || '')}</div>
         <h2>${esc(d.label)}</h2>
         <p>${esc(d.summary || '')}</p>
-        ${d.philosophy ? `<p><b>Stated / mapped philosophy:</b><br>${esc(d.philosophy)}</p>` : ''}
+        ${d.philosophy ? `<p><b>Philosophy note (not separately audited):</b><br>${esc(d.philosophy)}</p>` : ''}
         ${d.location ? `<span class="pill">${esc(d.location)}</span>` : ''}
         ${d.sources ? `<p><b>Source IDs:</b> ${esc(d.sources)}</p>` : ''}
       `;

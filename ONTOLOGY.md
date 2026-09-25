@@ -109,4 +109,6 @@ New edge fields:
 
 Sources add `published_date` and `last_checked`. Undated pages keep a blank publication date. Original fields remain available for older consumers; blank new fields on legacy rows mean no claim-level audit was performed.
 
+The existing node-level `stated_philosophy` text has not undergone the edge audit and may contain mapped interpretation. Treat it as a lead. A future claims layer can store competing interpretations with their own sources and dates; until then, use a precisely sourced edge only for explicit statements and never infer a person's ideology from a nearby node.
+
 Use relation names that preserve direction and tense: `luke-muehlhauser — FORMER_EXECUTIVE_DIRECTOR_OF → miri` and `coefficient — RECOMMENDED_GRANT_TO → miri` have different meanings from current leadership or completed funding. Avoid generic “connected to” edges when the source supports a narrower relationship. The source locator and caveat are part of the claim, not optional presentation copy.
