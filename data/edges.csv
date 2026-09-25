@@ -1,114 +1,123 @@
-id,source,target,relationship,confidence,basis,source_ids
-E001,vivarium,prototypesf,OPERATED_BY,confirmed,"Vivarium states it is operated by PrototypeSF, LLC.",S001
-E002,noisebridge,anarchism,EXPLICITLY_INFLUENCED_BY,confirmed,Noisebridge identifies anarchist organizational philosophy as a major influence.,S003
-E003,sudo-room,commons-horizontalism,EXPLICITLY_PRACTICES,confirmed,"Sudo Room describes horizontal, transparent organizing and solidarity/social-justice goals.",S004
-E004,omni-commons,commons-horizontalism,EXPLICITLY_PRACTICES,confirmed,Omni explicitly centers commoning and collective stewardship.,S005
-E005,sudo-room,omni-commons,COLOCATED_WITH,confirmed,Sudo Room is part of the Omni Commons ecosystem.,S004|S005
-E006,counter-culture-labs,omni-commons,LOCATED_AT,confirmed,CCL describes its move into Omni Commons.,S006
-E007,counter-culture-labs,sudo-room,HISTORICALLY_CONNECTED_TO,confirmed,CCL describes early meetings at Sudo Room.,S006
-E008,counter-culture-labs,biocurious,SISTER_LAB,confirmed,CCL publicly calls BioCurious its sister lab.,S006
-E009,eff,digital-civil-libertarianism,EXPLICITLY_ALIGNED_WITH,strong,"EFF's mission centers civil liberties, privacy, expression, encryption and user rights.",S013
-E010,dweb,decentralization,EXPLICITLY_ALIGNED_WITH,confirmed,"DWeb explicitly advocates decentralized, open, private infrastructure.",S017
-E011,embassy,commons-horizontalism,EXPLICITLY_PRACTICES,confirmed,The Embassy describes its mission as building a commons and exploring commoning.,S055
-E012,twc,public-interest-ai,OVERLAPS_WITH,contextual,Tech labor organizing is relevant to sociotechnical AI governance; not every TWC activity is AI-specific.,S010
-E013,techequity,public-interest-ai,EXPLICITLY_OVERLAPS_WITH,strong,TechEquity centers structural economic impacts and accountable technology.,S011
-E014,cltc,public-interest-ai,EXPLICITLY_OVERLAPS_WITH,confirmed,"CLTC frames AI security/risk as public-interest, legal, ethical, cyber and socioeconomic.",S042
-E015,dair,public-interest-ai,EXPLICITLY_OVERLAPS_WITH,strong,DAIR's worker/community-rooted work fits the sociotechnical/public-interest cluster.,S043
-E016,dair,luddite-lab,OPERATES,confirmed,Luddite Lab is a DAIR project.,S043
-E017,luddite-lab,twc,IDEOLOGICALLY_ADJACENT,inferred,Both center worker power over technology; no direct organizational tie asserted.,S010|S043
-E018,gray-area,counterculture-tech,EXPLICITLY_ALIGNED_WITH,strong,"Gray Area integrates art, technology, culture and social transformation.",S012
-E019,burning-man,counterculture-tech,OVERLAPS_WITH,contextual,"Burning Man is a major Bay Area countercultural network with extensive tech overlap; this edge is cultural, not ideological uniformity.",S018
-E020,long-now,progress-studies,DISTINCT_BUT_ADJACENT,contextual,"Both foreground the future and progress, but Long Now has a distinct intellectual lineage.",S014|S022
-E021,roots-progress,progress-studies,EXPLICITLY_BUILDS,confirmed,Roots of Progress explicitly says it is building the progress movement.,S022
-E022,roots-progress,techno-optimism,OVERLAPS_WITH,contextual,Its techno-humanist manifesto strongly favors technological progress while differing from other techno-optimist variants.,S023
-E023,a16z,techno-optimism,EXPLICITLY_ADVOCATES,confirmed,a16z published an explicit Techno-Optimist Manifesto.,S044
-E024,frontier-tower,cypherpunk,EXPLICITLY_INFLUENCED_BY,confirmed,Frontier Tower's founders explicitly describe a growing interest in a cypherpunk world.,S045
-E025,frontier-tower,decentralization,EXPLICITLY_ADVOCATES,confirmed,Frontier Tower describes self-governance and Ethereum-L2-based governance ambitions.,S045
-E026,frontier-tower,techno-optimism,OVERLAPS_WITH,contextual,Frontier Tower frames frontier technology and urban experimentation positively; exact ideology is broader than a16z-style techno-optimism.,S045|S046
-E027,california-forever,a16z,INVESTED_IN_BY,confirmed,California Forever lists Andreessen Horowitz among investors.,S026
-E028,california-forever,patrick-collison,INVESTED_IN_BY,confirmed,California Forever lists Patrick Collison among investors.,S026
-E029,roots-progress,patrick-collison,ADVISED_BY,confirmed,Roots of Progress lists Patrick Collison as an advisor.,S022
-E030,roots-progress,tyler-cowen,ADVISED_BY,confirmed,Roots of Progress lists Tyler Cowen as an advisor.,S022
-E031,roots-progress,jason-crawford,FOUNDED_BY,confirmed,Jason Crawford is founder/president.,S022
-E032,foresight,allison-duettmann,LED_BY,confirmed,Foresight identifies Allison Duettmann as CEO.,S020
-E033,foresight,christine-peterson,COFOUNDED_BY,confirmed,Foresight identifies Christine Peterson as co-founder.,S020
-E034,foresight,eric-drexler,COFOUNDED_BY,confirmed,Foresight identifies Eric Drexler as co-founder.,S020
-E035,astera,jed-mccaleb,COFOUNDED_FUNDED_BY,confirmed,Astera identifies Jed McCaleb as co-founder/funder.,S024
-E036,astera,seemay-chou,COFOUNDED_BY,confirmed,Astera identifies Seemay Chou as co-founder.,S024
-E037,california-forever,jan-sramek,FOUNDED_LED_BY,confirmed,California Forever identifies Jan Sramek as founder/CEO.,S025
-E038,edge-city,janine-leger,COFOUNDED_BY,confirmed,Edge City identifies Janine Leger as co-founder.,S021
-E039,edge-city,timour-kosters,COFOUNDED_BY,confirmed,Edge City identifies Timour Kosters as co-founder.,S021
-E040,edge-city,vitalik-buterin,PUBLIC_PARTICIPANT,confirmed,Edge City lists/quotes Vitalik Buterin in its public ecosystem.,S021
-E041,edge-city,decentralization,OVERLAPS_WITH,contextual,Edge City's Zuzalu/crypto/governance ecosystem overlaps decentralization experiments.,S021
-E042,spc,jason-crawford,HOSTED_SPEAKER,confirmed,SPC hosted Crawford on human agency/progress in the intelligence age.,S080
-E043,mission-control,founderism,OVERLAPS_WITH,contextual,"Mission Control selects ambitious builders and has a venture-fund ecosystem, while retaining communal resident governance.",S057|S058
-E044,sf-parc,founderism,OVERLAPS_WITH,contextual,SF Parc explicitly selects ambitious creative technologists and ties into The Residency.,S056
-E045,cerebral-valley,founderism,EXPLICITLY_ALIGNED_WITH,strong,"Cerebral Valley sells ecosystem-building, technical recruiting, and access to top AI builders/founders.",S049
-E046,house-edge-node,decentralization,OVERLAPS_WITH,contextual,The House is run by Edge & Node / The Graph ecosystem and combines AI with crypto.,S059
-E047,house-edge-node,founderism,EXPLICITLY_ALIGNED_WITH,strong,"The House describes a curated builder/founder network where deals, hires, and companies are made.",S059
-E048,shack15,cerebral-valley,HOSTS_RECURRING_EVENTS_FOR,confirmed,Cerebral Valley/open-source AI events are repeatedly held at SHACK15.,S081
-E049,agi-house,founderism,OVERLAPS_WITH,contextual,AGI House is a curated AI builder/research community with startup/founder overlap.,S027
-E050,effective-altruism,effective-altruism-movement,IS,confirmed,Movement/entity identity alias for graph organization.,S031
-E051,80000-hours,effective-altruism-movement,EXPLICITLY_PART_OF,confirmed,"80,000 Hours describes itself as part of the EA community.",S033
-E052,80000-hours,advanced-ai-xrisk,EXPLICITLY_PART_OF,confirmed,"80,000 Hours also describes itself as part of the AI-safety community and focuses heavily on advanced AI.",S033
-E053,bluedot,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,BlueDot is an AI safety talent accelerator focused on advanced AI risk.,S034
-E054,mats,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,MATS trains researchers in alignment/transparency/security.,S035
-E055,constellation,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,Constellation focuses on transformative-AI safety and catastrophic-risk mitigation.,S036
-E056,cais,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,CAIS focuses on societal-scale risks from advanced AI.,S037
-E057,chai,advanced-ai-xrisk,OVERLAPS_WITH,strong,"CHAI addresses control/beneficial advanced AI, though its academic framing is broader than EA.",S038
-E058,metr,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,METR evaluates catastrophic-risk-relevant capabilities.,S039
-E059,redwood,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,Redwood focuses on catastrophic AI risk and control.,S040
-E060,far-ai,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,FAR.AI is an AI safety research/field-building organization.,S041
-E061,lesswrong,rationalism,EXPLICITLY_CENTRAL_TO,confirmed,LessWrong is a central rationality community platform.,S030
-E062,lightcone,lesswrong,OPERATES,confirmed,Lightcone operates LessWrong.,S028
-E063,lightcone,lighthaven,OPERATES,confirmed,Lightcone operates Lighthaven.,S028|S029
-E064,miri,rationalism,HISTORICALLY_INTERTWINED_WITH,strong,MIRI and LessWrong/rationalist AI-risk communities share an explicit historical lineage.,S030|S096
-E065,miri,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,MIRI is a long-running AI alignment/x-risk organization.,S096
-E066,lesswrong,advanced-ai-xrisk,MAJOR_DISCUSSION_HUB_FOR,strong,LessWrong has long hosted extensive AI alignment/safety discourse.,S030
-E067,mox,effective-altruism-movement,EXPLICIT_COMMUNITY_SPACE_FOR,confirmed,Mox describes itself as an EA community space.,S051|S052
-E068,mox,advanced-ai-xrisk,EXPLICIT_COMMUNITY_SPACE_FOR,confirmed,Mox describes itself as a primary AI safety community/incubator space.,S051|S052
-E069,mox,cais,HOSTED_EVENT_FOR,confirmed,CAIS Remote Labor Index presentation was hosted at Mox.,S074
-E070,lighthaven,mats,HOSTS_EVENTS_FOR,confirmed,MATS participates in programming/events at Lighthaven.,S075
-E071,lighthaven,catalyze-impact,HOSTED_EVENT_FOR,confirmed,Catalyze Impact hosted an AI safety entrepreneurship event at Lighthaven.,S075
-E072,catalyze-impact,mats,FEATURED_ORG_LEADER,confirmed,Catalyze event featured MATS co-leadership.,S075
-E073,catalyze-impact,timaeus,FEATURED_ORG_LEADER,confirmed,Catalyze event featured Timaeus co-founder/executive director.,S075
-E074,lighthaven,vitalist-bay,HOSTS_EVENTS_FOR,confirmed,Vitalist Bay programming is hosted at Lighthaven.,S077
-E075,lighthaven,manifest,HOSTS_OR_ADJACENT_TO,contextual,Lighthaven has hosted forecasting/prediction-market-adjacent programming; dedicated Manifest sourcing should be expanded.,S091
-E076,lighthaven,roots-progress,HOSTED_PROGRESS_EVENT,confirmed,Progress Conference programming has been held at Lighthaven.,S079
-E077,foresight,roots-progress,EVENT_ECOSYSTEM_OVERLAP,confirmed,Foresight's Paths to Progress event featured Jason Crawford / Roots of Progress.,S078
-E078,foresight,far-ai,EVENT_ECOSYSTEM_OVERLAP,confirmed,Foresight event programming included FAR AI Labs representatives.,S078
-E079,ai-salon,sf-intellectuals,COHOSTED_WITH,confirmed,The two groups co-hosted a public event.,S070
-E080,ai-salon,superhuman-society,COHOSTED_WITH,confirmed,Multiple AI Salon events were co-hosted with SuperHuman Society.,S071|S072
-E081,superhuman-society,the-commons,COHOSTED_AT,confirmed,Progress vs Flourishing event was hosted with/at The SF Commons.,S072
-E082,ai-salon,the-commons,COHOSTED_AT,confirmed,AI Salon programming has appeared at The SF Commons.,S072
-E083,ai-salon,public-interest-ai,OVERLAPS_WITH,contextual,"AI Salon explicitly discusses sociological/economic/cultural impacts, but it is pluralist rather than a single political program.",S070|S084
-E084,superhuman-society,transhumanism,DISTINCT_BUT_ADJACENT,contextual,SuperHuman Society uses 'superhumanist' language and human enhancement/dignity themes; do not equate automatically with classic transhumanism.,S071
-E085,vitalist-bay,longevity-vitalism,EXPLICITLY_ALIGNED_WITH,confirmed,Vitalist Bay is an explicit longevity/vitalist gathering.,S077
-E086,foresight,longevity-vitalism,PROGRAMMATIC_FOCUS,confirmed,Longevity biotechnology is one of Foresight's stated focus areas.,S020|S087
-E087,foresight,transhumanism,HISTORICALLY_ADJACENT,contextual,Foresight's nanotech/longevity/human-enhancement ecosystem overlaps transhumanist currents; classify carefully.,S020
-E088,the-commons,counterculture-tech,OVERLAPS_WITH,contextual,The Commons hosts tech/art/philosophy programming in a community/meaning-making frame.,S053|S098
-E089,frontier-tower,ai-salon,HOSTS_SALON_STYLE_EVENTS,contextual,Frontier Tower hosts intellectual salons; not necessarily AI Salon-branded.,S083
-E090,foresight,allison-duettmann,LED_BY,confirmed,Public leadership role.,S020
-E091,foresight,christine-peterson,COFOUNDED_BY,confirmed,Public founder role.,S020
-E092,foresight,eric-drexler,COFOUNDED_BY,confirmed,Public founder role.,S020
-E093,roots-progress,jason-crawford,FOUNDED_BY,confirmed,Public founder role.,S022
-E094,cht,tristan-harris,COFOUNDED_BY,confirmed,Public founder role.,S015
-E095,cht,aza-raskin,COFOUNDED_BY,confirmed,Public founder role.,S015
-E096,gray-area,josette-melchor,FOUNDED_BY,confirmed,Public founder/executive role.,S012
-E097,techequity,catherine-bracy,FOUNDED_BY,confirmed,Public founder/executive role.,S011
-E098,cais,dan-hendrycks,LED_BY,confirmed,Public leadership role.,S037
-E099,redwood,buck-shlegeris,LED_BY,confirmed,Public leadership role.,S040
-E100,redwood,ryan-greenblatt,RESEARCH_LEADERSHIP,confirmed,Public leadership role.,S040
-E101,far-ai,adam-gleave,COFOUNDED_BY,confirmed,Public founder role.,S041
-E102,metr,adam-gleave,ADVISED_BY,confirmed,Public advisor/board relationship.,S039
-E103,mox,rachel-shu,LED_ORGANIZED_BY,confirmed,Mox fundraising identifies Rachel Shu as director.,S052
-E104,ai-salon,ian-eisenberg,ORGANIZED_BY,confirmed,Public event host/organizer role.,S070
-E105,the-commons,ian-eisenberg,PUBLIC_TEAM_ORGANIZER,strong,The Commons about page publicly features Ian Eisenberg.,S053
-E106,superhuman-society,banu-kellner,FOUNDED_BY,confirmed,Event description identifies Kellner as founder.,S071
-E107,lesswrong,eliezer-yudkowsky,FOUNDED_BY,confirmed,LessWrong history identifies Yudkowsky as founder/early central writer.,S030
-E108,miri,eliezer-yudkowsky,HISTORICALLY_LED_BY,strong,Yudkowsky is a central historical MIRI figure; exact present governance should be checked before current-title claims.,S096
-E109,agi-house,jeremy-nixon,PUBLICLY_ASSOCIATED_WITH,strong,Public directories/reporting associate Jeremy Nixon with AGI House SF.,S060|S103
-E110,edge-city,vitalik-buterin,PUBLIC_ECOSYSTEM_PARTICIPANT,confirmed,Public Edge City material lists/quotes Buterin.,S021
-E111,california-forever,patrick-collison,INVESTOR,confirmed,Public investor disclosure.,S026
-E112,roots-progress,patrick-collison,ADVISOR,confirmed,Public advisor listing.,S022
-E113,roots-progress,tyler-cowen,ADVISOR,confirmed,Public advisor listing.,S022
+id,source,target,relationship,confidence,basis,source_ids,claim_kind,review_status,source_locator,date_start,date_end,amount_usd,last_verified,caveat
+E001,vivarium,prototypesf,OPERATED_BY,confirmed,"Vivarium states it is operated by PrototypeSF, LLC.",S001,,legacy_unreviewed,,,,,,
+E002,noisebridge,anarchism,EXPLICITLY_INFLUENCED_BY,confirmed,Noisebridge identifies anarchist organizational philosophy as a major influence.,S003,,legacy_unreviewed,,,,,,
+E003,sudo-room,commons-horizontalism,EXPLICITLY_PRACTICES,confirmed,"Sudo Room describes horizontal, transparent organizing and solidarity/social-justice goals.",S004,,legacy_unreviewed,,,,,,
+E004,omni-commons,commons-horizontalism,EXPLICITLY_PRACTICES,confirmed,Omni explicitly centers commoning and collective stewardship.,S005,,legacy_unreviewed,,,,,,
+E005,sudo-room,omni-commons,COLOCATED_WITH,confirmed,Sudo Room is part of the Omni Commons ecosystem.,S004|S005,,legacy_unreviewed,,,,,,
+E006,counter-culture-labs,omni-commons,LOCATED_AT,confirmed,CCL describes its move into Omni Commons.,S006,,legacy_unreviewed,,,,,,
+E007,counter-culture-labs,sudo-room,HISTORICALLY_CONNECTED_TO,confirmed,CCL describes early meetings at Sudo Room.,S006,,legacy_unreviewed,,,,,,
+E008,counter-culture-labs,biocurious,SISTER_LAB,confirmed,CCL publicly calls BioCurious its sister lab.,S006,,legacy_unreviewed,,,,,,
+E009,eff,digital-civil-libertarianism,EXPLICITLY_ALIGNED_WITH,strong,"EFF's mission centers civil liberties, privacy, expression, encryption and user rights.",S013,,legacy_unreviewed,,,,,,
+E010,dweb,decentralization,EXPLICITLY_ALIGNED_WITH,confirmed,"DWeb explicitly advocates decentralized, open, private infrastructure.",S017,,legacy_unreviewed,,,,,,
+E011,embassy,commons-horizontalism,EXPLICITLY_PRACTICES,confirmed,The Embassy describes its mission as building a commons and exploring commoning.,S055,,legacy_unreviewed,,,,,,
+E012,twc,public-interest-ai,OVERLAPS_WITH,contextual,Tech labor organizing is relevant to sociotechnical AI governance; not every TWC activity is AI-specific.,S010,,legacy_unreviewed,,,,,,
+E013,techequity,public-interest-ai,EXPLICITLY_OVERLAPS_WITH,strong,TechEquity centers structural economic impacts and accountable technology.,S011,,legacy_unreviewed,,,,,,
+E014,cltc,public-interest-ai,EXPLICITLY_OVERLAPS_WITH,confirmed,"CLTC frames AI security/risk as public-interest, legal, ethical, cyber and socioeconomic.",S042,,legacy_unreviewed,,,,,,
+E015,dair,public-interest-ai,EXPLICITLY_OVERLAPS_WITH,strong,DAIR's worker/community-rooted work fits the sociotechnical/public-interest cluster.,S043,,legacy_unreviewed,,,,,,
+E016,dair,luddite-lab,OPERATES,confirmed,Luddite Lab is a DAIR project.,S043,,legacy_unreviewed,,,,,,
+E017,luddite-lab,twc,IDEOLOGICALLY_ADJACENT,inferred,Both center worker power over technology; no direct organizational tie asserted.,S010|S043,,legacy_unreviewed,,,,,,
+E018,gray-area,counterculture-tech,EXPLICITLY_ALIGNED_WITH,strong,"Gray Area integrates art, technology, culture and social transformation.",S012,,legacy_unreviewed,,,,,,
+E019,burning-man,counterculture-tech,OVERLAPS_WITH,contextual,"Burning Man is a major Bay Area countercultural network with extensive tech overlap; this edge is cultural, not ideological uniformity.",S018,,legacy_unreviewed,,,,,,
+E020,long-now,progress-studies,DISTINCT_BUT_ADJACENT,contextual,"Both foreground the future and progress, but Long Now has a distinct intellectual lineage.",S014|S022,,legacy_unreviewed,,,,,,
+E021,roots-progress,progress-studies,EXPLICITLY_BUILDS,confirmed,Roots of Progress explicitly says it is building the progress movement.,S022,,legacy_unreviewed,,,,,,
+E022,roots-progress,techno-optimism,OVERLAPS_WITH,contextual,Its techno-humanist manifesto strongly favors technological progress while differing from other techno-optimist variants.,S023,,legacy_unreviewed,,,,,,
+E023,a16z,techno-optimism,EXPLICITLY_ADVOCATES,confirmed,a16z published an explicit Techno-Optimist Manifesto.,S044,,legacy_unreviewed,,,,,,
+E024,frontier-tower,cypherpunk,EXPLICITLY_INFLUENCED_BY,confirmed,Frontier Tower's founders explicitly describe a growing interest in a cypherpunk world.,S045,,legacy_unreviewed,,,,,,
+E025,frontier-tower,decentralization,EXPLICITLY_ADVOCATES,confirmed,Frontier Tower describes self-governance and Ethereum-L2-based governance ambitions.,S045,,legacy_unreviewed,,,,,,
+E026,frontier-tower,techno-optimism,OVERLAPS_WITH,contextual,Frontier Tower frames frontier technology and urban experimentation positively; exact ideology is broader than a16z-style techno-optimism.,S045|S046,,legacy_unreviewed,,,,,,
+E027,california-forever,a16z,INVESTED_IN_BY,confirmed,California Forever lists Andreessen Horowitz among investors.,S026,,legacy_unreviewed,,,,,,
+E028,california-forever,patrick-collison,INVESTED_IN_BY,confirmed,California Forever lists Patrick Collison among investors.,S026,,legacy_unreviewed,,,,,,
+E029,roots-progress,patrick-collison,ADVISED_BY,confirmed,Roots of Progress lists Patrick Collison as an advisor.,S022,,legacy_unreviewed,,,,,,
+E030,roots-progress,tyler-cowen,ADVISED_BY,confirmed,Roots of Progress lists Tyler Cowen as an advisor.,S022,,legacy_unreviewed,,,,,,
+E031,roots-progress,jason-crawford,FOUNDED_BY,confirmed,Jason Crawford is founder/president.,S022,,legacy_unreviewed,,,,,,
+E032,foresight,allison-duettmann,LED_BY,confirmed,Foresight identifies Allison Duettmann as CEO.,S020,,legacy_unreviewed,,,,,,
+E033,foresight,christine-peterson,COFOUNDED_BY,confirmed,Foresight identifies Christine Peterson as co-founder.,S020,,legacy_unreviewed,,,,,,
+E034,foresight,eric-drexler,COFOUNDED_BY,confirmed,Foresight identifies Eric Drexler as co-founder.,S020,,legacy_unreviewed,,,,,,
+E035,astera,jed-mccaleb,COFOUNDED_FUNDED_BY,confirmed,Astera identifies Jed McCaleb as co-founder/funder.,S024,,legacy_unreviewed,,,,,,
+E036,astera,seemay-chou,COFOUNDED_BY,confirmed,Astera identifies Seemay Chou as co-founder.,S024,,legacy_unreviewed,,,,,,
+E037,california-forever,jan-sramek,FOUNDED_LED_BY,confirmed,California Forever identifies Jan Sramek as founder/CEO.,S025,,legacy_unreviewed,,,,,,
+E038,edge-city,janine-leger,COFOUNDED_BY,confirmed,Edge City identifies Janine Leger as co-founder.,S021,,legacy_unreviewed,,,,,,
+E039,edge-city,timour-kosters,COFOUNDED_BY,confirmed,Edge City identifies Timour Kosters as co-founder.,S021,,legacy_unreviewed,,,,,,
+E040,edge-city,vitalik-buterin,PUBLIC_PARTICIPANT,confirmed,Edge City lists/quotes Vitalik Buterin in its public ecosystem.,S021,,legacy_unreviewed,,,,,,
+E041,edge-city,decentralization,OVERLAPS_WITH,contextual,Edge City's Zuzalu/crypto/governance ecosystem overlaps decentralization experiments.,S021,,legacy_unreviewed,,,,,,
+E042,spc,jason-crawford,HOSTED_SPEAKER,confirmed,SPC hosted Crawford on human agency/progress in the intelligence age.,S080,,legacy_unreviewed,,,,,,
+E043,mission-control,founderism,OVERLAPS_WITH,contextual,"Mission Control selects ambitious builders and has a venture-fund ecosystem, while retaining communal resident governance.",S057|S058,,legacy_unreviewed,,,,,,
+E044,sf-parc,founderism,OVERLAPS_WITH,contextual,SF Parc explicitly selects ambitious creative technologists and ties into The Residency.,S056,,legacy_unreviewed,,,,,,
+E045,cerebral-valley,founderism,EXPLICITLY_ALIGNED_WITH,strong,"Cerebral Valley sells ecosystem-building, technical recruiting, and access to top AI builders/founders.",S049,,legacy_unreviewed,,,,,,
+E046,house-edge-node,decentralization,OVERLAPS_WITH,contextual,The House is run by Edge & Node / The Graph ecosystem and combines AI with crypto.,S059,,legacy_unreviewed,,,,,,
+E047,house-edge-node,founderism,EXPLICITLY_ALIGNED_WITH,strong,"The House describes a curated builder/founder network where deals, hires, and companies are made.",S059,,legacy_unreviewed,,,,,,
+E048,shack15,cerebral-valley,HOSTS_RECURRING_EVENTS_FOR,confirmed,Cerebral Valley/open-source AI events are repeatedly held at SHACK15.,S081,,legacy_unreviewed,,,,,,
+E049,agi-house,founderism,OVERLAPS_WITH,contextual,AGI House is a curated AI builder/research community with startup/founder overlap.,S027,,legacy_unreviewed,,,,,,
+E050,effective-altruism,effective-altruism-movement,IS,confirmed,Movement/entity identity alias for graph organization.,S031,,legacy_unreviewed,,,,,,
+E051,80000-hours,effective-altruism-movement,EXPLICITLY_PART_OF,confirmed,"80,000 Hours describes itself as part of the EA community.",S033,,legacy_unreviewed,,,,,,
+E052,80000-hours,advanced-ai-xrisk,EXPLICITLY_PART_OF,confirmed,"80,000 Hours also describes itself as part of the AI-safety community and focuses heavily on advanced AI.",S033,,legacy_unreviewed,,,,,,
+E053,bluedot,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,BlueDot is an AI safety talent accelerator focused on advanced AI risk.,S034,,legacy_unreviewed,,,,,,
+E054,mats,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,MATS trains researchers in alignment/transparency/security.,S035,,legacy_unreviewed,,,,,,
+E055,constellation,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,Constellation focuses on transformative-AI safety and catastrophic-risk mitigation.,S036,,legacy_unreviewed,,,,,,
+E056,cais,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,CAIS focuses on societal-scale risks from advanced AI.,S037,,legacy_unreviewed,,,,,,
+E057,chai,advanced-ai-xrisk,OVERLAPS_WITH,strong,"CHAI addresses control/beneficial advanced AI, though its academic framing is broader than EA.",S038,,legacy_unreviewed,,,,,,
+E058,metr,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,METR evaluates catastrophic-risk-relevant capabilities.,S039,,legacy_unreviewed,,,,,,
+E059,redwood,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,Redwood focuses on catastrophic AI risk and control.,S040,,legacy_unreviewed,,,,,,
+E060,far-ai,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,FAR.AI is an AI safety research/field-building organization.,S041,,legacy_unreviewed,,,,,,
+E061,lesswrong,rationalism,EXPLICITLY_CENTRAL_TO,confirmed,LessWrong is a central rationality community platform.,S030,,legacy_unreviewed,,,,,,
+E062,lightcone,lesswrong,OPERATES,confirmed,Lightcone operates LessWrong.,S028,institutional_statement,audited,S028: Infrastructure > LessWrong,,,,2026-09-25,Operation of the website does not imply agreement by its users or establish legal ownership.
+E063,lightcone,lighthaven,OPERATES,confirmed,Lightcone operates Lighthaven.,S028|S029,institutional_statement,audited,S028: Infrastructure > Lighthaven; S029: About,,,,2026-09-25,Venue operation does not imply endorsement by attendees or event organizers; property ownership has not been checked.
+E064,miri,rationalism,HISTORICALLY_INTERTWINED_WITH,strong,MIRI and LessWrong/rationalist AI-risk communities share an explicit historical lineage.,S030|S096,,legacy_unreviewed,,,,,,
+E065,miri,advanced-ai-xrisk,EXPLICITLY_ALIGNED_WITH,confirmed,MIRI is a long-running AI alignment/x-risk organization.,S096,,legacy_unreviewed,,,,,,
+E066,lesswrong,advanced-ai-xrisk,MAJOR_DISCUSSION_HUB_FOR,strong,LessWrong has long hosted extensive AI alignment/safety discourse.,S030,,legacy_unreviewed,,,,,,
+E067,mox,effective-altruism-movement,EXPLICIT_COMMUNITY_SPACE_FOR,confirmed,Mox describes itself as an EA community space.,S051|S052,,legacy_unreviewed,,,,,,
+E068,mox,advanced-ai-xrisk,EXPLICIT_COMMUNITY_SPACE_FOR,confirmed,Mox describes itself as a primary AI safety community/incubator space.,S051|S052,,legacy_unreviewed,,,,,,
+E069,mox,cais,HOSTED_EVENT_FOR,confirmed,CAIS Remote Labor Index presentation was hosted at Mox.,S074,,legacy_unreviewed,,,,,,
+E070,lighthaven,mats,HOSTS_EVENTS_FOR,confirmed,MATS participates in programming/events at Lighthaven.,S075,,legacy_unreviewed,,,,,,
+E071,lighthaven,catalyze-impact,HOSTED_EVENT_FOR,confirmed,Catalyze Impact hosted an AI safety entrepreneurship event at Lighthaven.,S075,,legacy_unreviewed,,,,,,
+E072,catalyze-impact,mats,FEATURED_ORG_LEADER,confirmed,Catalyze event featured MATS co-leadership.,S075,,legacy_unreviewed,,,,,,
+E073,catalyze-impact,timaeus,FEATURED_ORG_LEADER,confirmed,Catalyze event featured Timaeus co-founder/executive director.,S075,,legacy_unreviewed,,,,,,
+E074,lighthaven,vitalist-bay,HOSTS_EVENTS_FOR,confirmed,Vitalist Bay programming is hosted at Lighthaven.,S077,,legacy_unreviewed,,,,,,
+E075,lighthaven,manifest,HOSTS_OR_ADJACENT_TO,contextual,Lighthaven has hosted forecasting/prediction-market-adjacent programming; dedicated Manifest sourcing should be expanded.,S091,,legacy_unreviewed,,,,,,
+E076,lighthaven,roots-progress,HOSTED_PROGRESS_EVENT,confirmed,Progress Conference programming has been held at Lighthaven.,S079,,legacy_unreviewed,,,,,,
+E077,foresight,roots-progress,EVENT_ECOSYSTEM_OVERLAP,confirmed,Foresight's Paths to Progress event featured Jason Crawford / Roots of Progress.,S078,,legacy_unreviewed,,,,,,
+E078,foresight,far-ai,EVENT_ECOSYSTEM_OVERLAP,confirmed,Foresight event programming included FAR AI Labs representatives.,S078,,legacy_unreviewed,,,,,,
+E079,ai-salon,sf-intellectuals,COHOSTED_WITH,confirmed,The two groups co-hosted a public event.,S070,,legacy_unreviewed,,,,,,
+E080,ai-salon,superhuman-society,COHOSTED_WITH,confirmed,Multiple AI Salon events were co-hosted with SuperHuman Society.,S071|S072,,legacy_unreviewed,,,,,,
+E081,superhuman-society,the-commons,COHOSTED_AT,confirmed,Progress vs Flourishing event was hosted with/at The SF Commons.,S072,,legacy_unreviewed,,,,,,
+E082,ai-salon,the-commons,COHOSTED_AT,confirmed,AI Salon programming has appeared at The SF Commons.,S072,,legacy_unreviewed,,,,,,
+E083,ai-salon,public-interest-ai,OVERLAPS_WITH,contextual,"AI Salon explicitly discusses sociological/economic/cultural impacts, but it is pluralist rather than a single political program.",S070|S084,,legacy_unreviewed,,,,,,
+E084,superhuman-society,transhumanism,DISTINCT_BUT_ADJACENT,contextual,SuperHuman Society uses 'superhumanist' language and human enhancement/dignity themes; do not equate automatically with classic transhumanism.,S071,,legacy_unreviewed,,,,,,
+E085,vitalist-bay,longevity-vitalism,EXPLICITLY_ALIGNED_WITH,confirmed,Vitalist Bay is an explicit longevity/vitalist gathering.,S077,,legacy_unreviewed,,,,,,
+E086,foresight,longevity-vitalism,PROGRAMMATIC_FOCUS,confirmed,Longevity biotechnology is one of Foresight's stated focus areas.,S020|S087,,legacy_unreviewed,,,,,,
+E087,foresight,transhumanism,HISTORICALLY_ADJACENT,contextual,Foresight's nanotech/longevity/human-enhancement ecosystem overlaps transhumanist currents; classify carefully.,S020,,legacy_unreviewed,,,,,,
+E088,the-commons,counterculture-tech,OVERLAPS_WITH,contextual,The Commons hosts tech/art/philosophy programming in a community/meaning-making frame.,S053|S098,,legacy_unreviewed,,,,,,
+E089,frontier-tower,ai-salon,HOSTS_SALON_STYLE_EVENTS,contextual,Frontier Tower hosts intellectual salons; not necessarily AI Salon-branded.,S083,,legacy_unreviewed,,,,,,
+E090,foresight,allison-duettmann,LED_BY,confirmed,Public leadership role.,S020,,legacy_unreviewed,,,,,,
+E091,foresight,christine-peterson,COFOUNDED_BY,confirmed,Public founder role.,S020,,legacy_unreviewed,,,,,,
+E092,foresight,eric-drexler,COFOUNDED_BY,confirmed,Public founder role.,S020,,legacy_unreviewed,,,,,,
+E093,roots-progress,jason-crawford,FOUNDED_BY,confirmed,Public founder role.,S022,,legacy_unreviewed,,,,,,
+E094,cht,tristan-harris,COFOUNDED_BY,confirmed,Public founder role.,S015,,legacy_unreviewed,,,,,,
+E095,cht,aza-raskin,COFOUNDED_BY,confirmed,Public founder role.,S015,,legacy_unreviewed,,,,,,
+E096,gray-area,josette-melchor,FOUNDED_BY,confirmed,Public founder/executive role.,S012,,legacy_unreviewed,,,,,,
+E097,techequity,catherine-bracy,FOUNDED_BY,confirmed,Public founder/executive role.,S011,,legacy_unreviewed,,,,,,
+E098,cais,dan-hendrycks,LED_BY,confirmed,Public leadership role.,S037,,legacy_unreviewed,,,,,,
+E099,redwood,buck-shlegeris,LED_BY,confirmed,Public leadership role.,S040,,legacy_unreviewed,,,,,,
+E100,redwood,ryan-greenblatt,RESEARCH_LEADERSHIP,confirmed,Public leadership role.,S040,,legacy_unreviewed,,,,,,
+E101,far-ai,adam-gleave,COFOUNDED_BY,confirmed,Public founder role.,S041,,legacy_unreviewed,,,,,,
+E102,metr,adam-gleave,ADVISED_BY,confirmed,Public advisor/board relationship.,S039,,legacy_unreviewed,,,,,,
+E103,mox,rachel-shu,LED_ORGANIZED_BY,confirmed,Mox fundraising identifies Rachel Shu as director.,S052,,legacy_unreviewed,,,,,,
+E104,ai-salon,ian-eisenberg,ORGANIZED_BY,confirmed,Public event host/organizer role.,S070,,legacy_unreviewed,,,,,,
+E105,the-commons,ian-eisenberg,PUBLIC_TEAM_ORGANIZER,strong,The Commons about page publicly features Ian Eisenberg.,S053,,legacy_unreviewed,,,,,,
+E106,superhuman-society,banu-kellner,FOUNDED_BY,confirmed,Event description identifies Kellner as founder.,S071,,legacy_unreviewed,,,,,,
+E107,lesswrong,eliezer-yudkowsky,FOUNDED_BY,confirmed,LessWrong history identifies Yudkowsky as founder/early central writer.,S111,institutional_statement,audited,S111: FAQ > Who is Eliezer Yudkowsky?; Privacy Policy & Terms,2009,,,2026-09-25,Founding a community site does not make later users or posts attributable to its founder.
+E108,miri,eliezer-yudkowsky,COFOUNDED_BY,confirmed,"MIRI says Yudkowsky founded it in 2000 with Brian and Sabine Atkins, initially as the Singularity Institute.",S106,institutional_statement,audited,S106: History > 2000,2000,,,2026-09-25,"Co-founder is a historical role, not a claim about present management or agreement with every subsequent position."
+E109,agi-house,jeremy-nixon,PUBLICLY_ASSOCIATED_WITH,strong,Public directories/reporting associate Jeremy Nixon with AGI House SF.,S060|S103,,legacy_unreviewed,,,,,,
+E110,edge-city,vitalik-buterin,PUBLIC_ECOSYSTEM_PARTICIPANT,confirmed,Public Edge City material lists/quotes Buterin.,S021,,legacy_unreviewed,,,,,,
+E111,california-forever,patrick-collison,INVESTOR,confirmed,Public investor disclosure.,S026,,legacy_unreviewed,,,,,,
+E112,roots-progress,patrick-collison,ADVISOR,confirmed,Public advisor listing.,S022,,legacy_unreviewed,,,,,,
+E113,roots-progress,tyler-cowen,ADVISOR,confirmed,Public advisor listing.,S022,,legacy_unreviewed,,,,,,
+E114,cfar,anna-salamon,COFOUNDED_BY,confirmed,CFAR names Anna Salamon among its original 2012 founders.,S105,institutional_statement,audited,S105: Nuts & Bolts,2012,,,2026-09-25,A historical founding role says nothing about present governance.
+E115,anna-salamon,miri,BOARD_MEMBER_OF,confirmed,MIRI's team page lists Anna Salamon as a director on its board.,S110,institutional_statement,audited,S110: Board > Anna Salamon,,,,2026-09-25,Current public listing as checked; recheck before using as an ongoing role.
+E116,luke-muehlhauser,coefficient,EMPLOYED_BY,confirmed,Coefficient lists Luke Muehlhauser as managing director of AI governance and international policy; he joined in 2015 under its former name.,S108,institutional_statement,audited,S108: bio,2015,,,2026-09-25,The funder later changed its name; this is a public professional role.
+E117,luke-muehlhauser,miri,FORMER_EXECUTIVE_DIRECTOR_OF,confirmed,Coefficient's bio says Luke Muehlhauser was MIRI executive director before joining the funder in 2015.,S108,institutional_statement,audited,S108: bio,,,,2026-09-25,The exact start and end dates of his MIRI role were not established here.
+E118,coefficient,miri,RECOMMENDED_GRANT_TO,confirmed,"Under its former name Open Philanthropy, Coefficient reported recommending $500,000 to MIRI in its 2016 grantmaking.",S107,institutional_statement,audited,S107: Progress in 2016 > Potential risks from advanced AI; footnote 1,2016,,500000,2026-09-25,A recommendation was conditional; this source alone does not establish payment or later amounts.
+E119,coefficient,cfar,RECOMMENDED_GRANT_TO,confirmed,"Under its former name Open Philanthropy, Coefficient reported grant recommendations to CFAR and SPARC in 2016.",S107,institutional_statement,audited,S107: Progress in 2016 > Effective altruism; footnote 1,2016,,,2026-09-25,The reported $1.4 million combines CFAR and SPARC; the CFAR amount and final payment are not established here.
+E120,lesswrong,miri,ORIGINALLY_PROPERTY_OF,confirmed,"The 2019 LessWrong FAQ says the site was created as MIRI property at its 2009 founding, when MIRI was called SIAI.",S111,institutional_statement,audited,S111: Privacy Policy & Terms of Use,2009,,,2026-09-25,Historical founding arrangement only; current legal ownership and transfer date were not established.
+E121,ai-futures-project,ai-2040-plan-a,PUBLISHED_PROJECT,confirmed,"The AI Futures Project describes Plan A as its third major release, alongside AI 2027 and the AI Futures Model.",S112,institutional_statement,audited,S112: About Us,,,,2026-09-25,Publication does not make every person named in the acknowledgments a staff member or author.
+E122,lightcone,ai-2040-plan-a,BUILT_AND_DESIGNED_WEBSITE_FOR,confirmed,Plan A credits Lightcone staff with building and designing its website and giving content feedback; Lightcone lists AI 2040 among its design work.,S028|S112,institutional_statement,audited,S028: Design > AI 2040; S112: About Us; Contributions,,,,2026-09-25,"Website work and editorial feedback do not establish authorship of the policy plan, shared governance, or project funding."

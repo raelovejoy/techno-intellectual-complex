@@ -86,3 +86,9 @@ After pushing the repo:
 ## Status
 
 Early research prototype. Expect corrections. Primary sources are preferred, but secondary reporting is used when it reveals governance, funding, or institutional facts not disclosed by the entity itself.
+
+### September 2026 evidence audit
+
+The [Bay Area rationalist / EA / AI-safety seed](research/bay-area-rationalist-ai-safety-seed.md) audits a small set of public institutional relationships and documents unresolved leads. The graph remains broad: most earlier edges are marked **legacy review pending**, even where their old confidence label says “confirmed.” An audited edge means its wording was checked against the linked source on the recorded date; it is not an independent endorsement of that source's interpretation.
+
+The viewer now links to sources and shows claim kind, source location, dates, and what an audited edge does **not** establish. See [Methodology](METHODOLOGY.md) for how to challenge an edge. To rebuild the viewer from the canonical CSVs, run `python3 scripts/build_graph.py`; `python3 scripts/build_graph.py --check` validates the generated files.

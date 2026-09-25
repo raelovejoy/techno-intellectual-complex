@@ -9,6 +9,7 @@
         "summary": "Semi-public collective of engineers and artists doing self-directed work; home, gathering space, and event venue.",
         "philosophy": "mutual good; self-directed work",
         "location": "San Francisco",
+        "notes": "Operator is PrototypeSF, LLC.",
         "sources": "S001"
       }
     },
@@ -21,6 +22,7 @@
         "summary": "Collaborative creative house/community emphasizing engineering, aesthetics, systems thinking, and high agency.",
         "philosophy": "collaborative creative work; high agency; systems thinking",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S001|S002"
       }
     },
@@ -33,6 +35,7 @@
         "summary": "Volunteer-driven hackerspace with explicit anarchist organizational influence.",
         "philosophy": "anarchist organizational influence; consensus; do-ocracy",
         "location": "San Francisco",
+        "notes": "Participation is broader than anarchists.",
         "sources": "S003"
       }
     },
@@ -45,6 +48,7 @@
         "summary": "Open hackerspace linking technology with social justice, resilience, decentralization, sustainability, art, and solidarity.",
         "philosophy": "horizontal organization; social justice; decentralization; solidarity",
         "location": "Oakland",
+        "notes": "",
         "sources": "S004"
       }
     },
@@ -57,6 +61,7 @@
         "summary": "Commons composed of Bay Area collectives, organized around commoning and collective stewardship.",
         "philosophy": "commoning; collective stewardship; anti-corporate-profit orientation",
         "location": "Oakland",
+        "notes": "",
         "sources": "S005"
       }
     },
@@ -69,6 +74,7 @@
         "summary": "Volunteer community biology lab aimed at democratizing biotech and scientific literacy.",
         "philosophy": "open science; democratization of biotechnology; peer education",
         "location": "Oakland",
+        "notes": "",
         "sources": "S006"
       }
     },
@@ -81,6 +87,7 @@
         "summary": "Community biotech lab offering open, affordable access to biology experimentation.",
         "philosophy": "citizen science; open biology; access",
         "location": "Silicon Valley",
+        "notes": "",
         "sources": "S007"
       }
     },
@@ -93,6 +100,7 @@
         "summary": "Nonprofit maker and advanced-manufacturing hub combining public membership, workforce development, and startup support.",
         "philosophy": "making; workforce development; access to manufacturing",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S008"
       }
     },
@@ -105,18 +113,20 @@
         "summary": "Hardware coworking/prototyping community connecting companies to talent, capital, suppliers, and manufacturing.",
         "philosophy": "hardware entrepreneurship; industry network",
         "location": "Oakland / Mountain View",
+        "notes": "",
         "sources": "S009"
       }
     },
     {
       "data": {
         "id": "twc",
-        "label": "Tech Workers Coalition \u2014 Bay Area",
+        "label": "Tech Workers Coalition — Bay Area",
         "type": "organization",
         "cluster": "labor-left",
         "summary": "Tech-labor organizing community focused on worker power, political education, and collective action.",
         "philosophy": "worker power; collective action; political education",
         "location": "Bay Area",
+        "notes": "",
         "sources": "S010"
       }
     },
@@ -129,6 +139,7 @@
         "summary": "Advocacy/research organization working on technology's effects on labor, housing, and economic equity.",
         "philosophy": "economic justice; anti-racism; systems change; accountable technology",
         "location": "California",
+        "notes": "",
         "sources": "S011"
       }
     },
@@ -141,6 +152,7 @@
         "summary": "Cultural incubator integrating art, technology, science, and humanities toward equitable and regenerative futures.",
         "philosophy": "antidisciplinary practice; equity; social transformation",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S012"
       }
     },
@@ -153,6 +165,7 @@
         "summary": "Digital civil-liberties nonprofit focused on privacy, free expression, security research, and user rights.",
         "philosophy": "civil liberties; privacy; free expression; encryption",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S013"
       }
     },
@@ -165,6 +178,7 @@
         "summary": "Nonprofit seeking to change incentives around consequential technology so it better serves society.",
         "philosophy": "humane technology; public good; incentive reform",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S015"
       }
     },
@@ -177,18 +191,20 @@
         "summary": "Multi-stakeholder nonprofit working on responsible AI practice and governance.",
         "philosophy": "responsible AI; multi-stakeholder governance",
         "location": "Global / Bay Area ties",
+        "notes": "",
         "sources": "S016"
       }
     },
     {
       "data": {
         "id": "cltc",
-        "label": "UC Berkeley CLTC \u2014 AI Security Initiative",
+        "label": "UC Berkeley CLTC — AI Security Initiative",
         "type": "organization",
         "cluster": "public-interest-ai",
         "summary": "AI risk-management program integrating technical security, ethics, law, cyber risk, and socioeconomic impacts.",
         "philosophy": "public-interest AI safety; governance; security",
         "location": "Berkeley",
+        "notes": "",
         "sources": "S042"
       }
     },
@@ -201,6 +217,7 @@
         "summary": "Independent community-rooted AI research institute; includes worker-centered AI/automation work.",
         "philosophy": "community-rooted AI research; accountability",
         "location": "Distributed",
+        "notes": "",
         "sources": "S043"
       }
     },
@@ -213,6 +230,7 @@
         "summary": "DAIR project for worker-led governance and oversight of AI and automation at work.",
         "philosophy": "worker-led technology governance; labor power",
         "location": "Distributed",
+        "notes": "",
         "sources": "S043"
       }
     },
@@ -225,6 +243,7 @@
         "summary": "Local organizing group opposing or seeking to halt advanced AI development; included as a contrast node.",
         "philosophy": "AI opposition / precaution",
         "location": "Bay Area",
+        "notes": "Map internal philosophy carefully; do not equate with labor movement broadly.",
         "sources": "S085"
       }
     },
@@ -237,6 +256,7 @@
         "summary": "Foundation promoting long-term thinking and responsibility over a 10,000-year horizon.",
         "philosophy": "long-term thinking; responsibility",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S014|S088"
       }
     },
@@ -249,6 +269,7 @@
         "summary": "Long-running nonprofit futures research and foresight-training organization.",
         "philosophy": "strategic foresight; futures thinking",
         "location": "Palo Alto",
+        "notes": "",
         "sources": "S019"
       }
     },
@@ -261,6 +282,7 @@
         "summary": "Network connecting people, projects, and protocols working toward a private, resilient, open, decentralized web.",
         "philosophy": "decentralization; privacy; openness; distributed infrastructure",
         "location": "Global / SF node",
+        "notes": "",
         "sources": "S017"
       }
     },
@@ -273,6 +295,7 @@
         "summary": "Nonprofit hub of the Burning Man cultural network and participatory community principles.",
         "philosophy": "participation; gifting; radical self-expression; civic engagement",
         "location": "San Francisco / Nevada",
+        "notes": "Individual politics vary widely.",
         "sources": "S018"
       }
     },
@@ -285,6 +308,7 @@
         "summary": "Intentional community/commune explicitly exploring commons, commoning, shared surplus, and prefigurative projects.",
         "philosophy": "commoning; prefigurative politics; shared life",
         "location": "San Francisco",
+        "notes": "Home and event space; avoid treating residential details as research targets.",
         "sources": "S055"
       }
     },
@@ -297,6 +321,7 @@
         "summary": "A 'fourth place' and social movement for meaning-making, self/collective exploration, and community-created programming.",
         "philosophy": "inner/outer transformation; abundance mindset; playful agency",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S053|S054"
       }
     },
@@ -309,6 +334,7 @@
         "summary": "Intentional community blending embodiment, social impact, optimistic future-building, and technology-adjacent interests.",
         "philosophy": "intentional community; embodiment; social impact; optimism",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S099"
       }
     },
@@ -321,6 +347,7 @@
         "summary": "Frontier science/technology nonprofit active in secure AI, neurotech, longevity, nanotech, space, and existential hope.",
         "philosophy": "frontier technology; existential hope; human flourishing",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S020|S068"
       }
     },
@@ -333,6 +360,7 @@
         "summary": "Nonprofit building an intellectual and social progress movement around material and technological progress.",
         "philosophy": "progress studies; techno-humanism",
         "location": "US / Bay Area network",
+        "notes": "",
         "sources": "S022|S023"
       }
     },
@@ -345,6 +373,7 @@
         "summary": "Privately funded science/philanthropy organization experimenting with new institutional models for research and funding.",
         "philosophy": "institutional experimentation; accelerating progress; high-leverage science",
         "location": "Bay Area",
+        "notes": "",
         "sources": "S024"
       }
     },
@@ -357,6 +386,7 @@
         "summary": "Popup-village 'society incubator' for experiments across tech, science, governance, culture, crypto, biotech, and philosophy.",
         "philosophy": "human flourishing; governance experimentation; techno-optimism",
         "location": "Global / Northern California",
+        "notes": "",
         "sources": "S021"
       }
     },
@@ -369,6 +399,7 @@
         "summary": "Private company developing a new-city and industrial development project north of San Francisco.",
         "philosophy": "building/abundance rhetoric; new-city development",
         "location": "Solano County",
+        "notes": "",
         "sources": "S025|S026"
       }
     },
@@ -381,6 +412,7 @@
         "summary": "Venture-capital firm with an unusually explicit public ideological program around technology, abundance, competition, and growth.",
         "philosophy": "techno-optimism; abundance; competition; growth",
         "location": "Bay Area",
+        "notes": "Firm-level ideology should not be projected onto every employee/portfolio company.",
         "sources": "S044"
       }
     },
@@ -393,6 +425,7 @@
         "summary": "16-floor frontier-tech community marketed as a self-governed vertical village spanning AI, biotech, robotics, art, longevity, and other themes.",
         "philosophy": "cypherpunk tech; self-governance; network society; frontier tech",
         "location": "San Francisco",
+        "notes": "Secondary reporting documents tensions between community-governance rhetoric and ownership/control.",
         "sources": "S045|S046|S047"
       }
     },
@@ -405,6 +438,7 @@
         "summary": "Technical community and venture fund for founders, researchers, and technologists in an exploratory '-1 to 0' stage.",
         "philosophy": "talent density; exploration; founder/researcher development",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S048|S080"
       }
     },
@@ -417,6 +451,7 @@
         "summary": "AI ecosystem builder offering events, recruiting, ecosystem development, market research, and compute brokering.",
         "philosophy": "AI industry ecosystem-building; frontier builder network",
         "location": "San Francisco / global",
+        "notes": "",
         "sources": "S049|S050"
       }
     },
@@ -429,6 +464,7 @@
         "summary": "Curated AI/crypto builder hub in the Presidio run by Edge & Node.",
         "philosophy": "AI/crypto building; network density; emerging tech",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S059"
       }
     },
@@ -441,6 +477,7 @@
         "summary": "AI builder/research community and event network.",
         "philosophy": "AI building; founder/researcher community",
         "location": "Bay Area",
+        "notes": "",
         "sources": "S027"
       }
     },
@@ -453,6 +490,7 @@
         "summary": "Curated residency for AI founders, researchers, and creators with coworking, cohorts, hackathons, and fundraising support.",
         "philosophy": "AI building; founder acceleration",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S061"
       }
     },
@@ -465,6 +503,7 @@
         "summary": "Creative-technologist hacker house in The Residency network, blending engineers, researchers, artists, and startup-building.",
         "philosophy": "creative technology; human collaboration; ambitious building",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S056"
       }
     },
@@ -477,6 +516,7 @@
         "summary": "Long-running founder/hacker house started by Thiel Fellows; community governance by resident voting is reported.",
         "philosophy": "builder culture; communal governance",
         "location": "San Francisco",
+        "notes": "Origin does not imply current residents share Thiel's politics.",
         "sources": "S057|S058"
       }
     },
@@ -489,6 +529,7 @@
         "summary": "Curated space for exited/technical founders focused on 'vibe coding', performance, and builder culture.",
         "philosophy": "founder elitism/selection; performance optimization; AI building",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S100"
       }
     },
@@ -501,6 +542,7 @@
         "summary": "Multi-house coliving network serving people seeking deep work and community.",
         "philosophy": "deep work; community",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S101"
       }
     },
@@ -513,6 +555,7 @@
         "summary": "Private social/work club in the Ferry Building frequently used for startup and AI ecosystem events.",
         "philosophy": "professional network / social club",
         "location": "San Francisco",
+        "notes": "Treat primarily as venue/network infrastructure unless stronger ideological evidence emerges.",
         "sources": "S081|S090"
       }
     },
@@ -525,6 +568,7 @@
         "summary": "Philosophy and movement using reason and evidence to identify highly effective ways to help others.",
         "philosophy": "cause prioritization; effectiveness; evidence and reason",
         "location": "Global",
+        "notes": "",
         "sources": "S031"
       }
     },
@@ -537,6 +581,7 @@
         "summary": "Large philanthropic funder using cause prioritization and cost-effectiveness across multiple cause areas including advanced AI risk.",
         "philosophy": "high-impact philanthropy; cause prioritization; cost-effectiveness",
         "location": "US / global",
+        "notes": "",
         "sources": "S032"
       }
     },
@@ -549,6 +594,7 @@
         "summary": "Career-research and advising organization focused on high-impact work, with major emphasis on advanced AI.",
         "philosophy": "high-impact careers; EA; advanced-AI risk",
         "location": "Global",
+        "notes": "",
         "sources": "S033"
       }
     },
@@ -561,6 +607,7 @@
         "summary": "AI safety talent accelerator running courses, grants, recruitment/placement, incubator programs, and field-building.",
         "philosophy": "advanced-AI risk; AI safety; talent field-building",
         "location": "San Francisco / London",
+        "notes": "",
         "sources": "S034"
       }
     },
@@ -573,6 +620,7 @@
         "summary": "Seminar and mentorship program connecting emerging researchers with AI alignment, transparency, and security mentors.",
         "philosophy": "AI alignment; transparency; security",
         "location": "Berkeley / London",
+        "notes": "",
         "sources": "S035"
       }
     },
@@ -585,6 +633,7 @@
         "summary": "Research center and field-building institution for transformative-AI safety, incubation, fellowships, and convening.",
         "philosophy": "transformative-AI safety; catastrophic-risk mitigation",
         "location": "Berkeley",
+        "notes": "",
         "sources": "S036"
       }
     },
@@ -597,6 +646,7 @@
         "summary": "Research and field-building nonprofit focused on societal-scale risks from advanced AI.",
         "philosophy": "societal-scale AI risk; technical safety; field-building",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S037"
       }
     },
@@ -609,6 +659,7 @@
         "summary": "Academic research center on provably beneficial and human-compatible AI.",
         "philosophy": "beneficial AI; AI control; human compatibility",
         "location": "Berkeley",
+        "notes": "",
         "sources": "S038"
       }
     },
@@ -621,6 +672,7 @@
         "summary": "Nonprofit evaluating frontier-model autonomy and catastrophic-risk capabilities.",
         "philosophy": "AI evaluations; catastrophic-risk measurement; governance",
         "location": "Berkeley / Bay Area",
+        "notes": "",
         "sources": "S039"
       }
     },
@@ -633,6 +685,7 @@
         "summary": "Research nonprofit focused on catastrophic AI risks, AI control, and strategic deception.",
         "philosophy": "AI control; misalignment; catastrophic-risk mitigation",
         "location": "Berkeley",
+        "notes": "",
         "sources": "S040"
       }
     },
@@ -645,6 +698,7 @@
         "summary": "AI-safety research nonprofit combining technical research, grants, events, and coworking.",
         "philosophy": "advanced-AI safety; technical research; field-building",
         "location": "Berkeley",
+        "notes": "",
         "sources": "S041"
       }
     },
@@ -657,6 +711,7 @@
         "summary": "501(c)(3) operating LessWrong and Lighthaven and building infrastructure for long-term intellectual progress.",
         "philosophy": "rationality infrastructure; long-term future",
         "location": "Berkeley",
+        "notes": "",
         "sources": "S028|S029"
       }
     },
@@ -669,6 +724,7 @@
         "summary": "Berkeley campus/event venue operated by Lightcone, hosting AI safety, rationalist, progress, longevity, and adjacent events.",
         "philosophy": "intellectual progress; long-term trajectory",
         "location": "Berkeley",
+        "notes": "Venue participation does not imply ideological membership.",
         "sources": "S029"
       }
     },
@@ -681,6 +737,7 @@
         "summary": "Online community focused on rationality, reasoning, decision-making, and historically/currently AI alignment.",
         "philosophy": "rationality; Bayesian reasoning; AI alignment",
         "location": "Online / Bay Area",
+        "notes": "",
         "sources": "S030"
       }
     },
@@ -693,6 +750,7 @@
         "summary": "Long-running AI alignment research organization with strong historical ties to the rationalist/AI-risk ecosystem.",
         "philosophy": "AI alignment; existential risk",
         "location": "Berkeley / Bay Area",
+        "notes": "",
         "sources": "S096"
       }
     },
@@ -705,6 +763,7 @@
         "summary": "Community space/incubator describing itself as a gathering place for EAs, AI/AI-safety labs, independent researchers, builders, writers, and artists.",
         "philosophy": "Effective Altruism community; AI safety field-building",
         "location": "San Francisco",
+        "notes": "Useful example of physical social infrastructure connecting EA/AI-safety to broader SF tech culture.",
         "sources": "S051|S052"
       }
     },
@@ -717,6 +776,7 @@
         "summary": "Nonprofit incubator for new AI safety and security organizations.",
         "philosophy": "AI safety entrepreneurship; security; field-building",
         "location": "Bay Area / networked",
+        "notes": "",
         "sources": "S075|S094"
       }
     },
@@ -729,6 +789,7 @@
         "summary": "AI safety research organization appearing in Lighthaven entrepreneurship programming.",
         "philosophy": "AI safety / interpretability",
         "location": "Networked",
+        "notes": "Dedicated primary-source profile should be expanded.",
         "sources": "S075|S095"
       }
     },
@@ -741,6 +802,7 @@
         "summary": "Community founded in San Francisco for intimate discussions about the sociological, economic, cultural, and philosophical meaning of AI.",
         "philosophy": "pluralist AI discourse; sociotechnical reflection",
         "location": "San Francisco / global",
+        "notes": "",
         "sources": "S070|S084"
       }
     },
@@ -753,6 +815,7 @@
         "summary": "Discussion group focused on earnest inquiry across philosophy, culture, and technology.",
         "philosophy": "philosophical inquiry; culture; technology",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S070"
       }
     },
@@ -765,6 +828,7 @@
         "summary": "Community promoting technology designed to expand human dignity, capability, connection, and flourishing.",
         "philosophy": "superhumanism; human dignity; humane futures",
         "location": "San Francisco",
+        "notes": "",
         "sources": "S071|S072"
       }
     },
@@ -774,9 +838,10 @@
         "label": "Vitalist Bay",
         "type": "community",
         "cluster": "longevity",
-        "summary": "Immersive longevity zone/conference ecosystem spanning longevity science, AI\u00d7bio, cryonics/biostasis, and investing.",
+        "summary": "Immersive longevity zone/conference ecosystem spanning longevity science, AI×bio, cryonics/biostasis, and investing.",
         "philosophy": "radical longevity; healthspan extension; vitalism",
         "location": "Berkeley",
+        "notes": "",
         "sources": "S077|S092"
       }
     },
@@ -789,6 +854,7 @@
         "summary": "Policy advocacy organization focused on extending healthy human lifespan.",
         "philosophy": "longevity policy; healthspan extension",
         "location": "US / Bay Area events",
+        "notes": "",
         "sources": "S093"
       }
     },
@@ -801,6 +867,7 @@
         "summary": "Conference/community centered on prediction markets, forecasting, and adjacent rationalist/market-design culture.",
         "philosophy": "forecasting; prediction markets",
         "location": "Berkeley / Bay Area",
+        "notes": "Needs deeper first-party sourcing in next research sprint.",
         "sources": "S091"
       }
     },
@@ -813,6 +880,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "anti-hierarchy; voluntary association",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -825,6 +893,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "commoning; shared stewardship; horizontal governance",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -837,6 +906,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "privacy; free expression; encryption; user autonomy",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -849,6 +919,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "accountability; labor; civil rights; institutions; affected communities",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -861,6 +932,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "catastrophic risk; alignment; control; evaluations",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -873,6 +945,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "Bayesian rationality; epistemics; decision theory",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -885,6 +958,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "cause prioritization; effectiveness",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -897,6 +971,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "material progress; technological development",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -909,6 +984,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "technology; abundance; growth",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -921,6 +997,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "distributed infrastructure; privacy; open protocols",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -933,6 +1010,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "cryptography; censorship resistance; privacy; permissionless systems",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -945,6 +1023,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "human enhancement; longevity; neurotechnology",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -957,6 +1036,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "radical life extension; healthspan; anti-aging",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -969,6 +1049,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "art-tech hybridity; experimentation; alternative social forms",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -981,6 +1062,7 @@
         "summary": "Analytical movement/concept node used to group documented philosophical or institutional ties.",
         "philosophy": "selection for ambition; founder agency; venture-backed scaling",
         "location": "",
+        "notes": "Edges to this node require explicit evidence or are marked inferred/contextual.",
         "sources": ""
       }
     },
@@ -993,6 +1075,7 @@
         "summary": "President/CEO of Foresight Institute.",
         "philosophy": "frontier technology; existential hope",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S020"
       }
     },
@@ -1005,6 +1088,7 @@
         "summary": "Co-founder of Foresight Institute.",
         "philosophy": "nanotechnology; frontier technology",
         "location": "Bay Area",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S020"
       }
     },
@@ -1017,6 +1101,7 @@
         "summary": "Co-founder of Foresight Institute; molecular nanotechnology figure.",
         "philosophy": "nanotechnology",
         "location": "Bay Area",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S020"
       }
     },
@@ -1029,6 +1114,7 @@
         "summary": "Founder/president of Roots of Progress Institute.",
         "philosophy": "progress studies; techno-humanism",
         "location": "Bay Area / US",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S022|S023|S080"
       }
     },
@@ -1041,6 +1127,7 @@
         "summary": "Stripe co-founder; advisor to Roots of Progress and investor in California Forever.",
         "philosophy": "",
         "location": "Bay Area",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S022|S026"
       }
     },
@@ -1053,6 +1140,7 @@
         "summary": "Economist/writer; advisor to Roots of Progress.",
         "philosophy": "",
         "location": "US",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S022"
       }
     },
@@ -1065,6 +1153,7 @@
         "summary": "Ethereum co-founder; recurring participant in popup-society/decentralization ecosystems.",
         "philosophy": "",
         "location": "Global / Bay Area events",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S021"
       }
     },
@@ -1077,6 +1166,7 @@
         "summary": "Co-founder of Edge City; public-goods/community organizer.",
         "philosophy": "community experimentation; public goods",
         "location": "Global",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S021"
       }
     },
@@ -1089,6 +1179,7 @@
         "summary": "Co-founder of Edge City; startup/investor/community organizer.",
         "philosophy": "community experimentation",
         "location": "Global",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S021"
       }
     },
@@ -1101,6 +1192,7 @@
         "summary": "Co-founder/funder of Astera.",
         "philosophy": "accelerating progress",
         "location": "Bay Area",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S024"
       }
     },
@@ -1113,6 +1205,7 @@
         "summary": "Co-founder of Astera; scientist/institution builder.",
         "philosophy": "science institutional reform",
         "location": "Bay Area",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S024"
       }
     },
@@ -1125,6 +1218,7 @@
         "summary": "Founder and CEO of California Forever.",
         "philosophy": "",
         "location": "Solano County",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S025"
       }
     },
@@ -1137,6 +1231,7 @@
         "summary": "Co-founder and president of Center for Humane Technology.",
         "philosophy": "humane technology",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S015"
       }
     },
@@ -1149,6 +1244,7 @@
         "summary": "Co-founder of Center for Humane Technology.",
         "philosophy": "humane technology",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S015"
       }
     },
@@ -1161,6 +1257,7 @@
         "summary": "Founding executive director of Gray Area.",
         "philosophy": "art-tech social transformation",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S012"
       }
     },
@@ -1173,6 +1270,7 @@
         "summary": "Founder/CEO of TechEquity Collaborative.",
         "philosophy": "economic equity; accountable tech",
         "location": "California",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S011"
       }
     },
@@ -1185,6 +1283,7 @@
         "summary": "Founder/early central writer of LessWrong and historical AI-risk/alignment figure.",
         "philosophy": "rationality; AI alignment",
         "location": "Bay Area / online",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S030|S096"
       }
     },
@@ -1197,6 +1296,7 @@
         "summary": "Executive/research director of Center for AI Safety.",
         "philosophy": "societal-scale AI safety",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S037"
       }
     },
@@ -1209,6 +1309,7 @@
         "summary": "CEO/board member of Redwood Research.",
         "philosophy": "AI control; catastrophic AI risk",
         "location": "Berkeley",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S040"
       }
     },
@@ -1221,6 +1322,7 @@
         "summary": "Chief scientist at Redwood Research.",
         "philosophy": "AI control; catastrophic AI risk",
         "location": "Berkeley",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S040"
       }
     },
@@ -1233,6 +1335,7 @@
         "summary": "Co-founder of FAR.AI and advisor/board member at METR.",
         "philosophy": "AI safety",
         "location": "Berkeley",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S039|S041"
       }
     },
@@ -1245,6 +1348,7 @@
         "summary": "Publicly associated with AGI House SF in hacker-house directories/reporting.",
         "philosophy": "AI research community",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S060|S103"
       }
     },
@@ -1257,6 +1361,7 @@
         "summary": "Director/organizer associated with Mox's community and fundraising.",
         "philosophy": "EA community; AI safety infrastructure",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S052"
       }
     },
@@ -1269,6 +1374,7 @@
         "summary": "Organizer associated with AI Salon and The SF Commons.",
         "philosophy": "AI/social philosophy; community",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S053|S070"
       }
     },
@@ -1281,7 +1387,73 @@
         "summary": "Founder of SuperHuman Society and author of a 'Superhumanist Manifesto'.",
         "philosophy": "human dignity; human-centered technological development",
         "location": "San Francisco",
+        "notes": "Only public, role-relevant affiliations are mapped; attendance alone is not treated as ideology.",
         "sources": "S071|S072"
+      }
+    },
+    {
+      "data": {
+        "id": "cfar",
+        "label": "Center for Applied Rationality (CFAR)",
+        "type": "organization",
+        "cluster": "rationalist-infrastructure",
+        "summary": "Nonprofit focused on exploring and teaching applied rationality; founded in 2012.",
+        "philosophy": "applied rationality; experimenting with ways of thinking",
+        "location": "Mostly remote",
+        "notes": "Institutional roles and fiscal sponsorship require dated verification.",
+        "sources": "S105"
+      }
+    },
+    {
+      "data": {
+        "id": "anna-salamon",
+        "label": "Anna Salamon",
+        "type": "person",
+        "cluster": "rationalist-ai-safety",
+        "summary": "CFAR co-founder (2012); listed as a MIRI director on its public team page.",
+        "philosophy": "",
+        "location": "",
+        "notes": "Only public professional roles are mapped.",
+        "sources": "S105|S110"
+      }
+    },
+    {
+      "data": {
+        "id": "luke-muehlhauser",
+        "label": "Luke Muehlhauser",
+        "type": "person",
+        "cluster": "ea-philanthropy",
+        "summary": "Former MIRI executive director; joined the organization now called Coefficient Giving in 2015 and is listed as managing director for AI governance and international policy.",
+        "philosophy": "",
+        "location": "",
+        "notes": "The funder's name changed after he joined; no private relationships are implied.",
+        "sources": "S108"
+      }
+    },
+    {
+      "data": {
+        "id": "ai-futures-project",
+        "label": "AI Futures Project",
+        "type": "organization",
+        "cluster": "ai-futures-policy",
+        "summary": "Research nonprofit producing advanced-AI forecasts and policy scenarios, including AI 2040: Plan A.",
+        "philosophy": "advanced-AI forecasting and policy recommendations",
+        "location": "",
+        "notes": "The project credits external collaborators; collaboration is not proof of shared governance or funding.",
+        "sources": "S112"
+      }
+    },
+    {
+      "data": {
+        "id": "ai-2040-plan-a",
+        "label": "AI 2040: Plan A",
+        "type": "project",
+        "cluster": "ai-futures-policy",
+        "summary": "AI Futures Project scenario and policy proposal about slowing the race to superintelligence and coordinating AI research.",
+        "philosophy": "international coordination; research transparency; avoiding AI-driven power concentration",
+        "location": "Online",
+        "notes": "Presented by its authors as primarily a recommendation rather than a prediction.",
+        "sources": "S112|S113"
       }
     }
   ],
@@ -1294,7 +1466,15 @@
         "relationship": "OPERATED_BY",
         "confidence": "confirmed",
         "basis": "Vivarium states it is operated by PrototypeSF, LLC.",
-        "sources": "S001"
+        "sources": "S001",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1305,7 +1485,15 @@
         "relationship": "EXPLICITLY_INFLUENCED_BY",
         "confidence": "confirmed",
         "basis": "Noisebridge identifies anarchist organizational philosophy as a major influence.",
-        "sources": "S003"
+        "sources": "S003",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1316,7 +1504,15 @@
         "relationship": "EXPLICITLY_PRACTICES",
         "confidence": "confirmed",
         "basis": "Sudo Room describes horizontal, transparent organizing and solidarity/social-justice goals.",
-        "sources": "S004"
+        "sources": "S004",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1327,7 +1523,15 @@
         "relationship": "EXPLICITLY_PRACTICES",
         "confidence": "confirmed",
         "basis": "Omni explicitly centers commoning and collective stewardship.",
-        "sources": "S005"
+        "sources": "S005",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1338,7 +1542,15 @@
         "relationship": "COLOCATED_WITH",
         "confidence": "confirmed",
         "basis": "Sudo Room is part of the Omni Commons ecosystem.",
-        "sources": "S004|S005"
+        "sources": "S004|S005",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1349,7 +1561,15 @@
         "relationship": "LOCATED_AT",
         "confidence": "confirmed",
         "basis": "CCL describes its move into Omni Commons.",
-        "sources": "S006"
+        "sources": "S006",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1360,7 +1580,15 @@
         "relationship": "HISTORICALLY_CONNECTED_TO",
         "confidence": "confirmed",
         "basis": "CCL describes early meetings at Sudo Room.",
-        "sources": "S006"
+        "sources": "S006",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1371,7 +1599,15 @@
         "relationship": "SISTER_LAB",
         "confidence": "confirmed",
         "basis": "CCL publicly calls BioCurious its sister lab.",
-        "sources": "S006"
+        "sources": "S006",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1382,7 +1618,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "strong",
         "basis": "EFF's mission centers civil liberties, privacy, expression, encryption and user rights.",
-        "sources": "S013"
+        "sources": "S013",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1393,7 +1637,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "DWeb explicitly advocates decentralized, open, private infrastructure.",
-        "sources": "S017"
+        "sources": "S017",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1404,7 +1656,15 @@
         "relationship": "EXPLICITLY_PRACTICES",
         "confidence": "confirmed",
         "basis": "The Embassy describes its mission as building a commons and exploring commoning.",
-        "sources": "S055"
+        "sources": "S055",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1415,7 +1675,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "Tech labor organizing is relevant to sociotechnical AI governance; not every TWC activity is AI-specific.",
-        "sources": "S010"
+        "sources": "S010",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1426,7 +1694,15 @@
         "relationship": "EXPLICITLY_OVERLAPS_WITH",
         "confidence": "strong",
         "basis": "TechEquity centers structural economic impacts and accountable technology.",
-        "sources": "S011"
+        "sources": "S011",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1437,7 +1713,15 @@
         "relationship": "EXPLICITLY_OVERLAPS_WITH",
         "confidence": "confirmed",
         "basis": "CLTC frames AI security/risk as public-interest, legal, ethical, cyber and socioeconomic.",
-        "sources": "S042"
+        "sources": "S042",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1448,7 +1732,15 @@
         "relationship": "EXPLICITLY_OVERLAPS_WITH",
         "confidence": "strong",
         "basis": "DAIR's worker/community-rooted work fits the sociotechnical/public-interest cluster.",
-        "sources": "S043"
+        "sources": "S043",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1459,7 +1751,15 @@
         "relationship": "OPERATES",
         "confidence": "confirmed",
         "basis": "Luddite Lab is a DAIR project.",
-        "sources": "S043"
+        "sources": "S043",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1470,7 +1770,15 @@
         "relationship": "IDEOLOGICALLY_ADJACENT",
         "confidence": "inferred",
         "basis": "Both center worker power over technology; no direct organizational tie asserted.",
-        "sources": "S010|S043"
+        "sources": "S010|S043",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1481,7 +1789,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "strong",
         "basis": "Gray Area integrates art, technology, culture and social transformation.",
-        "sources": "S012"
+        "sources": "S012",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1492,7 +1808,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "Burning Man is a major Bay Area countercultural network with extensive tech overlap; this edge is cultural, not ideological uniformity.",
-        "sources": "S018"
+        "sources": "S018",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1503,7 +1827,15 @@
         "relationship": "DISTINCT_BUT_ADJACENT",
         "confidence": "contextual",
         "basis": "Both foreground the future and progress, but Long Now has a distinct intellectual lineage.",
-        "sources": "S014|S022"
+        "sources": "S014|S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1514,7 +1846,15 @@
         "relationship": "EXPLICITLY_BUILDS",
         "confidence": "confirmed",
         "basis": "Roots of Progress explicitly says it is building the progress movement.",
-        "sources": "S022"
+        "sources": "S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1525,7 +1865,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "Its techno-humanist manifesto strongly favors technological progress while differing from other techno-optimist variants.",
-        "sources": "S023"
+        "sources": "S023",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1536,7 +1884,15 @@
         "relationship": "EXPLICITLY_ADVOCATES",
         "confidence": "confirmed",
         "basis": "a16z published an explicit Techno-Optimist Manifesto.",
-        "sources": "S044"
+        "sources": "S044",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1547,7 +1903,15 @@
         "relationship": "EXPLICITLY_INFLUENCED_BY",
         "confidence": "confirmed",
         "basis": "Frontier Tower's founders explicitly describe a growing interest in a cypherpunk world.",
-        "sources": "S045"
+        "sources": "S045",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1558,7 +1922,15 @@
         "relationship": "EXPLICITLY_ADVOCATES",
         "confidence": "confirmed",
         "basis": "Frontier Tower describes self-governance and Ethereum-L2-based governance ambitions.",
-        "sources": "S045"
+        "sources": "S045",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1569,7 +1941,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "Frontier Tower frames frontier technology and urban experimentation positively; exact ideology is broader than a16z-style techno-optimism.",
-        "sources": "S045|S046"
+        "sources": "S045|S046",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1580,7 +1960,15 @@
         "relationship": "INVESTED_IN_BY",
         "confidence": "confirmed",
         "basis": "California Forever lists Andreessen Horowitz among investors.",
-        "sources": "S026"
+        "sources": "S026",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1591,7 +1979,15 @@
         "relationship": "INVESTED_IN_BY",
         "confidence": "confirmed",
         "basis": "California Forever lists Patrick Collison among investors.",
-        "sources": "S026"
+        "sources": "S026",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1602,7 +1998,15 @@
         "relationship": "ADVISED_BY",
         "confidence": "confirmed",
         "basis": "Roots of Progress lists Patrick Collison as an advisor.",
-        "sources": "S022"
+        "sources": "S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1613,7 +2017,15 @@
         "relationship": "ADVISED_BY",
         "confidence": "confirmed",
         "basis": "Roots of Progress lists Tyler Cowen as an advisor.",
-        "sources": "S022"
+        "sources": "S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1624,7 +2036,15 @@
         "relationship": "FOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Jason Crawford is founder/president.",
-        "sources": "S022"
+        "sources": "S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1635,7 +2055,15 @@
         "relationship": "LED_BY",
         "confidence": "confirmed",
         "basis": "Foresight identifies Allison Duettmann as CEO.",
-        "sources": "S020"
+        "sources": "S020",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1646,7 +2074,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Foresight identifies Christine Peterson as co-founder.",
-        "sources": "S020"
+        "sources": "S020",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1657,7 +2093,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Foresight identifies Eric Drexler as co-founder.",
-        "sources": "S020"
+        "sources": "S020",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1668,7 +2112,15 @@
         "relationship": "COFOUNDED_FUNDED_BY",
         "confidence": "confirmed",
         "basis": "Astera identifies Jed McCaleb as co-founder/funder.",
-        "sources": "S024"
+        "sources": "S024",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1679,7 +2131,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Astera identifies Seemay Chou as co-founder.",
-        "sources": "S024"
+        "sources": "S024",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1690,7 +2150,15 @@
         "relationship": "FOUNDED_LED_BY",
         "confidence": "confirmed",
         "basis": "California Forever identifies Jan Sramek as founder/CEO.",
-        "sources": "S025"
+        "sources": "S025",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1701,7 +2169,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Edge City identifies Janine Leger as co-founder.",
-        "sources": "S021"
+        "sources": "S021",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1712,7 +2188,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Edge City identifies Timour Kosters as co-founder.",
-        "sources": "S021"
+        "sources": "S021",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1723,7 +2207,15 @@
         "relationship": "PUBLIC_PARTICIPANT",
         "confidence": "confirmed",
         "basis": "Edge City lists/quotes Vitalik Buterin in its public ecosystem.",
-        "sources": "S021"
+        "sources": "S021",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1734,7 +2226,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "Edge City's Zuzalu/crypto/governance ecosystem overlaps decentralization experiments.",
-        "sources": "S021"
+        "sources": "S021",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1745,7 +2245,15 @@
         "relationship": "HOSTED_SPEAKER",
         "confidence": "confirmed",
         "basis": "SPC hosted Crawford on human agency/progress in the intelligence age.",
-        "sources": "S080"
+        "sources": "S080",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1756,7 +2264,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "Mission Control selects ambitious builders and has a venture-fund ecosystem, while retaining communal resident governance.",
-        "sources": "S057|S058"
+        "sources": "S057|S058",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1767,7 +2283,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "SF Parc explicitly selects ambitious creative technologists and ties into The Residency.",
-        "sources": "S056"
+        "sources": "S056",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1778,7 +2302,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "strong",
         "basis": "Cerebral Valley sells ecosystem-building, technical recruiting, and access to top AI builders/founders.",
-        "sources": "S049"
+        "sources": "S049",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1789,7 +2321,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "The House is run by Edge & Node / The Graph ecosystem and combines AI with crypto.",
-        "sources": "S059"
+        "sources": "S059",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1800,7 +2340,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "strong",
         "basis": "The House describes a curated builder/founder network where deals, hires, and companies are made.",
-        "sources": "S059"
+        "sources": "S059",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1811,7 +2359,15 @@
         "relationship": "HOSTS_RECURRING_EVENTS_FOR",
         "confidence": "confirmed",
         "basis": "Cerebral Valley/open-source AI events are repeatedly held at SHACK15.",
-        "sources": "S081"
+        "sources": "S081",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1822,7 +2378,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "AGI House is a curated AI builder/research community with startup/founder overlap.",
-        "sources": "S027"
+        "sources": "S027",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1833,7 +2397,15 @@
         "relationship": "IS",
         "confidence": "confirmed",
         "basis": "Movement/entity identity alias for graph organization.",
-        "sources": "S031"
+        "sources": "S031",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1844,7 +2416,15 @@
         "relationship": "EXPLICITLY_PART_OF",
         "confidence": "confirmed",
         "basis": "80,000 Hours describes itself as part of the EA community.",
-        "sources": "S033"
+        "sources": "S033",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1855,7 +2435,15 @@
         "relationship": "EXPLICITLY_PART_OF",
         "confidence": "confirmed",
         "basis": "80,000 Hours also describes itself as part of the AI-safety community and focuses heavily on advanced AI.",
-        "sources": "S033"
+        "sources": "S033",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1866,7 +2454,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "BlueDot is an AI safety talent accelerator focused on advanced AI risk.",
-        "sources": "S034"
+        "sources": "S034",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1877,7 +2473,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "MATS trains researchers in alignment/transparency/security.",
-        "sources": "S035"
+        "sources": "S035",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1888,7 +2492,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "Constellation focuses on transformative-AI safety and catastrophic-risk mitigation.",
-        "sources": "S036"
+        "sources": "S036",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1899,7 +2511,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "CAIS focuses on societal-scale risks from advanced AI.",
-        "sources": "S037"
+        "sources": "S037",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1910,7 +2530,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "strong",
         "basis": "CHAI addresses control/beneficial advanced AI, though its academic framing is broader than EA.",
-        "sources": "S038"
+        "sources": "S038",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1921,7 +2549,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "METR evaluates catastrophic-risk-relevant capabilities.",
-        "sources": "S039"
+        "sources": "S039",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1932,7 +2568,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "Redwood focuses on catastrophic AI risk and control.",
-        "sources": "S040"
+        "sources": "S040",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1943,7 +2587,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "FAR.AI is an AI safety research/field-building organization.",
-        "sources": "S041"
+        "sources": "S041",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1954,7 +2606,15 @@
         "relationship": "EXPLICITLY_CENTRAL_TO",
         "confidence": "confirmed",
         "basis": "LessWrong is a central rationality community platform.",
-        "sources": "S030"
+        "sources": "S030",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1965,7 +2625,15 @@
         "relationship": "OPERATES",
         "confidence": "confirmed",
         "basis": "Lightcone operates LessWrong.",
-        "sources": "S028"
+        "sources": "S028",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S028: Infrastructure > LessWrong",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Operation of the website does not imply agreement by its users or establish legal ownership."
       }
     },
     {
@@ -1976,7 +2644,15 @@
         "relationship": "OPERATES",
         "confidence": "confirmed",
         "basis": "Lightcone operates Lighthaven.",
-        "sources": "S028|S029"
+        "sources": "S028|S029",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S028: Infrastructure > Lighthaven; S029: About",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Venue operation does not imply endorsement by attendees or event organizers; property ownership has not been checked."
       }
     },
     {
@@ -1987,7 +2663,15 @@
         "relationship": "HISTORICALLY_INTERTWINED_WITH",
         "confidence": "strong",
         "basis": "MIRI and LessWrong/rationalist AI-risk communities share an explicit historical lineage.",
-        "sources": "S030|S096"
+        "sources": "S030|S096",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -1998,7 +2682,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "MIRI is a long-running AI alignment/x-risk organization.",
-        "sources": "S096"
+        "sources": "S096",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2009,7 +2701,15 @@
         "relationship": "MAJOR_DISCUSSION_HUB_FOR",
         "confidence": "strong",
         "basis": "LessWrong has long hosted extensive AI alignment/safety discourse.",
-        "sources": "S030"
+        "sources": "S030",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2020,7 +2720,15 @@
         "relationship": "EXPLICIT_COMMUNITY_SPACE_FOR",
         "confidence": "confirmed",
         "basis": "Mox describes itself as an EA community space.",
-        "sources": "S051|S052"
+        "sources": "S051|S052",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2031,7 +2739,15 @@
         "relationship": "EXPLICIT_COMMUNITY_SPACE_FOR",
         "confidence": "confirmed",
         "basis": "Mox describes itself as a primary AI safety community/incubator space.",
-        "sources": "S051|S052"
+        "sources": "S051|S052",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2042,7 +2758,15 @@
         "relationship": "HOSTED_EVENT_FOR",
         "confidence": "confirmed",
         "basis": "CAIS Remote Labor Index presentation was hosted at Mox.",
-        "sources": "S074"
+        "sources": "S074",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2053,7 +2777,15 @@
         "relationship": "HOSTS_EVENTS_FOR",
         "confidence": "confirmed",
         "basis": "MATS participates in programming/events at Lighthaven.",
-        "sources": "S075"
+        "sources": "S075",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2064,7 +2796,15 @@
         "relationship": "HOSTED_EVENT_FOR",
         "confidence": "confirmed",
         "basis": "Catalyze Impact hosted an AI safety entrepreneurship event at Lighthaven.",
-        "sources": "S075"
+        "sources": "S075",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2075,7 +2815,15 @@
         "relationship": "FEATURED_ORG_LEADER",
         "confidence": "confirmed",
         "basis": "Catalyze event featured MATS co-leadership.",
-        "sources": "S075"
+        "sources": "S075",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2086,7 +2834,15 @@
         "relationship": "FEATURED_ORG_LEADER",
         "confidence": "confirmed",
         "basis": "Catalyze event featured Timaeus co-founder/executive director.",
-        "sources": "S075"
+        "sources": "S075",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2097,7 +2853,15 @@
         "relationship": "HOSTS_EVENTS_FOR",
         "confidence": "confirmed",
         "basis": "Vitalist Bay programming is hosted at Lighthaven.",
-        "sources": "S077"
+        "sources": "S077",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2108,7 +2872,15 @@
         "relationship": "HOSTS_OR_ADJACENT_TO",
         "confidence": "contextual",
         "basis": "Lighthaven has hosted forecasting/prediction-market-adjacent programming; dedicated Manifest sourcing should be expanded.",
-        "sources": "S091"
+        "sources": "S091",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2119,7 +2891,15 @@
         "relationship": "HOSTED_PROGRESS_EVENT",
         "confidence": "confirmed",
         "basis": "Progress Conference programming has been held at Lighthaven.",
-        "sources": "S079"
+        "sources": "S079",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2130,7 +2910,15 @@
         "relationship": "EVENT_ECOSYSTEM_OVERLAP",
         "confidence": "confirmed",
         "basis": "Foresight's Paths to Progress event featured Jason Crawford / Roots of Progress.",
-        "sources": "S078"
+        "sources": "S078",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2141,7 +2929,15 @@
         "relationship": "EVENT_ECOSYSTEM_OVERLAP",
         "confidence": "confirmed",
         "basis": "Foresight event programming included FAR AI Labs representatives.",
-        "sources": "S078"
+        "sources": "S078",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2152,7 +2948,15 @@
         "relationship": "COHOSTED_WITH",
         "confidence": "confirmed",
         "basis": "The two groups co-hosted a public event.",
-        "sources": "S070"
+        "sources": "S070",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2163,7 +2967,15 @@
         "relationship": "COHOSTED_WITH",
         "confidence": "confirmed",
         "basis": "Multiple AI Salon events were co-hosted with SuperHuman Society.",
-        "sources": "S071|S072"
+        "sources": "S071|S072",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2174,7 +2986,15 @@
         "relationship": "COHOSTED_AT",
         "confidence": "confirmed",
         "basis": "Progress vs Flourishing event was hosted with/at The SF Commons.",
-        "sources": "S072"
+        "sources": "S072",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2185,7 +3005,15 @@
         "relationship": "COHOSTED_AT",
         "confidence": "confirmed",
         "basis": "AI Salon programming has appeared at The SF Commons.",
-        "sources": "S072"
+        "sources": "S072",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2196,7 +3024,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "AI Salon explicitly discusses sociological/economic/cultural impacts, but it is pluralist rather than a single political program.",
-        "sources": "S070|S084"
+        "sources": "S070|S084",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2207,7 +3043,15 @@
         "relationship": "DISTINCT_BUT_ADJACENT",
         "confidence": "contextual",
         "basis": "SuperHuman Society uses 'superhumanist' language and human enhancement/dignity themes; do not equate automatically with classic transhumanism.",
-        "sources": "S071"
+        "sources": "S071",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2218,7 +3062,15 @@
         "relationship": "EXPLICITLY_ALIGNED_WITH",
         "confidence": "confirmed",
         "basis": "Vitalist Bay is an explicit longevity/vitalist gathering.",
-        "sources": "S077"
+        "sources": "S077",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2229,7 +3081,15 @@
         "relationship": "PROGRAMMATIC_FOCUS",
         "confidence": "confirmed",
         "basis": "Longevity biotechnology is one of Foresight's stated focus areas.",
-        "sources": "S020|S087"
+        "sources": "S020|S087",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2240,7 +3100,15 @@
         "relationship": "HISTORICALLY_ADJACENT",
         "confidence": "contextual",
         "basis": "Foresight's nanotech/longevity/human-enhancement ecosystem overlaps transhumanist currents; classify carefully.",
-        "sources": "S020"
+        "sources": "S020",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2251,7 +3119,15 @@
         "relationship": "OVERLAPS_WITH",
         "confidence": "contextual",
         "basis": "The Commons hosts tech/art/philosophy programming in a community/meaning-making frame.",
-        "sources": "S053|S098"
+        "sources": "S053|S098",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2262,7 +3138,15 @@
         "relationship": "HOSTS_SALON_STYLE_EVENTS",
         "confidence": "contextual",
         "basis": "Frontier Tower hosts intellectual salons; not necessarily AI Salon-branded.",
-        "sources": "S083"
+        "sources": "S083",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2273,7 +3157,15 @@
         "relationship": "LED_BY",
         "confidence": "confirmed",
         "basis": "Public leadership role.",
-        "sources": "S020"
+        "sources": "S020",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2284,7 +3176,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder role.",
-        "sources": "S020"
+        "sources": "S020",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2295,7 +3195,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder role.",
-        "sources": "S020"
+        "sources": "S020",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2306,7 +3214,15 @@
         "relationship": "FOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder role.",
-        "sources": "S022"
+        "sources": "S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2317,7 +3233,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder role.",
-        "sources": "S015"
+        "sources": "S015",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2328,7 +3252,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder role.",
-        "sources": "S015"
+        "sources": "S015",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2339,7 +3271,15 @@
         "relationship": "FOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder/executive role.",
-        "sources": "S012"
+        "sources": "S012",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2350,7 +3290,15 @@
         "relationship": "FOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder/executive role.",
-        "sources": "S011"
+        "sources": "S011",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2361,7 +3309,15 @@
         "relationship": "LED_BY",
         "confidence": "confirmed",
         "basis": "Public leadership role.",
-        "sources": "S037"
+        "sources": "S037",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2372,7 +3328,15 @@
         "relationship": "LED_BY",
         "confidence": "confirmed",
         "basis": "Public leadership role.",
-        "sources": "S040"
+        "sources": "S040",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2383,7 +3347,15 @@
         "relationship": "RESEARCH_LEADERSHIP",
         "confidence": "confirmed",
         "basis": "Public leadership role.",
-        "sources": "S040"
+        "sources": "S040",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2394,7 +3366,15 @@
         "relationship": "COFOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Public founder role.",
-        "sources": "S041"
+        "sources": "S041",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2405,7 +3385,15 @@
         "relationship": "ADVISED_BY",
         "confidence": "confirmed",
         "basis": "Public advisor/board relationship.",
-        "sources": "S039"
+        "sources": "S039",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2416,7 +3404,15 @@
         "relationship": "LED_ORGANIZED_BY",
         "confidence": "confirmed",
         "basis": "Mox fundraising identifies Rachel Shu as director.",
-        "sources": "S052"
+        "sources": "S052",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2427,7 +3423,15 @@
         "relationship": "ORGANIZED_BY",
         "confidence": "confirmed",
         "basis": "Public event host/organizer role.",
-        "sources": "S070"
+        "sources": "S070",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2438,7 +3442,15 @@
         "relationship": "PUBLIC_TEAM_ORGANIZER",
         "confidence": "strong",
         "basis": "The Commons about page publicly features Ian Eisenberg.",
-        "sources": "S053"
+        "sources": "S053",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2449,7 +3461,15 @@
         "relationship": "FOUNDED_BY",
         "confidence": "confirmed",
         "basis": "Event description identifies Kellner as founder.",
-        "sources": "S071"
+        "sources": "S071",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2460,7 +3480,15 @@
         "relationship": "FOUNDED_BY",
         "confidence": "confirmed",
         "basis": "LessWrong history identifies Yudkowsky as founder/early central writer.",
-        "sources": "S030"
+        "sources": "S111",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S111: FAQ > Who is Eliezer Yudkowsky?; Privacy Policy & Terms",
+        "date_start": "2009",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Founding a community site does not make later users or posts attributable to its founder."
       }
     },
     {
@@ -2468,10 +3496,18 @@
         "id": "E108",
         "source": "miri",
         "target": "eliezer-yudkowsky",
-        "relationship": "HISTORICALLY_LED_BY",
-        "confidence": "strong",
-        "basis": "Yudkowsky is a central historical MIRI figure; exact present governance should be checked before current-title claims.",
-        "sources": "S096"
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "MIRI says Yudkowsky founded it in 2000 with Brian and Sabine Atkins, initially as the Singularity Institute.",
+        "sources": "S106",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S106: History > 2000",
+        "date_start": "2000",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Co-founder is a historical role, not a claim about present management or agreement with every subsequent position."
       }
     },
     {
@@ -2482,7 +3518,15 @@
         "relationship": "PUBLICLY_ASSOCIATED_WITH",
         "confidence": "strong",
         "basis": "Public directories/reporting associate Jeremy Nixon with AGI House SF.",
-        "sources": "S060|S103"
+        "sources": "S060|S103",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2493,7 +3537,15 @@
         "relationship": "PUBLIC_ECOSYSTEM_PARTICIPANT",
         "confidence": "confirmed",
         "basis": "Public Edge City material lists/quotes Buterin.",
-        "sources": "S021"
+        "sources": "S021",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2504,7 +3556,15 @@
         "relationship": "INVESTOR",
         "confidence": "confirmed",
         "basis": "Public investor disclosure.",
-        "sources": "S026"
+        "sources": "S026",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2515,7 +3575,15 @@
         "relationship": "ADVISOR",
         "confidence": "confirmed",
         "basis": "Public advisor listing.",
-        "sources": "S022"
+        "sources": "S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
       }
     },
     {
@@ -2526,8 +3594,980 @@
         "relationship": "ADVISOR",
         "confidence": "confirmed",
         "basis": "Public advisor listing.",
-        "sources": "S022"
+        "sources": "S022",
+        "claim_kind": "",
+        "review_status": "legacy_unreviewed",
+        "source_locator": "",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "",
+        "caveat": ""
+      }
+    },
+    {
+      "data": {
+        "id": "E114",
+        "source": "cfar",
+        "target": "anna-salamon",
+        "relationship": "COFOUNDED_BY",
+        "confidence": "confirmed",
+        "basis": "CFAR names Anna Salamon among its original 2012 founders.",
+        "sources": "S105",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S105: Nuts & Bolts",
+        "date_start": "2012",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "A historical founding role says nothing about present governance."
+      }
+    },
+    {
+      "data": {
+        "id": "E115",
+        "source": "anna-salamon",
+        "target": "miri",
+        "relationship": "BOARD_MEMBER_OF",
+        "confidence": "confirmed",
+        "basis": "MIRI's team page lists Anna Salamon as a director on its board.",
+        "sources": "S110",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S110: Board > Anna Salamon",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Current public listing as checked; recheck before using as an ongoing role."
+      }
+    },
+    {
+      "data": {
+        "id": "E116",
+        "source": "luke-muehlhauser",
+        "target": "coefficient",
+        "relationship": "EMPLOYED_BY",
+        "confidence": "confirmed",
+        "basis": "Coefficient lists Luke Muehlhauser as managing director of AI governance and international policy; he joined in 2015 under its former name.",
+        "sources": "S108",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S108: bio",
+        "date_start": "2015",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "The funder later changed its name; this is a public professional role."
+      }
+    },
+    {
+      "data": {
+        "id": "E117",
+        "source": "luke-muehlhauser",
+        "target": "miri",
+        "relationship": "FORMER_EXECUTIVE_DIRECTOR_OF",
+        "confidence": "confirmed",
+        "basis": "Coefficient's bio says Luke Muehlhauser was MIRI executive director before joining the funder in 2015.",
+        "sources": "S108",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S108: bio",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "The exact start and end dates of his MIRI role were not established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E118",
+        "source": "coefficient",
+        "target": "miri",
+        "relationship": "RECOMMENDED_GRANT_TO",
+        "confidence": "confirmed",
+        "basis": "Under its former name Open Philanthropy, Coefficient reported recommending $500,000 to MIRI in its 2016 grantmaking.",
+        "sources": "S107",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S107: Progress in 2016 > Potential risks from advanced AI; footnote 1",
+        "date_start": "2016",
+        "date_end": "",
+        "amount_usd": "500000",
+        "last_verified": "2026-09-25",
+        "caveat": "A recommendation was conditional; this source alone does not establish payment or later amounts."
+      }
+    },
+    {
+      "data": {
+        "id": "E119",
+        "source": "coefficient",
+        "target": "cfar",
+        "relationship": "RECOMMENDED_GRANT_TO",
+        "confidence": "confirmed",
+        "basis": "Under its former name Open Philanthropy, Coefficient reported grant recommendations to CFAR and SPARC in 2016.",
+        "sources": "S107",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S107: Progress in 2016 > Effective altruism; footnote 1",
+        "date_start": "2016",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "The reported $1.4 million combines CFAR and SPARC; the CFAR amount and final payment are not established here."
+      }
+    },
+    {
+      "data": {
+        "id": "E120",
+        "source": "lesswrong",
+        "target": "miri",
+        "relationship": "ORIGINALLY_PROPERTY_OF",
+        "confidence": "confirmed",
+        "basis": "The 2019 LessWrong FAQ says the site was created as MIRI property at its 2009 founding, when MIRI was called SIAI.",
+        "sources": "S111",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S111: Privacy Policy & Terms of Use",
+        "date_start": "2009",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Historical founding arrangement only; current legal ownership and transfer date were not established."
+      }
+    },
+    {
+      "data": {
+        "id": "E121",
+        "source": "ai-futures-project",
+        "target": "ai-2040-plan-a",
+        "relationship": "PUBLISHED_PROJECT",
+        "confidence": "confirmed",
+        "basis": "The AI Futures Project describes Plan A as its third major release, alongside AI 2027 and the AI Futures Model.",
+        "sources": "S112",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S112: About Us",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Publication does not make every person named in the acknowledgments a staff member or author."
+      }
+    },
+    {
+      "data": {
+        "id": "E122",
+        "source": "lightcone",
+        "target": "ai-2040-plan-a",
+        "relationship": "BUILT_AND_DESIGNED_WEBSITE_FOR",
+        "confidence": "confirmed",
+        "basis": "Plan A credits Lightcone staff with building and designing its website and giving content feedback; Lightcone lists AI 2040 among its design work.",
+        "sources": "S028|S112",
+        "claim_kind": "institutional_statement",
+        "review_status": "audited",
+        "source_locator": "S028: Design > AI 2040; S112: About Us; Contributions",
+        "date_start": "",
+        "date_end": "",
+        "amount_usd": "",
+        "last_verified": "2026-09-25",
+        "caveat": "Website work and editorial feedback do not establish authorship of the policy plan, shared governance, or project funding."
       }
     }
-  ]
+  ],
+  "sources": {
+    "S001": {
+      "title": "Vivarium — About",
+      "url": "https://vivariumsf.com/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S002": {
+      "title": "PrototypeSF — Home",
+      "url": "https://www.prototypesf.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S003": {
+      "title": "Noisebridge — Anarchy",
+      "url": "https://www.noisebridge.net/wiki/Anarchy",
+      "source_type": "primary/community",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S004": {
+      "title": "Sudo Room — About",
+      "url": "https://sudoroom.org/mediawiki/index.php?title=About",
+      "source_type": "primary/community",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S005": {
+      "title": "Omni Commons — Join",
+      "url": "https://omnicommons.org/wiki/Join",
+      "source_type": "primary/community",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S006": {
+      "title": "Counter Culture Labs — About",
+      "url": "https://www.counterculturelabs.org/about1.html",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S007": {
+      "title": "BioCurious — About",
+      "url": "https://biocurious.org/about/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S008": {
+      "title": "Humanmade — Home",
+      "url": "https://www.humanmade.org/home",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S009": {
+      "title": "Circuit Launch — About",
+      "url": "https://www.circuitlaunch.com/about-us.html",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S010": {
+      "title": "Tech Workers Coalition — Bay Area",
+      "url": "https://techworkerscoalition.org/bay-area/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S011": {
+      "title": "TechEquity Collaborative — Who We Are",
+      "url": "https://techequity.us/who-we-are/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S012": {
+      "title": "Gray Area — Mission",
+      "url": "https://grayarea.org/about/mission/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S013": {
+      "title": "EFF — About",
+      "url": "https://www.eff.org/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S014": {
+      "title": "Long Now Foundation — Home",
+      "url": "https://longnow.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S015": {
+      "title": "Center for Humane Technology — Impact & Story",
+      "url": "https://www.humanetech.com/impact-and-story",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S016": {
+      "title": "Partnership on AI — About",
+      "url": "https://partnershiponai.org/about/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S017": {
+      "title": "DWeb — Home",
+      "url": "https://getdweb.net/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S018": {
+      "title": "Burning Man Project — What We Do",
+      "url": "https://burningman.org/about-us/what-we-do/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S019": {
+      "title": "Institute for the Future — What We Do",
+      "url": "https://legacy.iftf.org/en/what-we-do/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S020": {
+      "title": "Foresight Institute — Home",
+      "url": "https://foresight.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S021": {
+      "title": "Edge City — About",
+      "url": "https://www.edgecity.live/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S022": {
+      "title": "Roots of Progress Institute — About",
+      "url": "https://rootsofprogress.org/about/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S023": {
+      "title": "Roots of Progress — Techno-Humanist Manifesto",
+      "url": "https://rootsofprogress.org/manifesto/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S024": {
+      "title": "Astera — Vision",
+      "url": "https://astera.org/vision/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S025": {
+      "title": "California Forever — Company",
+      "url": "https://californiaforever.com/company/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S026": {
+      "title": "California Forever — Investors FAQ",
+      "url": "https://solano.californiaforever.com/faq/who-runs-california-forever-what-role-do-investors-have-in-california-forever-are-any-of-them-foreign/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S027": {
+      "title": "AGI House — Home/About",
+      "url": "https://app.agihouse.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S028": {
+      "title": "Lightcone Infrastructure — Home",
+      "url": "https://www.lightconeinfrastructure.com/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S029": {
+      "title": "Lighthaven — Home",
+      "url": "https://lighthaven.space/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S030": {
+      "title": "LessWrong — About",
+      "url": "https://www.lesswrong.com/about",
+      "source_type": "primary/community",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S031": {
+      "title": "Effective Altruism — Introduction",
+      "url": "https://www.effectivealtruism.org/articles/introduction-to-effective-altruism",
+      "source_type": "primary/community",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S032": {
+      "title": "Coefficient Giving — Rebrand",
+      "url": "https://coefficientgiving.org/research/open-philanthropy-is-now-coefficient-giving/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S033": {
+      "title": "80,000 Hours — About",
+      "url": "https://80000hours.org/about/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S034": {
+      "title": "BlueDot Impact — About",
+      "url": "https://bluedot.org/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S035": {
+      "title": "MATS — About",
+      "url": "https://www.matsprogram.org/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S036": {
+      "title": "Constellation Institute — About",
+      "url": "https://constellation.org/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S037": {
+      "title": "Center for AI Safety — About",
+      "url": "https://safe.ai/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S038": {
+      "title": "CHAI — About",
+      "url": "https://humancompatible.ai/about/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S039": {
+      "title": "METR — About",
+      "url": "https://metr.org/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S040": {
+      "title": "Redwood Research — About",
+      "url": "https://blog.redwoodresearch.org/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S041": {
+      "title": "FAR.AI — About",
+      "url": "https://www.far.ai/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S042": {
+      "title": "Berkeley CLTC — AI Security Initiative",
+      "url": "https://cltc.berkeley.edu/program/ai-security-initiative/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S043": {
+      "title": "DAIR — Luddite Lab",
+      "url": "https://labor.dair-institute.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S044": {
+      "title": "Andreessen Horowitz — Techno-Optimist Manifesto",
+      "url": "https://a16z.com/the-techno-optimist-manifesto/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S045": {
+      "title": "Frontier Tower — About",
+      "url": "https://frontiertower.io/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S046": {
+      "title": "Frontier Tower — Home",
+      "url": "https://frontiertower.io/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S047": {
+      "title": "SF Chronicle — Frontier Tower governance conflict",
+      "url": "https://www.sfchronicle.com/sf/article/frontier-tower-san-francisco-22253458.php",
+      "source_type": "secondary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S048": {
+      "title": "South Park Commons — About",
+      "url": "https://blog.southparkcommons.com/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S049": {
+      "title": "Cerebral Valley — About",
+      "url": "https://cerebralvalley.ai/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S050": {
+      "title": "Cerebral Valley AI Summit",
+      "url": "https://www.cerebralvalley.com/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S051": {
+      "title": "Mox — Luma Calendar",
+      "url": "https://luma.com/mox",
+      "source_type": "event/calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S052": {
+      "title": "Mox — 2026 Fundraiser",
+      "url": "https://manifund.org/projects/mox-2026-fundraiser",
+      "source_type": "primary/fundraising",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S053": {
+      "title": "The SF Commons — About",
+      "url": "https://www.thesfcommons.com/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S054": {
+      "title": "The SF Commons — Events",
+      "url": "https://www.thesfcommons.com/events",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S055": {
+      "title": "The Embassy — Home",
+      "url": "https://embassy-house.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S056": {
+      "title": "SF Parc — Home",
+      "url": "https://www.sfparc.com/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S057": {
+      "title": "Mission Control — Notion",
+      "url": "https://mission-control-sf.notion.site/Mission-Control-0675b18cdc504436ba173afeeb791994",
+      "source_type": "primary/community",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S058": {
+      "title": "Business Insider — Mission Control",
+      "url": "https://www.businessinsider.com/san-francisco-oldest-hacker-house-startups-2025-4",
+      "source_type": "secondary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S059": {
+      "title": "The House by Edge & Node",
+      "url": "https://www.thehousesanfrancisco.com/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S060": {
+      "title": "Hackermap / Hacker Houses Directory",
+      "url": "https://hackerhouses.org/",
+      "source_type": "directory",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S061": {
+      "title": "AI House — Home",
+      "url": "https://theaihouse.ai/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S062": {
+      "title": "Luma — SF Events",
+      "url": "https://luma.com/sf",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S063": {
+      "title": "Luma — SF Tech Events",
+      "url": "https://luma.com/discover/sf/tech",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S064": {
+      "title": "AI Events SF / Superscout",
+      "url": "https://luma.com/ai-sf",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S065": {
+      "title": "TechWeek.dev Calendar",
+      "url": "https://www.techweek.dev/calendar",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S066": {
+      "title": "AI Week SF",
+      "url": "https://aiweeksf.com/",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S067": {
+      "title": "Bay Rationality — Guide",
+      "url": "https://www.bayrationality.com/",
+      "source_type": "directory/calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S068": {
+      "title": "Foresight Luma Calendar",
+      "url": "https://luma.com/foresightinstitute",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S069": {
+      "title": "Gray Area — Events",
+      "url": "https://grayarea.org/visit/events/",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S070": {
+      "title": "Ai Salon & SF Intellectuals — Luma",
+      "url": "https://luma.com/mpdhb01n",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S071": {
+      "title": "SuperHuman Society — AI Philosophy Nights",
+      "url": "https://luma.com/tfnvta99",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S072": {
+      "title": "AI Salon: Progress vs Flourishing",
+      "url": "https://luma.com/b8ingzbn",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S073": {
+      "title": "Mox AI Safety Coworking Day",
+      "url": "https://luma.com/naf8xqi7",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S074": {
+      "title": "CAIS Remote Labor Index @ Mox",
+      "url": "https://luma.com/ozoayvhe",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S075": {
+      "title": "Catalyze Impact @ Lighthaven",
+      "url": "https://luma.com/bvwva367",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S076": {
+      "title": "MC0001 Machine Consciousness Conference",
+      "url": "https://luma.com/mc0001",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S077": {
+      "title": "Vitalist Bay 2026",
+      "url": "https://luma.com/tnap7mol",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S078": {
+      "title": "Foresight Vision Weekend / Paths to Progress",
+      "url": "https://luma.com/nk2c3vuw",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S079": {
+      "title": "Progress Conference Welcome @ Lighthaven",
+      "url": "https://luma.com/0u22lo0z",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S080": {
+      "title": "South Park Commons + Jason Crawford",
+      "url": "https://luma.com/jason-crawford-spc",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S081": {
+      "title": "Ollama / Cerebral Valley / SHACK15 open-source AI meetup",
+      "url": "https://luma.com/devs2",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S082": {
+      "title": "Frontier Tower AI Floor Member Meetup",
+      "url": "https://luma.com/ai-floor-member-meetup",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S083": {
+      "title": "Frontier Tower Intellectual Salon",
+      "url": "https://luma.com/intellectual-salon-frontier-sf-427",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S084": {
+      "title": "AI Salon: Labor",
+      "url": "https://luma.com/ieqe3scp",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S085": {
+      "title": "Stop AI / LaborFest: AI in Education",
+      "url": "https://luma.com/d1c2hvra",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S086": {
+      "title": "Human+Tech Week Summit 2026",
+      "url": "https://luma.com/nc47m6jy",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S087": {
+      "title": "Foresight Longevity Salon",
+      "url": "https://luma.com/i02tdpl5",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S088": {
+      "title": "Long Now Events",
+      "url": "https://longnow.org/events/",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S089": {
+      "title": "Cerebral Valley Event / About ecosystem",
+      "url": "https://cerebralvalley.ai/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S090": {
+      "title": "SHACK15 — Home",
+      "url": "https://www.shack15.com/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S091": {
+      "title": "Manifest — Home",
+      "url": "https://www.manifestconference.net/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S092": {
+      "title": "Vitalism / Vitalist Bay",
+      "url": "https://vitalism.io/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S093": {
+      "title": "Alliance for Longevity Initiatives",
+      "url": "https://a4li.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S094": {
+      "title": "Catalyze Impact",
+      "url": "https://www.catalyze-impact.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S095": {
+      "title": "Timaeus",
+      "url": "https://www.timaeus.co/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S096": {
+      "title": "MIRI",
+      "url": "https://intelligence.org/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S097": {
+      "title": "SF Bay Area EA — Luma",
+      "url": "https://luma.com/sf-bay-area-ea",
+      "source_type": "calendar",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S098": {
+      "title": "The Commons: Resonance Salon — AI & Consciousness",
+      "url": "https://luma.com/the-3pxw",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S099": {
+      "title": "The Muse — Home",
+      "url": "https://muse.community/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S100": {
+      "title": "Vibe House SF",
+      "url": "https://www.sfvibehouse.com/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S101": {
+      "title": "The Foundry — Home",
+      "url": "https://foundry.today/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S102": {
+      "title": "SF Chronicle — SF tech dorms",
+      "url": "https://www.sfchronicle.com/sf/article/tech-dorms-ai-boom-20242138.php",
+      "source_type": "secondary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S103": {
+      "title": "Business Insider — top SF hacker houses 2025",
+      "url": "https://www.businessinsider.com/the-top-hacker-houses-in-san-francisco-for-2025-2025-4",
+      "source_type": "secondary",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S104": {
+      "title": "DEF/ACC Hackathon at Vivarium SF",
+      "url": "https://luma.com/def-acc-hack-sf",
+      "source_type": "event",
+      "published_date": "",
+      "last_checked": ""
+    },
+    "S105": {
+      "title": "CFAR — Mission",
+      "url": "https://www.rationality.org/about/mission",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S106": {
+      "title": "MIRI — About and History",
+      "url": "https://intelligence.org/about/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S107": {
+      "title": "Open Philanthropy (now Coefficient Giving) — 2016 Progress",
+      "url": "https://coefficientgiving.org/research/our-progress-in-2016-and-plans-for-2017/",
+      "source_type": "primary",
+      "published_date": "2017-03-14",
+      "last_checked": "2026-09-25"
+    },
+    "S108": {
+      "title": "Coefficient Giving — Luke Muehlhauser Bio",
+      "url": "https://coefficientgiving.org/team/luke-muehlhauser/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S109": {
+      "title": "CFAR — Staff and Board",
+      "url": "https://www.rationality.org/about/staff",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S110": {
+      "title": "MIRI — Team",
+      "url": "https://intelligence.org/team/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S111": {
+      "title": "LessWrong — FAQ",
+      "url": "https://www.lesswrong.com/posts/2rWKkWuPrgTMpLRbp/lesswrong-faq-1",
+      "source_type": "primary/community",
+      "published_date": "2019-06-14",
+      "last_checked": "2026-09-25"
+    },
+    "S112": {
+      "title": "AI 2040: Plan A — About and Contributions",
+      "url": "https://ai-2040.com/about",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    },
+    "S113": {
+      "title": "AI 2040: Plan A — Main Scenario",
+      "url": "https://ai-2040.com/",
+      "source_type": "primary",
+      "published_date": "",
+      "last_checked": "2026-09-25"
+    }
+  }
 }

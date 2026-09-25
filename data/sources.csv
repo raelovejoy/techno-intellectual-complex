@@ -1,105 +1,114 @@
-id,title,url,source_type,notes
-S001,Vivarium — About,https://vivariumsf.com/about,primary,Vivarium self-description and operator.
-S002,PrototypeSF — Home,https://www.prototypesf.org/,primary,PrototypeSF philosophy/community.
-S003,Noisebridge — Anarchy,https://www.noisebridge.net/wiki/Anarchy,primary/community,Explicit anarchist organizational influence.
-S004,Sudo Room — About,https://sudoroom.org/mediawiki/index.php?title=About,primary/community,Horizontal hackerspace/social justice framing.
-S005,Omni Commons — Join,https://omnicommons.org/wiki/Join,primary/community,Commons/commoning governance language.
-S006,Counter Culture Labs — About,https://www.counterculturelabs.org/about1.html,primary,Community biology lab.
-S007,BioCurious — About,https://biocurious.org/about/,primary,Community biotech lab.
-S008,Humanmade — Home,https://www.humanmade.org/home,primary,Maker/manufacturing hub.
-S009,Circuit Launch — About,https://www.circuitlaunch.com/about-us.html,primary,Hardware coworking/entrepreneurship.
-S010,Tech Workers Coalition — Bay Area,https://techworkerscoalition.org/bay-area/,primary,Labor organizing network.
-S011,TechEquity Collaborative — Who We Are,https://techequity.us/who-we-are/,primary,Economic justice/tech accountability.
-S012,Gray Area — Mission,https://grayarea.org/about/mission/,primary,Art-tech cultural incubator.
-S013,EFF — About,https://www.eff.org/about,primary,Digital civil liberties.
-S014,Long Now Foundation — Home,https://longnow.org/,primary,Long-term thinking institution.
-S015,Center for Humane Technology — Impact & Story,https://www.humanetech.com/impact-and-story,primary,Humane technology movement.
-S016,Partnership on AI — About,https://partnershiponai.org/about/,primary,Multi-stakeholder responsible AI.
-S017,DWeb — Home,https://getdweb.net/,primary,Decentralized web movement/network.
-S018,Burning Man Project — What We Do,https://burningman.org/about-us/what-we-do/,primary,Participatory counterculture network.
-S019,Institute for the Future — What We Do,https://legacy.iftf.org/en/what-we-do/,primary,Futures/foresight research.
-S020,Foresight Institute — Home,https://foresight.org/,primary,"Frontier tech, secure AI, longevity, neurotech, nanotech."
-S021,Edge City — About,https://www.edgecity.live/about,primary,Popup-village society incubator.
-S022,Roots of Progress Institute — About,https://rootsofprogress.org/about/,primary,Progress studies movement-building.
-S023,Roots of Progress — Techno-Humanist Manifesto,https://rootsofprogress.org/manifesto/,primary,Techno-humanist philosophy.
-S024,Astera — Vision,https://astera.org/vision/,primary,Science philanthropy/institutional experimentation.
-S025,California Forever — Company,https://californiaforever.com/company/,primary,New-city developer.
-S026,California Forever — Investors FAQ,https://solano.californiaforever.com/faq/who-runs-california-forever-what-role-do-investors-have-in-california-forever-are-any-of-them-foreign/,primary,Investor disclosure.
-S027,AGI House — Home/About,https://app.agihouse.org/,primary,AI builder/community/event network.
-S028,Lightcone Infrastructure — Home,https://www.lightconeinfrastructure.com/,primary,Operates LessWrong/Lighthaven.
-S029,Lighthaven — Home,https://lighthaven.space/,primary,Berkeley intellectual/event campus.
-S030,LessWrong — About,https://www.lesswrong.com/about,primary/community,Rationality community.
-S031,Effective Altruism — Introduction,https://www.effectivealtruism.org/articles/introduction-to-effective-altruism,primary/community,EA movement definition.
-S032,Coefficient Giving — Rebrand,https://coefficientgiving.org/research/open-philanthropy-is-now-coefficient-giving/,primary,Open Philanthropy renamed Coefficient Giving in 2025.
-S033,"80,000 Hours — About",https://80000hours.org/about/,primary,Career field-building; EA/AI safety connections.
-S034,BlueDot Impact — About,https://bluedot.org/about,primary,AI safety talent accelerator.
-S035,MATS — About,https://www.matsprogram.org/about,primary,AI safety training/mentorship.
-S036,Constellation Institute — About,https://constellation.org/about,primary,Transformative AI safety research/field-building.
-S037,Center for AI Safety — About,https://safe.ai/about,primary,Societal-scale AI risk research/field-building.
-S038,CHAI — About,https://humancompatible.ai/about/,primary,Academic human-compatible AI research.
-S039,METR — About,https://metr.org/about,primary,Frontier AI evaluations.
-S040,Redwood Research — About,https://blog.redwoodresearch.org/about,primary,Catastrophic-risk/AI control research.
-S041,FAR.AI — About,https://www.far.ai/about,primary,AI safety research/grants/events.
-S042,Berkeley CLTC — AI Security Initiative,https://cltc.berkeley.edu/program/ai-security-initiative/,primary,Public-interest AI security/risk.
-S043,DAIR — Luddite Lab,https://labor.dair-institute.org/,primary,Worker-led AI/automation governance.
-S044,Andreessen Horowitz — Techno-Optimist Manifesto,https://a16z.com/the-techno-optimist-manifesto/,primary,Explicit techno-optimist ideology.
-S045,Frontier Tower — About,https://frontiertower.io/about,primary,"Vertical village, cypherpunk tech, self-governance vision."
-S046,Frontier Tower — Home,https://frontiertower.io/,primary,"Citizenship, themed floors, governance/community model."
-S047,SF Chronicle — Frontier Tower governance conflict,https://www.sfchronicle.com/sf/article/frontier-tower-san-francisco-22253458.php,secondary,"Reported tensions around ownership, governance, and community control."
-S048,South Park Commons — About,https://blog.southparkcommons.com/about,primary,Talent-dense founder/technologist community.
-S049,Cerebral Valley — About,https://cerebralvalley.ai/about,primary,"AI ecosystem-building, recruiting, events, compute brokering."
-S050,Cerebral Valley AI Summit,https://www.cerebralvalley.com/,primary,Invite-only AI summit/network.
-S051,Mox — Luma Calendar,https://luma.com/mox,event/calendar,"Mox describes itself as a gathering place for startups, EAs, AI safety labs, researchers, artists."
-S052,Mox — 2026 Fundraiser,https://manifund.org/projects/mox-2026-fundraiser,primary/fundraising,Mox describes itself as SF's primary AI safety/EA community space.
-S053,The SF Commons — About,https://www.thesfcommons.com/about,primary,Fourth place/social movement; meaning-making/community.
-S054,The SF Commons — Events,https://www.thesfcommons.com/events,calendar,Public events calendar.
-S055,The Embassy — Home,https://embassy-house.org/,primary,Intentional community/commons/prefigurative projects.
-S056,SF Parc — Home,https://www.sfparc.com/,primary,Creative technologist hacker house; The Residency network.
-S057,Mission Control — Notion,https://mission-control-sf.notion.site/Mission-Control-0675b18cdc504436ba173afeeb791994,primary/community,Long-running hacker house; Thiel Fellows origin.
-S058,Business Insider — Mission Control,https://www.businessinsider.com/san-francisco-oldest-hacker-house-startups-2025-4,secondary,"Democratic voting, venture fund, Thiel Fellows history."
-S059,The House by Edge & Node,https://www.thehousesanfrancisco.com/,primary,AI/crypto builder hub.
-S060,Hackermap / Hacker Houses Directory,https://hackerhouses.org/,directory,Discovery directory for hacker houses and networks.
-S061,AI House — Home,https://theaihouse.ai/,primary,Curated AI founder/researcher residency.
-S062,Luma — SF Events,https://luma.com/sf,calendar,Broad SF event discovery.
-S063,Luma — SF Tech Events,https://luma.com/discover/sf/tech,calendar,Tech event discovery.
-S064,AI Events SF / Superscout,https://luma.com/ai-sf,calendar,SF Bay Area AI/startup event calendar.
-S065,TechWeek.dev Calendar,https://www.techweek.dev/calendar,calendar,Curated Bay Area tech events.
-S066,AI Week SF,https://aiweeksf.com/,calendar,Distributed citywide AI event week.
-S067,Bay Rationality — Guide,https://www.bayrationality.com/,directory/calendar,Bay Area rationality/EA/AI safety community guide.
-S068,Foresight Luma Calendar,https://luma.com/foresightinstitute,calendar,Foresight event discovery.
-S069,Gray Area — Events,https://grayarea.org/visit/events/,calendar,Art/tech/counterculture events.
-S070,Ai Salon & SF Intellectuals — Luma,https://luma.com/mpdhb01n,event,AI Salon + SF Intellectuals joint event.
-S071,SuperHuman Society — AI Philosophy Nights,https://luma.com/tfnvta99,event,Philosophy/AI/human dignity community.
-S072,AI Salon: Progress vs Flourishing,https://luma.com/b8ingzbn,event,AI Salon + SuperHuman Society + SF Commons.
-S073,Mox AI Safety Coworking Day,https://luma.com/naf8xqi7,event,Mox AI safety coworking; Manifund / 80k-linked office hours.
-S074,CAIS Remote Labor Index @ Mox,https://luma.com/ozoayvhe,event,CAIS event hosted at Mox.
-S075,Catalyze Impact @ Lighthaven,https://luma.com/bvwva367,event,AI safety entrepreneurship at Lighthaven; MATS/Timaeus/Tampersec speakers.
-S076,MC0001 Machine Consciousness Conference,https://luma.com/mc0001,event,Machine consciousness conference at Lighthaven.
-S077,Vitalist Bay 2026,https://luma.com/tnap7mol,event,Longevity/cryonics/AI-bio/investor gathering at Lighthaven.
-S078,Foresight Vision Weekend / Paths to Progress,https://luma.com/nk2c3vuw,event,Cross-network frontier tech/progress gathering.
-S079,Progress Conference Welcome @ Lighthaven,https://luma.com/0u22lo0z,event,Progress network gathering.
-S080,South Park Commons + Jason Crawford,https://luma.com/jason-crawford-spc,event,Progress studies at SPC.
-S081,Ollama / Cerebral Valley / SHACK15 open-source AI meetup,https://luma.com/devs2,event,Open-source AI builder event at SHACK15.
-S082,Frontier Tower AI Floor Member Meetup,https://luma.com/ai-floor-member-meetup,event,Internal AI-floor community event.
-S083,Frontier Tower Intellectual Salon,https://luma.com/intellectual-salon-frontier-sf-427,event,Philosophy/science/tech salon.
-S084,AI Salon: Labor,https://luma.com/ieqe3scp,event,AI/labor/techno-feudalism salon.
-S085,Stop AI / LaborFest: AI in Education,https://luma.com/d1c2hvra,event,Anti-AI/labor-oriented event.
-S086,Human+Tech Week Summit 2026,https://luma.com/nc47m6jy,event,Human-centered AI week.
-S087,Foresight Longevity Salon,https://luma.com/i02tdpl5,event,Longevity ethics/economics/science.
-S088,Long Now Events,https://longnow.org/events/,calendar,Long Now public programming.
-S089,Cerebral Valley Event / About ecosystem,https://cerebralvalley.ai/about,primary,Ecosystem-building and notable collaborators.
-S090,SHACK15 — Home,https://www.shack15.com/,primary,SF social/work club; use as venue/network node.
-S091,Manifest — Home,https://www.manifestconference.net/,primary,Prediction markets / forecasting conference; verify current host details before stronger claims.
-S092,Vitalism / Vitalist Bay,https://vitalism.io/,primary,Longevity/vitalist movement org; verify details before stronger claims.
-S093,Alliance for Longevity Initiatives,https://a4li.org/,primary,Longevity policy advocacy.
-S094,Catalyze Impact,https://www.catalyze-impact.org/,primary,AI safety/security org incubator.
-S095,Timaeus,https://www.timaeus.co/,primary,AI safety research organization.
-S096,MIRI,https://intelligence.org/,primary,Machine intelligence research/alignment lineage.
-S097,SF Bay Area EA — Luma,https://luma.com/sf-bay-area-ea,calendar,Local EA public events calendar; URL should be re-verified if changed.
-S098,The Commons: Resonance Salon — AI & Consciousness,https://luma.com/the-3pxw,event,AI/art/care/community salon.
-S099,The Muse — Home,https://muse.community/,primary,"Intentional community blending embodiment, social impact, tech/future themes."
-S100,Vibe House SF,https://www.sfvibehouse.com/,primary,Exited-founder/vibe-coding house.
-S101,The Foundry — Home,https://foundry.today/,primary,SF coliving/hacker-house network.
-S102,SF Chronicle — SF tech dorms,https://www.sfchronicle.com/sf/article/tech-dorms-ai-boom-20242138.php,secondary,Coliving resurgence in AI/startup scene.
-S103,Business Insider — top SF hacker houses 2025,https://www.businessinsider.com/the-top-hacker-houses-in-san-francisco-for-2025-2025-4,secondary,Hacker-house landscape.
-S104,DEF/ACC Hackathon at Vivarium SF,https://luma.com/def-acc-hack-sf,event,BlueDot-presented defensive AI safety/security hackathon hosted at Vivarium.
+id,title,url,source_type,notes,published_date,last_checked
+S001,Vivarium — About,https://vivariumsf.com/about,primary,Vivarium self-description and operator.,,
+S002,PrototypeSF — Home,https://www.prototypesf.org/,primary,PrototypeSF philosophy/community.,,
+S003,Noisebridge — Anarchy,https://www.noisebridge.net/wiki/Anarchy,primary/community,Explicit anarchist organizational influence.,,
+S004,Sudo Room — About,https://sudoroom.org/mediawiki/index.php?title=About,primary/community,Horizontal hackerspace/social justice framing.,,
+S005,Omni Commons — Join,https://omnicommons.org/wiki/Join,primary/community,Commons/commoning governance language.,,
+S006,Counter Culture Labs — About,https://www.counterculturelabs.org/about1.html,primary,Community biology lab.,,
+S007,BioCurious — About,https://biocurious.org/about/,primary,Community biotech lab.,,
+S008,Humanmade — Home,https://www.humanmade.org/home,primary,Maker/manufacturing hub.,,
+S009,Circuit Launch — About,https://www.circuitlaunch.com/about-us.html,primary,Hardware coworking/entrepreneurship.,,
+S010,Tech Workers Coalition — Bay Area,https://techworkerscoalition.org/bay-area/,primary,Labor organizing network.,,
+S011,TechEquity Collaborative — Who We Are,https://techequity.us/who-we-are/,primary,Economic justice/tech accountability.,,
+S012,Gray Area — Mission,https://grayarea.org/about/mission/,primary,Art-tech cultural incubator.,,
+S013,EFF — About,https://www.eff.org/about,primary,Digital civil liberties.,,
+S014,Long Now Foundation — Home,https://longnow.org/,primary,Long-term thinking institution.,,
+S015,Center for Humane Technology — Impact & Story,https://www.humanetech.com/impact-and-story,primary,Humane technology movement.,,
+S016,Partnership on AI — About,https://partnershiponai.org/about/,primary,Multi-stakeholder responsible AI.,,
+S017,DWeb — Home,https://getdweb.net/,primary,Decentralized web movement/network.,,
+S018,Burning Man Project — What We Do,https://burningman.org/about-us/what-we-do/,primary,Participatory counterculture network.,,
+S019,Institute for the Future — What We Do,https://legacy.iftf.org/en/what-we-do/,primary,Futures/foresight research.,,
+S020,Foresight Institute — Home,https://foresight.org/,primary,"Frontier tech, secure AI, longevity, neurotech, nanotech.",,
+S021,Edge City — About,https://www.edgecity.live/about,primary,Popup-village society incubator.,,
+S022,Roots of Progress Institute — About,https://rootsofprogress.org/about/,primary,Progress studies movement-building.,,
+S023,Roots of Progress — Techno-Humanist Manifesto,https://rootsofprogress.org/manifesto/,primary,Techno-humanist philosophy.,,
+S024,Astera — Vision,https://astera.org/vision/,primary,Science philanthropy/institutional experimentation.,,
+S025,California Forever — Company,https://californiaforever.com/company/,primary,New-city developer.,,
+S026,California Forever — Investors FAQ,https://solano.californiaforever.com/faq/who-runs-california-forever-what-role-do-investors-have-in-california-forever-are-any-of-them-foreign/,primary,Investor disclosure.,,
+S027,AGI House — Home/About,https://app.agihouse.org/,primary,AI builder/community/event network.,,
+S028,Lightcone Infrastructure — Home,https://www.lightconeinfrastructure.com/,primary,Operates LessWrong/Lighthaven.,,2026-09-25
+S029,Lighthaven — Home,https://lighthaven.space/,primary,Berkeley intellectual/event campus.,,2026-09-25
+S030,LessWrong — About,https://www.lesswrong.com/about,primary/community,Rationality community.,,
+S031,Effective Altruism — Introduction,https://www.effectivealtruism.org/articles/introduction-to-effective-altruism,primary/community,EA movement definition.,,
+S032,Coefficient Giving — Rebrand,https://coefficientgiving.org/research/open-philanthropy-is-now-coefficient-giving/,primary,Open Philanthropy renamed Coefficient Giving in 2025.,,
+S033,"80,000 Hours — About",https://80000hours.org/about/,primary,Career field-building; EA/AI safety connections.,,
+S034,BlueDot Impact — About,https://bluedot.org/about,primary,AI safety talent accelerator.,,
+S035,MATS — About,https://www.matsprogram.org/about,primary,AI safety training/mentorship.,,
+S036,Constellation Institute — About,https://constellation.org/about,primary,Transformative AI safety research/field-building.,,
+S037,Center for AI Safety — About,https://safe.ai/about,primary,Societal-scale AI risk research/field-building.,,
+S038,CHAI — About,https://humancompatible.ai/about/,primary,Academic human-compatible AI research.,,
+S039,METR — About,https://metr.org/about,primary,Frontier AI evaluations.,,
+S040,Redwood Research — About,https://blog.redwoodresearch.org/about,primary,Catastrophic-risk/AI control research.,,
+S041,FAR.AI — About,https://www.far.ai/about,primary,AI safety research/grants/events.,,
+S042,Berkeley CLTC — AI Security Initiative,https://cltc.berkeley.edu/program/ai-security-initiative/,primary,Public-interest AI security/risk.,,
+S043,DAIR — Luddite Lab,https://labor.dair-institute.org/,primary,Worker-led AI/automation governance.,,
+S044,Andreessen Horowitz — Techno-Optimist Manifesto,https://a16z.com/the-techno-optimist-manifesto/,primary,Explicit techno-optimist ideology.,,
+S045,Frontier Tower — About,https://frontiertower.io/about,primary,"Vertical village, cypherpunk tech, self-governance vision.",,
+S046,Frontier Tower — Home,https://frontiertower.io/,primary,"Citizenship, themed floors, governance/community model.",,
+S047,SF Chronicle — Frontier Tower governance conflict,https://www.sfchronicle.com/sf/article/frontier-tower-san-francisco-22253458.php,secondary,"Reported tensions around ownership, governance, and community control.",,
+S048,South Park Commons — About,https://blog.southparkcommons.com/about,primary,Talent-dense founder/technologist community.,,
+S049,Cerebral Valley — About,https://cerebralvalley.ai/about,primary,"AI ecosystem-building, recruiting, events, compute brokering.",,
+S050,Cerebral Valley AI Summit,https://www.cerebralvalley.com/,primary,Invite-only AI summit/network.,,
+S051,Mox — Luma Calendar,https://luma.com/mox,event/calendar,"Mox describes itself as a gathering place for startups, EAs, AI safety labs, researchers, artists.",,
+S052,Mox — 2026 Fundraiser,https://manifund.org/projects/mox-2026-fundraiser,primary/fundraising,Mox describes itself as SF's primary AI safety/EA community space.,,
+S053,The SF Commons — About,https://www.thesfcommons.com/about,primary,Fourth place/social movement; meaning-making/community.,,
+S054,The SF Commons — Events,https://www.thesfcommons.com/events,calendar,Public events calendar.,,
+S055,The Embassy — Home,https://embassy-house.org/,primary,Intentional community/commons/prefigurative projects.,,
+S056,SF Parc — Home,https://www.sfparc.com/,primary,Creative technologist hacker house; The Residency network.,,
+S057,Mission Control — Notion,https://mission-control-sf.notion.site/Mission-Control-0675b18cdc504436ba173afeeb791994,primary/community,Long-running hacker house; Thiel Fellows origin.,,
+S058,Business Insider — Mission Control,https://www.businessinsider.com/san-francisco-oldest-hacker-house-startups-2025-4,secondary,"Democratic voting, venture fund, Thiel Fellows history.",,
+S059,The House by Edge & Node,https://www.thehousesanfrancisco.com/,primary,AI/crypto builder hub.,,
+S060,Hackermap / Hacker Houses Directory,https://hackerhouses.org/,directory,Discovery directory for hacker houses and networks.,,
+S061,AI House — Home,https://theaihouse.ai/,primary,Curated AI founder/researcher residency.,,
+S062,Luma — SF Events,https://luma.com/sf,calendar,Broad SF event discovery.,,
+S063,Luma — SF Tech Events,https://luma.com/discover/sf/tech,calendar,Tech event discovery.,,
+S064,AI Events SF / Superscout,https://luma.com/ai-sf,calendar,SF Bay Area AI/startup event calendar.,,
+S065,TechWeek.dev Calendar,https://www.techweek.dev/calendar,calendar,Curated Bay Area tech events.,,
+S066,AI Week SF,https://aiweeksf.com/,calendar,Distributed citywide AI event week.,,
+S067,Bay Rationality — Guide,https://www.bayrationality.com/,directory/calendar,Bay Area rationality/EA/AI safety community guide.,,
+S068,Foresight Luma Calendar,https://luma.com/foresightinstitute,calendar,Foresight event discovery.,,
+S069,Gray Area — Events,https://grayarea.org/visit/events/,calendar,Art/tech/counterculture events.,,
+S070,Ai Salon & SF Intellectuals — Luma,https://luma.com/mpdhb01n,event,AI Salon + SF Intellectuals joint event.,,
+S071,SuperHuman Society — AI Philosophy Nights,https://luma.com/tfnvta99,event,Philosophy/AI/human dignity community.,,
+S072,AI Salon: Progress vs Flourishing,https://luma.com/b8ingzbn,event,AI Salon + SuperHuman Society + SF Commons.,,
+S073,Mox AI Safety Coworking Day,https://luma.com/naf8xqi7,event,Mox AI safety coworking; Manifund / 80k-linked office hours.,,
+S074,CAIS Remote Labor Index @ Mox,https://luma.com/ozoayvhe,event,CAIS event hosted at Mox.,,
+S075,Catalyze Impact @ Lighthaven,https://luma.com/bvwva367,event,AI safety entrepreneurship at Lighthaven; MATS/Timaeus/Tampersec speakers.,,
+S076,MC0001 Machine Consciousness Conference,https://luma.com/mc0001,event,Machine consciousness conference at Lighthaven.,,
+S077,Vitalist Bay 2026,https://luma.com/tnap7mol,event,Longevity/cryonics/AI-bio/investor gathering at Lighthaven.,,
+S078,Foresight Vision Weekend / Paths to Progress,https://luma.com/nk2c3vuw,event,Cross-network frontier tech/progress gathering.,,
+S079,Progress Conference Welcome @ Lighthaven,https://luma.com/0u22lo0z,event,Progress network gathering.,,
+S080,South Park Commons + Jason Crawford,https://luma.com/jason-crawford-spc,event,Progress studies at SPC.,,
+S081,Ollama / Cerebral Valley / SHACK15 open-source AI meetup,https://luma.com/devs2,event,Open-source AI builder event at SHACK15.,,
+S082,Frontier Tower AI Floor Member Meetup,https://luma.com/ai-floor-member-meetup,event,Internal AI-floor community event.,,
+S083,Frontier Tower Intellectual Salon,https://luma.com/intellectual-salon-frontier-sf-427,event,Philosophy/science/tech salon.,,
+S084,AI Salon: Labor,https://luma.com/ieqe3scp,event,AI/labor/techno-feudalism salon.,,
+S085,Stop AI / LaborFest: AI in Education,https://luma.com/d1c2hvra,event,Anti-AI/labor-oriented event.,,
+S086,Human+Tech Week Summit 2026,https://luma.com/nc47m6jy,event,Human-centered AI week.,,
+S087,Foresight Longevity Salon,https://luma.com/i02tdpl5,event,Longevity ethics/economics/science.,,
+S088,Long Now Events,https://longnow.org/events/,calendar,Long Now public programming.,,
+S089,Cerebral Valley Event / About ecosystem,https://cerebralvalley.ai/about,primary,Ecosystem-building and notable collaborators.,,
+S090,SHACK15 — Home,https://www.shack15.com/,primary,SF social/work club; use as venue/network node.,,
+S091,Manifest — Home,https://www.manifestconference.net/,primary,Prediction markets / forecasting conference; verify current host details before stronger claims.,,
+S092,Vitalism / Vitalist Bay,https://vitalism.io/,primary,Longevity/vitalist movement org; verify details before stronger claims.,,
+S093,Alliance for Longevity Initiatives,https://a4li.org/,primary,Longevity policy advocacy.,,
+S094,Catalyze Impact,https://www.catalyze-impact.org/,primary,AI safety/security org incubator.,,
+S095,Timaeus,https://www.timaeus.co/,primary,AI safety research organization.,,
+S096,MIRI,https://intelligence.org/,primary,Machine intelligence research/alignment lineage.,,
+S097,SF Bay Area EA — Luma,https://luma.com/sf-bay-area-ea,calendar,Local EA public events calendar; URL should be re-verified if changed.,,
+S098,The Commons: Resonance Salon — AI & Consciousness,https://luma.com/the-3pxw,event,AI/art/care/community salon.,,
+S099,The Muse — Home,https://muse.community/,primary,"Intentional community blending embodiment, social impact, tech/future themes.",,
+S100,Vibe House SF,https://www.sfvibehouse.com/,primary,Exited-founder/vibe-coding house.,,
+S101,The Foundry — Home,https://foundry.today/,primary,SF coliving/hacker-house network.,,
+S102,SF Chronicle — SF tech dorms,https://www.sfchronicle.com/sf/article/tech-dorms-ai-boom-20242138.php,secondary,Coliving resurgence in AI/startup scene.,,
+S103,Business Insider — top SF hacker houses 2025,https://www.businessinsider.com/the-top-hacker-houses-in-san-francisco-for-2025-2025-4,secondary,Hacker-house landscape.,,
+S104,DEF/ACC Hackathon at Vivarium SF,https://luma.com/def-acc-hack-sf,event,BlueDot-presented defensive AI safety/security hackathon hosted at Vivarium.,,
+S105,CFAR — Mission,https://www.rationality.org/about/mission,primary,"Mission, 2012 founding, institutional home statement.",,2026-09-25
+S106,MIRI — About and History,https://intelligence.org/about/,primary,"Founding and subsequent research/advocacy changes, in MIRI's own account.",,2026-09-25
+S107,Open Philanthropy (now Coefficient Giving) — 2016 Progress,https://coefficientgiving.org/research/our-progress-in-2016-and-plans-for-2017/,primary,"Grant recommendations, not necessarily completed grants; see footnote 1.",2017-03-14,2026-09-25
+S108,Coefficient Giving — Luke Muehlhauser Bio,https://coefficientgiving.org/team/luke-muehlhauser/,primary,"Current role and prior MIRI executive directorship, as described by employer.",,2026-09-25
+S109,CFAR — Staff and Board,https://www.rationality.org/about/staff,primary,Undated roster contains apparently old staff entries; current titles need independent review.,,2026-09-25
+S110,MIRI — Team,https://intelligence.org/team/,primary,Current public team/board listing at time checked.,,2026-09-25
+S111,LessWrong — FAQ,https://www.lesswrong.com/posts/2rWKkWuPrgTMpLRbp/lesswrong-faq-1,primary/community,2019 FAQ recounts 2009 founding and original MIRI legal home; not proof of current ownership.,2019-06-14,2026-09-25
+S112,AI 2040: Plan A — About and Contributions,https://ai-2040.com/about,primary,"AI Futures Project credits Lightcone collaboration, website build/design, and content feedback.",,2026-09-25
+S113,AI 2040: Plan A — Main Scenario,https://ai-2040.com/,primary,"Project self-description, goals, and distinction between recommendation and prediction.",,2026-09-25

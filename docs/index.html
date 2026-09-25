@@ -22,10 +22,11 @@
 
   <main>
     <aside>
+      <label for="search">Search nodes</label>
       <input id="search" placeholder="Search nodes…" autocomplete="off">
-      <label>Cluster</label>
+      <label for="cluster">Cluster</label>
       <select id="cluster"><option value="">All clusters</option></select>
-      <label>Confidence</label>
+      <label for="confidence">Confidence</label>
       <select id="confidence">
         <option value="">All edges</option>
         <option value="confirmed">Confirmed</option>
@@ -33,18 +34,25 @@
         <option value="contextual">Contextual</option>
         <option value="inferred">Inferred</option>
       </select>
+      <label for="review">Evidence review</label>
+      <select id="review">
+        <option value="">All edges</option>
+        <option value="audited">Audited only</option>
+        <option value="legacy_unreviewed">Legacy review pending</option>
+      </select>
       <button id="reset">Reset view</button>
       <div class="legend">
         <h3>How to read this</h3>
         <p><b>Nodes</b> are entities, people, movements, spaces, or projects.</p>
         <p><b>Edges</b> are typed relationships. Click anything for details.</p>
-        <p>v0.1 is intentionally broad and incomplete.</p>
+        <p>Most legacy edges still need a claim-level audit. Green edges have source locations, review dates, and limits. Click an edge for links.</p>
+        <p><a href="https://github.com/raelovejoy/techno-intellectual-complex/blob/main/METHODOLOGY.md">Method and corrections</a> · <a href="https://github.com/raelovejoy/techno-intellectual-complex/issues/new/choose">Suggest a correction</a></p>
       </div>
     </aside>
 
     <section id="graph-wrap">
       <div id="cy"></div>
-      <div id="detail">
+      <div id="detail" aria-live="polite">
         <div class="kicker">SELECT A NODE OR EDGE</div>
         <h2>Start with the network.</h2>
         <p>The map is evidence-first: direct relationships, funding, leadership, events, venues, and explicit philosophical ties are distinguished from contextual or inferred relationships.</p>

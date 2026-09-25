@@ -18,6 +18,11 @@ button { cursor:pointer; }
 #detail { border-left:1px solid #333; padding:22px; overflow:auto; }
 #detail h2 { margin:.4rem 0 .7rem; }
 #detail p { color:#bbb; line-height:1.5; }
+#detail a, .legend a { color:#91d7bb; }
+#detail a:focus-visible, .legend a:focus-visible { outline:2px solid #91d7bb; outline-offset:3px; }
+.sources { padding-left:1.25rem; line-height:1.5; }
+.sources li { margin:.5rem 0; overflow-wrap:anywhere; }
+.sources small { color:#aaa; }
 .pill { display:inline-block; border:1px solid #444; border-radius:999px; padding:4px 8px; margin:2px 3px 2px 0; font-size:.72rem; color:#bbb; }
 @media (max-width:900px) {
   header { grid-template-columns:1fr; }
